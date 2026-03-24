@@ -1,0 +1,5001 @@
+IdO,nom_orga,type_orga,IdT
+1,Hamon,Loge,354
+2,Mallet Guillot et Fils,Ordre,2351
+3,Valette Hubert S.A.,Ordre,3455
+4,Bruneau SA,Guilde,1621
+5,Le Goff,Guilde,826
+6,Thierry Martins SARL,Club,969
+7,Besson,Association,3787
+8,Delattre,Cercle,2992
+9,Albert SA,Association,1166
+10,Letellier Diallo SA,Loge,4541
+11,Leduc,Guilde,3955
+12,Ramos,Loge,4280
+13,Pasquier Meyer SA,Ordre,1554
+14,Godard SARL,Cercle,3526
+15,Fabre Noël SARL,Ordre,4982
+16,Benard,Ordre,2729
+17,Loiseau,Guilde,474
+18,Leroy,Loge,4683
+19,Noël,Association,1710
+20,Lecomte,Guilde,2861
+21,Breton SARL,Association,4875
+22,Bigot Berthelot et Fils,Confrérie,3115
+23,Maurice,Confrérie,2817
+24,Garnier SA,Confrérie,2885
+25,Joseph,Loge,3748
+26,Vallée S.A.,Cercle,4363
+27,Baudry,Guilde,3616
+28,Gilles,Association,84
+29,Mathieu Maillard SA,Guilde,4092
+30,Perret,Loge,4311
+31,Leroy,Loge,991
+32,Schmitt Mallet SA,Confrérie,1
+33,Raynaud SA,Loge,652
+34,Traore Berger S.A.R.L.,Ordre,4280
+35,Moreau,Cercle,698
+36,Gilbert,Club,2424
+37,Briand Muller et Fils,Cercle,979
+38,Besson,Ordre,2188
+39,Mendès,Association,2852
+40,Maréchal,Confrérie,3606
+41,Gomez Lecomte SA,Guilde,2486
+42,De Oliveira S.A.S.,Fraternité,2259
+43,Pereira,Cercle,3611
+44,Joly,Fraternité,2005
+45,Vasseur,Ordre,4447
+46,Maréchal,Ordre,1535
+47,Sauvage,Guilde,2153
+48,Gomez,Cercle,4016
+49,Bruneau,Loge,4669
+50,Olivier,Association,1008
+51,Gauthier Regnier S.A.S.,Loge,1428
+52,Traore SA,Confrérie,2561
+53,Meyer,Guilde,2000
+54,Charles Moulin S.A.R.L.,Fraternité,2852
+55,Jourdan,Cercle,1686
+56,Leclerc Simon S.A.S.,Ordre,2364
+57,Petitjean S.A.,Association,1571
+58,Perret,Confrérie,2358
+59,Caron,Association,2003
+60,Delahaye et Fils,Loge,4336
+61,Thibault Millet S.A.,Loge,817
+62,Goncalves,Fraternité,2654
+63,Blanc,Club,1577
+64,Lopez,Cercle,4986
+65,Blin SA,Loge,4092
+66,Moulin,Ordre,1778
+67,Pons SA,Ordre,3950
+68,François Martin S.A.R.L.,Guilde,4715
+69,Duval SARL,Loge,4905
+70,Schneider,Cercle,391
+71,Legendre,Ordre,481
+72,Allard Brunel S.A.R.L.,Fraternité,1307
+73,Klein,Association,427
+74,Collet,Ordre,1105
+75,Foucher Maillet S.A.R.L.,Association,3054
+76,Lacroix,Fraternité,3563
+77,Faure,Loge,2777
+78,Lévy,Guilde,631
+79,Descamps,Guilde,524
+80,Lopes S.A.S.,Fraternité,178
+81,Pires Hubert S.A.,Ordre,1964
+82,Charpentier,Guilde,2401
+83,Moreau,Loge,961
+84,Gaudin Daniel S.A.R.L.,Cercle,676
+85,Neveu Schneider SARL,Ordre,649
+86,Couturier,Cercle,1229
+87,Blanchard S.A.,Association,3198
+88,Besson,Confrérie,4318
+89,Tessier Weber SARL,Confrérie,3429
+90,Martinez,Association,2717
+91,Petit Vincent S.A.S.,Association,1795
+92,Hoareau Bourdon et Fils,Loge,3636
+93,Blanc,Ordre,4093
+94,Riou,Fraternité,2894
+95,Ferrand,Guilde,3896
+96,Bonnet,Club,968
+97,Perrier S.A.R.L.,Association,2618
+98,Rolland,Association,1133
+99,Petitjean et Fils,Association,2306
+100,Chauveau,Fraternité,3459
+101,Traore,Fraternité,3361
+102,Dufour SARL,Confrérie,2539
+103,Bernard Charles S.A.S.,Guilde,4438
+104,Bernard,Association,3396
+105,Maréchal,Association,1748
+106,Pereira,Loge,83
+107,Gallet Launay S.A.R.L.,Confrérie,889
+108,Renault,Ordre,4291
+109,Arnaud,Cercle,4025
+110,Julien SA,Association,1458
+111,Robin,Guilde,2401
+112,Dubois Menard SA,Ordre,3321
+113,Poirier,Guilde,2587
+114,Didier et Fils,Association,3026
+115,Laporte Vallet SARL,Club,3354
+116,Raynaud Monnier SARL,Cercle,4169
+117,Simon,Ordre,739
+118,Carlier,Loge,2834
+119,Leclerc,Fraternité,1175
+120,Chauvet et Fils,Club,2329
+121,Ferrand,Cercle,1046
+122,Dias,Confrérie,3130
+123,Guilbert Brun S.A.R.L.,Association,2004
+124,Besson SARL,Confrérie,4674
+125,Lombard,Loge,2123
+126,Moulin Jacquet S.A.R.L.,Club,4278
+127,Guillon,Cercle,1400
+128,Fournier,Club,3671
+129,Gauthier S.A.,Loge,2695
+130,Joly Lefebvre SARL,Association,2054
+131,Robert Courtois SARL,Cercle,3376
+132,Guillou,Loge,4492
+133,Lefèvre S.A.R.L.,Association,1932
+134,Pelletier S.A.R.L.,Club,2765
+135,Guérin,Association,3770
+136,Besson Schmitt S.A.R.L.,Fraternité,4519
+137,Marin S.A.,Ordre,3641
+138,Fernandes,Cercle,3151
+139,Besson,Fraternité,3925
+140,Maury Bernard S.A.,Association,2534
+141,Mace Bonnin S.A.,Club,1299
+142,Hamon S.A.R.L.,Cercle,470
+143,Guyon,Confrérie,4641
+144,Guilbert,Ordre,604
+145,Baron,Guilde,761
+146,Seguin,Loge,23
+147,Labbé,Association,2696
+148,Chevalier,Confrérie,1005
+149,Valentin Guichard SARL,Club,999
+150,Pruvost,Cercle,681
+151,Louis,Association,4184
+152,Roussel,Association,180
+153,Mace S.A.R.L.,Ordre,2620
+154,Adam SARL,Cercle,4095
+155,Gaillard Pascal S.A.R.L.,Association,1638
+156,Moulin,Association,4347
+157,Reynaud,Guilde,4548
+158,Perrot,Guilde,975
+159,Baudry SA,Loge,674
+160,Fournier Paris SARL,Association,4383
+161,Devaux et Fils,Confrérie,4968
+162,Maillot S.A.R.L.,Ordre,556
+163,Vasseur,Fraternité,2807
+164,Charpentier Chauvet S.A.,Club,3770
+165,Collin Rémy S.A.S.,Confrérie,3210
+166,Monnier S.A.S.,Ordre,4319
+167,Andre,Association,811
+168,Rousset Leleu SA,Club,2248
+169,Noël Huet S.A.R.L.,Confrérie,531
+170,Leclercq Dupuy SARL,Association,531
+171,Vallet,Loge,167
+172,Delattre Noël S.A.S.,Association,2629
+173,Maillard SA,Cercle,96
+174,Teixeira Bazin et Fils,Association,2209
+175,Traore Michaud SA,Confrérie,4720
+176,Bonneau Weber et Fils,Guilde,2405
+177,Moreno,Association,703
+178,Martinez Gomes SARL,Club,1300
+179,Munoz Georges S.A.R.L.,Loge,4529
+180,Poirier Boulay S.A.,Ordre,1710
+181,Salmon Benard S.A.S.,Loge,1682
+182,Turpin Gomez S.A.R.L.,Guilde,3799
+183,Raymond,Confrérie,4028
+184,Marie,Fraternité,4844
+185,Joubert,Ordre,2410
+186,Dupré,Association,1169
+187,Vaillant S.A.R.L.,Loge,4652
+188,Lecoq,Ordre,707
+189,Huet Diallo SARL,Ordre,1437
+190,Fontaine S.A.,Fraternité,207
+191,Benoit Samson S.A.,Fraternité,1157
+192,Raymond,Confrérie,4753
+193,Menard Leleu S.A.,Club,2487
+194,Gallet,Fraternité,448
+195,Pascal,Ordre,632
+196,Lopes,Loge,202
+197,Costa S.A.,Association,2156
+198,Chauveau SA,Guilde,4542
+199,Hardy,Ordre,4737
+200,Mary,Confrérie,752
+201,Laurent Pascal et Fils,Fraternité,3137
+202,Delorme Dupont et Fils,Association,4947
+203,Foucher,Association,795
+204,Traore,Fraternité,2814
+205,Normand Morin SARL,Loge,2061
+206,Masse Blin S.A.S.,Fraternité,3696
+207,Fournier Lemonnier SA,Confrérie,3012
+208,Pages,Guilde,767
+209,Lévêque S.A.R.L.,Cercle,1156
+210,Guérin Hervé S.A.R.L.,Cercle,497
+211,Delannoy S.A.,Fraternité,1530
+212,Camus S.A.R.L.,Fraternité,1124
+213,Chevalier,Fraternité,3418
+214,Collet Lévy SA,Ordre,303
+215,Garnier,Association,3265
+216,Guillot,Association,2099
+217,Lopes,Club,1440
+218,David,Ordre,4082
+219,Michaud SA,Club,2495
+220,Munoz,Fraternité,3767
+221,Guérin Sanchez SARL,Club,485
+222,Tanguy,Loge,654
+223,Gautier,Fraternité,3105
+224,Lambert,Confrérie,4503
+225,Breton,Cercle,1862
+226,Torres,Loge,771
+227,Maillet,Loge,1992
+228,Ramos Lenoir S.A.S.,Loge,3217
+229,Laroche,Loge,3918
+230,Barthelemy,Confrérie,2537
+231,Fournier Guichard et Fils,Confrérie,578
+232,Gros,Ordre,3782
+233,Courtois,Loge,4307
+234,Rey et Fils,Guilde,3217
+235,Lemaître SA,Confrérie,2543
+236,Laporte Roy S.A.R.L.,Confrérie,4173
+237,Texier S.A.S.,Ordre,1403
+238,Teixeira,Fraternité,4476
+239,Bourgeois,Confrérie,2911
+240,Bourgeois Joseph SARL,Association,490
+241,Meunier,Association,3460
+242,Weiss,Ordre,2760
+243,Merle Lopes S.A.S.,Loge,4075
+244,De Sousa,Club,3064
+245,Lelièvre,Guilde,3288
+246,Hoareau S.A.S.,Confrérie,3228
+247,Dumas,Fraternité,2119
+248,Rolland,Fraternité,478
+249,Navarro SARL,Confrérie,1133
+250,Nguyen,Fraternité,329
+251,Pasquier,Cercle,2299
+252,Moreno,Guilde,4665
+253,Chauvet,Loge,1760
+254,Lefèvre,Guilde,1463
+255,Denis Dias SARL,Cercle,3006
+256,Evrard S.A.,Fraternité,927
+257,Vaillant Fontaine S.A.S.,Club,1523
+258,Bègue SARL,Ordre,728
+259,Louis SA,Fraternité,1814
+260,Chrétien,Association,4330
+261,Briand,Guilde,4676
+262,Gérard,Club,3092
+263,Dumont SARL,Cercle,1925
+264,Guérin SARL,Association,1329
+265,Bonnet,Fraternité,1543
+266,Rivière,Club,3307
+267,Arnaud S.A.R.L.,Fraternité,2556
+268,Faivre,Confrérie,2741
+269,Roche,Association,1353
+270,Rodrigues S.A.R.L.,Association,396
+271,Legros Normand S.A.S.,Ordre,1943
+272,Boulanger SARL,Association,4913
+273,Aubert,Loge,2363
+274,Maillet,Loge,2923
+275,Bouchet SA,Loge,1362
+276,Reynaud,Loge,4065
+277,Fleury S.A.R.L.,Cercle,4805
+278,Poulain,Confrérie,2897
+279,Gomes,Ordre,4236
+280,Pottier,Association,4878
+281,Clément SA,Club,4993
+282,Blanchard,Association,107
+283,Parent Mathieu SARL,Club,256
+284,Olivier,Association,1832
+285,Hebert,Guilde,2963
+286,Leduc,Confrérie,3832
+287,Aubert,Ordre,784
+288,Royer,Fraternité,2334
+289,Lefort,Ordre,129
+290,Wagner,Club,1270
+291,Boutin S.A.S.,Confrérie,1923
+292,Bouvet Gallet et Fils,Cercle,2700
+293,Mathieu S.A.,Association,1706
+294,Vincent SARL,Club,4667
+295,Rémy,Club,2424
+296,Guillet Meyer et Fils,Ordre,3306
+297,Vidal,Cercle,5
+298,Jacob,Fraternité,1470
+299,Delattre SA,Fraternité,1841
+300,Moreau SA,Ordre,1833
+301,Legros S.A.S.,Club,1411
+302,Allain,Cercle,1911
+303,Pires,Ordre,1813
+304,Colin,Cercle,2115
+305,Ferreira S.A.R.L.,Fraternité,1449
+306,Vaillant,Confrérie,470
+307,Godard SA,Ordre,1037
+308,Lagarde Joseph et Fils,Fraternité,427
+309,Lambert,Cercle,1970
+310,Lagarde,Loge,1694
+311,Parent,Cercle,3217
+312,Gomes S.A.,Loge,1194
+313,Aubert SA,Fraternité,1068
+314,Schmitt,Guilde,4880
+315,Maurice S.A.,Ordre,2810
+316,Chartier S.A.S.,Fraternité,3790
+317,Charpentier,Fraternité,4138
+318,Fischer S.A.S.,Ordre,288
+319,Lelièvre S.A.,Club,1034
+320,Grondin,Ordre,4374
+321,Delahaye SA,Guilde,836
+322,Foucher Andre S.A.R.L.,Cercle,4039
+323,Turpin,Ordre,261
+324,Loiseau,Fraternité,2879
+325,Hubert,Fraternité,4264
+326,Fernandes,Fraternité,2043
+327,Deschamps Menard S.A.S.,Loge,1747
+328,Bonneau,Cercle,1093
+329,Fernandez Étienne et Fils,Guilde,4042
+330,Martinez Pascal S.A.R.L.,Confrérie,1499
+331,Sauvage,Fraternité,2318
+332,Grondin et Fils,Club,3806
+333,Giraud SARL,Ordre,1510
+334,Lévêque S.A.,Cercle,4613
+335,Poulain S.A.R.L.,Loge,4451
+336,Lecoq Dumont et Fils,Ordre,210
+337,Wagner,Club,1907
+338,Salmon,Fraternité,4967
+339,Prévost SARL,Club,1842
+340,Gautier,Cercle,568
+341,Roux,Loge,583
+342,Aubry,Association,1652
+343,Thierry et Fils,Confrérie,1056
+344,Neveu,Association,4277
+345,Poulain,Ordre,622
+346,Meunier,Loge,4592
+347,Pichon,Cercle,601
+348,Rolland,Association,3784
+349,Guillou SARL,Guilde,1052
+350,Bonneau,Club,711
+351,Pons,Cercle,1209
+352,Bertin,Association,1976
+353,Regnier S.A.R.L.,Cercle,4854
+354,Barbier,Cercle,2105
+355,Boulay,Guilde,424
+356,Ruiz S.A.S.,Club,2717
+357,Grégoire,Guilde,356
+358,Moreau,Ordre,174
+359,Leclerc,Guilde,3820
+360,Cordier Petit S.A.,Confrérie,825
+361,Clément S.A.S.,Association,2254
+362,Camus,Confrérie,1193
+363,Ramos,Confrérie,2544
+364,Rolland,Confrérie,1946
+365,Roussel Marie et Fils,Club,4499
+366,Carlier,Fraternité,3868
+367,Jacques S.A.S.,Guilde,3095
+368,Rocher SA,Loge,3463
+369,Peltier et Fils,Guilde,1193
+370,Poulain,Cercle,4580
+371,Barre,Ordre,2909
+372,Lucas Blanchard et Fils,Confrérie,4258
+373,Collet,Guilde,675
+374,Normand,Association,3802
+375,Maillot S.A.S.,Guilde,2972
+376,Hardy,Ordre,2191
+377,Goncalves,Cercle,3903
+378,Dumont,Association,1759
+379,Teixeira Pires SA,Association,2977
+380,Guibert,Ordre,2395
+381,Marin SARL,Guilde,419
+382,Tanguy Marion SA,Cercle,1668
+383,Turpin Roger S.A.S.,Ordre,1742
+384,Léger S.A.S.,Cercle,1582
+385,Marion Charles S.A.R.L.,Guilde,4434
+386,Thomas Leroux SARL,Guilde,1433
+387,Leroy et Fils,Club,2525
+388,Martineau,Association,576
+389,Julien Perrot SARL,Cercle,688
+390,Blanchet,Loge,864
+391,Roy,Confrérie,1316
+392,Guilbert Allard SA,Cercle,3542
+393,Vallée,Fraternité,488
+394,Gay Simon S.A.R.L.,Fraternité,4413
+395,Hervé,Fraternité,4499
+396,Gonzalez SARL,Cercle,2627
+397,Lombard,Club,3418
+398,Blin Gay SARL,Association,3054
+399,Wagner Guilbert SA,Ordre,3855
+400,Maury S.A.S.,Guilde,2891
+401,Girard,Ordre,553
+402,Verdier Monnier SA,Loge,2133
+403,Martinez,Ordre,222
+404,Muller,Confrérie,3392
+405,Lejeune,Association,2021
+406,Berthelot S.A.S.,Cercle,4057
+407,Pichon,Fraternité,1662
+408,Joseph S.A.R.L.,Guilde,3704
+409,Becker,Association,296
+410,Dupuis Roche S.A.R.L.,Cercle,1243
+411,Regnier S.A.R.L.,Ordre,3664
+412,Charrier SARL,Fraternité,4745
+413,Bouvet Ferreira S.A.R.L.,Association,4385
+414,Texier,Loge,66
+415,Riou,Club,4991
+416,Alves S.A.,Guilde,109
+417,Klein,Club,4324
+418,Alves,Club,1657
+419,Martin SARL,Fraternité,897
+420,Dos Santos,Cercle,3510
+421,Allain,Guilde,1962
+422,Rocher,Club,1314
+423,Berthelot Robert S.A.R.L.,Association,4585
+424,Garcia et Fils,Fraternité,2331
+425,Joseph S.A.S.,Club,943
+426,Breton,Club,4229
+427,Munoz,Ordre,4098
+428,Riou,Confrérie,2688
+429,Lopes S.A.,Cercle,636
+430,Benard,Association,4158
+431,Noël,Club,2215
+432,Da Silva SA,Association,4082
+433,Meunier S.A.S.,Cercle,2368
+434,Philippe,Ordre,3690
+435,Lefort Weber SA,Club,2914
+436,Leblanc Delahaye SARL,Guilde,4365
+437,Laurent,Guilde,2666
+438,Marchal,Guilde,2470
+439,Langlois,Fraternité,4908
+440,Durand et Fils,Association,634
+441,Lévy Morel et Fils,Association,4945
+442,Bonneau S.A.,Fraternité,1643
+443,Gilles Bazin S.A.S.,Loge,4370
+444,Maréchal S.A.,Loge,1493
+445,Jacquot Guichard SARL,Guilde,4870
+446,Maréchal Julien SA,Fraternité,959
+447,Thibault,Association,873
+448,Delannoy Couturier SARL,Fraternité,4747
+449,Riou,Confrérie,4826
+450,Lemaître Thibault S.A.,Confrérie,4188
+451,Caron Labbé SARL,Guilde,1244
+452,Rousseau,Confrérie,180
+453,Seguin S.A.,Ordre,360
+454,Germain Allard SA,Fraternité,4319
+455,Joly,Club,4253
+456,Bazin Roussel S.A.R.L.,Loge,3208
+457,Collin,Association,388
+458,Laporte Roger SA,Loge,4584
+459,Meunier Weiss S.A.,Confrérie,3691
+460,Didier et Fils,Fraternité,2595
+461,Besnard Roy SA,Ordre,3587
+462,Nicolas S.A.S.,Confrérie,4268
+463,Bernier S.A.R.L.,Guilde,194
+464,Alexandre,Ordre,4623
+465,Millet,Fraternité,3915
+466,Barre Bourdon S.A.S.,Guilde,1172
+467,Verdier,Guilde,1257
+468,Payet SA,Club,241
+469,Maurice,Club,3665
+470,Bernard Hubert S.A.R.L.,Association,3349
+471,Verdier et Fils,Guilde,1360
+472,Rolland Foucher S.A.S.,Cercle,3892
+473,Bourgeois Legrand SARL,Club,2190
+474,Garnier,Guilde,1274
+475,Hernandez Moulin S.A.S.,Cercle,1194
+476,Imbert S.A.S.,Ordre,2358
+477,David,Confrérie,1546
+478,Coulon,Guilde,540
+479,Gaillard S.A.S.,Guilde,2316
+480,Louis Cousin et Fils,Loge,2297
+481,Weiss Lemaire S.A.R.L.,Fraternité,2971
+482,Coste,Loge,3479
+483,De Oliveira Raynaud S.A.S.,Fraternité,684
+484,Lebrun,Fraternité,1524
+485,Rossi Legrand SA,Association,3643
+486,Labbé S.A.S.,Ordre,1559
+487,Moreno Mace S.A.R.L.,Club,2274
+488,Hoareau,Loge,3912
+489,Carlier,Guilde,397
+490,Boutin,Ordre,3794
+491,Rousseau,Ordre,2680
+492,Alexandre,Fraternité,536
+493,Morvan Baron S.A.,Confrérie,2122
+494,Renaud,Ordre,4706
+495,Hamel,Ordre,986
+496,Royer S.A.S.,Confrérie,1451
+497,Buisson,Loge,473
+498,Fouquet SA,Guilde,3630
+499,Leleu,Fraternité,4436
+500,Weber,Association,2909
+501,Morvan S.A.S.,Ordre,4026
+502,Parent,Club,3231
+503,Maurice et Fils,Guilde,4739
+504,Auger Dubois S.A.,Cercle,4013
+505,Chauvet,Confrérie,2791
+506,Buisson S.A.R.L.,Fraternité,3592
+507,Pineau SA,Loge,65
+508,Courtois,Club,1725
+509,Marques,Cercle,3898
+510,Dufour,Guilde,1516
+511,Jacquet,Loge,3027
+512,Grenier Denis S.A.S.,Ordre,1583
+513,Dubois S.A.,Association,1743
+514,Dupuis,Ordre,1372
+515,Delahaye,Confrérie,3911
+516,Mathieu Morin SARL,Ordre,973
+517,Moreno,Confrérie,841
+518,Cousin SA,Cercle,1348
+519,Royer,Cercle,4172
+520,Legrand,Fraternité,617
+521,Benard,Loge,4265
+522,Hoarau,Association,1696
+523,Vallet Weiss S.A.,Guilde,4445
+524,Lévêque Jacob S.A.,Cercle,4889
+525,Dupont Dijoux S.A.,Cercle,2598
+526,Rossi,Ordre,645
+527,Samson,Loge,3427
+528,Joseph,Cercle,744
+529,Potier,Cercle,3386
+530,Gautier Lemaire S.A.R.L.,Guilde,4494
+531,Loiseau Bruneau SA,Cercle,4874
+532,Bernier,Loge,3411
+533,Turpin S.A.R.L.,Confrérie,4041
+534,Thomas Grondin S.A.,Association,3722
+535,Colin Seguin SARL,Fraternité,4356
+536,Hamel,Ordre,166
+537,Lopez,Ordre,3116
+538,Neveu,Fraternité,87
+539,Daniel Paul S.A.,Fraternité,1304
+540,Diaz,Confrérie,186
+541,Noël S.A.R.L.,Association,4565
+542,Meunier SARL,Cercle,310
+543,Costa,Club,2321
+544,Rocher,Association,3157
+545,Guyon,Confrérie,4097
+546,Pasquier,Club,4857
+547,Roche,Association,1312
+548,Allard,Ordre,413
+549,Brun S.A.S.,Club,2554
+550,Carpentier SARL,Club,339
+551,Rey,Confrérie,1532
+552,Rodriguez,Loge,3062
+553,Klein,Cercle,4685
+554,Bertrand Gilbert SARL,Loge,1441
+555,Leclercq SA,Cercle,1134
+556,Rolland Millet S.A.,Guilde,1833
+557,Descamps Rey S.A.R.L.,Association,132
+558,Lelièvre Garnier et Fils,Association,3729
+559,Pineau,Guilde,2466
+560,Camus,Fraternité,1800
+561,Laine,Cercle,4252
+562,Dias S.A.,Loge,4628
+563,Pages Chauvet S.A.S.,Fraternité,567
+564,Garcia,Loge,1218
+565,Hubert Raynaud S.A.S.,Ordre,835
+566,Giraud,Confrérie,1591
+567,Lagarde,Cercle,159
+568,Benoit Besson et Fils,Fraternité,3871
+569,Michaud Charpentier S.A.S.,Ordre,2673
+570,Grégoire,Cercle,4336
+571,Roussel S.A.R.L.,Fraternité,3252
+572,Sauvage,Fraternité,3500
+573,Fischer,Ordre,2690
+574,Valette,Cercle,2139
+575,Bouvet,Club,977
+576,David,Ordre,2151
+577,Hamel Antoine S.A.S.,Club,1250
+578,Valette Briand et Fils,Ordre,225
+579,Joly,Loge,406
+580,Renault S.A.R.L.,Cercle,93
+581,Marchand,Loge,2354
+582,Renard S.A.S.,Loge,2963
+583,Grenier et Fils,Loge,4006
+584,Lelièvre Gaudin S.A.S.,Fraternité,2219
+585,Moreau,Club,1092
+586,Lemonnier,Ordre,4127
+587,Moreno SARL,Ordre,4767
+588,Martineau,Club,3189
+589,Bourdon Fabre S.A.,Club,4541
+590,Meyer Grégoire SA,Loge,62
+591,Evrard Marion S.A.S.,Guilde,4644
+592,Blanc S.A.,Association,3589
+593,Hebert et Fils,Ordre,1804
+594,Lesage,Club,4967
+595,Legrand,Club,672
+596,Dubois,Association,164
+597,Leduc,Confrérie,3463
+598,Nicolas SARL,Guilde,1257
+599,Delmas Blot et Fils,Confrérie,124
+600,Hervé Blanc SA,Cercle,2159
+601,Leclercq,Association,4113
+602,Adam S.A.,Loge,4718
+603,Maillot SARL,Cercle,4864
+604,Joseph Renault SA,Association,183
+605,Lemaître SA,Loge,3643
+606,Lucas,Confrérie,4741
+607,Ollivier Ollivier et Fils,Ordre,3890
+608,Lenoir Lacroix S.A.,Cercle,2401
+609,Andre,Association,4246
+610,Guillet,Association,3926
+611,Poulain et Fils,Ordre,3341
+612,Denis et Fils,Confrérie,4282
+613,Pasquier Simon S.A.,Confrérie,2409
+614,Mercier S.A.S.,Guilde,390
+615,Valentin,Fraternité,3667
+616,Leclercq S.A.R.L.,Guilde,685
+617,Laine Perrin SA,Guilde,4825
+618,Weber,Confrérie,1230
+619,Guillaume,Guilde,4534
+620,Menard,Cercle,68
+621,Nguyen Potier SARL,Confrérie,4655
+622,Renaud,Guilde,1440
+623,Henry S.A.S.,Fraternité,1713
+624,Navarro,Loge,3196
+625,Bernier,Cercle,3428
+626,Perrot,Guilde,593
+627,Chevallier,Fraternité,4615
+628,Raymond,Ordre,3703
+629,Valentin Joubert S.A.S.,Confrérie,765
+630,Pasquier Jacob SA,Guilde,1874
+631,Wagner Guillot S.A.,Cercle,1174
+632,Ribeiro Voisin SA,Confrérie,4651
+633,Rousset et Fils,Guilde,261
+634,Hoareau Simon S.A.R.L.,Association,2139
+635,Weber,Ordre,1815
+636,Ruiz Gosselin S.A.R.L.,Confrérie,708
+637,Duhamel,Confrérie,4657
+638,Lemoine Richard S.A.,Fraternité,2600
+639,Baudry Ramos S.A.R.L.,Fraternité,2170
+640,Klein et Fils,Loge,3554
+641,Pasquier Duhamel et Fils,Loge,1459
+642,Robin et Fils,Ordre,2471
+643,Fernandes,Association,138
+644,Hernandez,Loge,3980
+645,Lebon,Guilde,3357
+646,Chrétien S.A.S.,Association,3929
+647,Baron Julien SARL,Association,4553
+648,Langlois Lévêque S.A.,Ordre,3007
+649,Roche Bodin S.A.S.,Guilde,1086
+650,Lecoq,Loge,3070
+651,Munoz S.A.S.,Club,4878
+652,Launay Renaud S.A.R.L.,Ordre,1470
+653,Fernandez,Association,2219
+654,Gomez SARL,Fraternité,4946
+655,Poulain et Fils,Loge,2577
+656,Gilles,Confrérie,512
+657,Neveu Boulay et Fils,Loge,990
+658,Jacques,Guilde,4699
+659,Le Gall,Association,879
+660,Legendre,Fraternité,4569
+661,Chauvet,Guilde,1451
+662,Philippe,Fraternité,1853
+663,Martins Maillet SARL,Loge,3684
+664,Labbé Lesage S.A.S.,Club,4282
+665,Durand,Guilde,1832
+666,Dupont Lemaître et Fils,Fraternité,4678
+667,Caron,Loge,3957
+668,Seguin,Cercle,2763
+669,Joubert,Loge,2914
+670,Petitjean,Fraternité,2744
+671,Bonnin,Ordre,3998
+672,Martins,Fraternité,4136
+673,Breton,Club,3803
+674,David,Cercle,4983
+675,Lemaître SARL,Confrérie,3635
+676,Marty,Cercle,4588
+677,Humbert S.A.R.L.,Loge,3072
+678,Barthelemy S.A.,Confrérie,2502
+679,Philippe,Association,2195
+680,Boucher S.A.,Guilde,4852
+681,Pineau David S.A.R.L.,Ordre,3010
+682,Philippe,Confrérie,3143
+683,Lacombe Martin SA,Fraternité,207
+684,Bonnet S.A.S.,Confrérie,4714
+685,Fernandes,Club,3472
+686,Marty,Ordre,3212
+687,Mendès,Confrérie,1424
+688,Carlier,Confrérie,2766
+689,Mercier SA,Loge,4239
+690,Goncalves,Association,2294
+691,Jacquet Valentin SARL,Fraternité,819
+692,Bourgeois,Ordre,1017
+693,Barbe,Fraternité,2474
+694,Imbert S.A.R.L.,Guilde,1365
+695,Voisin S.A.R.L.,Loge,1308
+696,Lemonnier,Ordre,1205
+697,Vaillant,Fraternité,4191
+698,Marion,Cercle,121
+699,David et Fils,Guilde,4215
+700,Couturier,Loge,2427
+701,Hardy,Guilde,121
+702,Philippe Andre SARL,Association,1761
+703,Moulin Maury S.A.,Confrérie,1699
+704,Pierre Thomas S.A.R.L.,Association,2336
+705,Leclerc,Fraternité,219
+706,Berthelot SARL,Loge,4549
+707,Fleury S.A.R.L.,Loge,1827
+708,Evrard S.A.S.,Association,2985
+709,Delannoy,Guilde,3794
+710,Devaux,Fraternité,1193
+711,Guillon,Loge,4674
+712,Allain,Confrérie,4477
+713,Ledoux SARL,Ordre,58
+714,Ribeiro,Guilde,1665
+715,Gilles,Cercle,2752
+716,Mahe,Guilde,1199
+717,Coste SARL,Guilde,1335
+718,Gonzalez S.A.R.L.,Cercle,1558
+719,Girard,Association,3176
+720,Gauthier Hoareau S.A.,Ordre,1951
+721,Chauvin,Loge,2379
+722,Turpin Paul et Fils,Confrérie,3295
+723,Lejeune Lecomte S.A.,Guilde,4158
+724,Teixeira et Fils,Club,256
+725,Menard S.A.R.L.,Club,3443
+726,Rousset,Loge,2437
+727,Blondel Blanc SARL,Cercle,2797
+728,Duval et Fils,Club,1813
+729,Schneider Arnaud S.A.S.,Association,4396
+730,Marchal S.A.S.,Guilde,3692
+731,Lombard,Club,1315
+732,Roussel SARL,Loge,3822
+733,Toussaint Menard SARL,Confrérie,2026
+734,Neveu,Confrérie,2056
+735,Hoarau SARL,Confrérie,769
+736,Marion,Confrérie,2925
+737,Gay S.A.,Ordre,2882
+738,Fournier S.A.S.,Loge,161
+739,Berger,Confrérie,3287
+740,Berthelot,Confrérie,4446
+741,Regnier SARL,Fraternité,2700
+742,Bailly Parent SA,Guilde,854
+743,Jacques Riou SARL,Ordre,4471
+744,Grondin S.A.R.L.,Guilde,251
+745,Fleury,Association,2685
+746,Lemonnier,Confrérie,2297
+747,Bousquet,Cercle,27
+748,Langlois,Confrérie,308
+749,Gonzalez SARL,Guilde,4235
+750,Marin Dos Santos SA,Association,4092
+751,Thierry Bouvet et Fils,Cercle,3563
+752,Delahaye S.A.R.L.,Club,331
+753,Gonzalez,Ordre,1943
+754,Alexandre S.A.S.,Club,2858
+755,Hamel Jacob SA,Ordre,2821
+756,Fontaine Poulain S.A.S.,Association,995
+757,Breton,Cercle,937
+758,Le Gall,Confrérie,1271
+759,Techer,Loge,1857
+760,Navarro Collin SA,Club,4155
+761,Durand,Confrérie,456
+762,Gimenez SARL,Fraternité,4943
+763,Le Gall,Confrérie,98
+764,Maréchal S.A.,Association,3539
+765,Sanchez Lemoine S.A.R.L.,Association,3872
+766,Imbert,Guilde,365
+767,Guillon S.A.S.,Fraternité,2290
+768,Blot Breton S.A.,Association,367
+769,Blin S.A.,Ordre,2167
+770,Leduc et Fils,Cercle,642
+771,Ferreira,Club,3211
+772,Maillet,Confrérie,4762
+773,Chauveau,Fraternité,1720
+774,Da Silva Moreno S.A.,Loge,1543
+775,Guillaume S.A.R.L.,Guilde,2282
+776,Hoarau,Club,3073
+777,Lagarde Ribeiro SARL,Cercle,4883
+778,Regnier,Club,3037
+779,Pruvost Bruneau S.A.R.L.,Cercle,471
+780,Faivre,Cercle,2085
+781,Bourgeois Lévy et Fils,Club,1994
+782,Georges,Guilde,3107
+783,Mathieu,Cercle,536
+784,Michaud,Association,987
+785,Vaillant,Ordre,1684
+786,Camus SA,Cercle,984
+787,Vincent,Loge,3158
+788,Antoine,Fraternité,2704
+789,Blanc,Confrérie,4187
+790,Tanguy,Confrérie,3939
+791,Merle SA,Guilde,2226
+792,Vincent Le Goff et Fils,Cercle,1879
+793,Joubert,Fraternité,3048
+794,Diaz S.A.R.L.,Fraternité,2454
+795,Marie SARL,Loge,2635
+796,Rossi,Loge,4242
+797,Marchal Leroy SA,Club,1987
+798,Martin Bruneau et Fils,Loge,3940
+799,Vincent S.A.,Loge,1280
+800,Le Gall Fernandes SA,Fraternité,2502
+801,Hamon,Loge,563
+802,Dupré Fischer SARL,Fraternité,1487
+803,Launay,Loge,4489
+804,Boutin,Guilde,4231
+805,Ribeiro Delattre S.A.,Guilde,4582
+806,Laporte Merle SA,Cercle,2044
+807,Faivre SARL,Loge,1152
+808,Samson,Association,903
+809,Lebon et Fils,Confrérie,3526
+810,Legendre S.A.R.L.,Cercle,3296
+811,Lemaître,Fraternité,1869
+812,Verdier,Cercle,443
+813,Laporte,Guilde,2524
+814,Bègue,Ordre,4095
+815,Bertrand,Guilde,16
+816,Chauvet S.A.R.L.,Association,3320
+817,Lemoine,Club,4811
+818,Adam Morin S.A.R.L.,Club,1103
+819,Leconte,Ordre,2053
+820,Fernandes SARL,Confrérie,448
+821,Hebert,Fraternité,208
+822,Blin S.A.R.L.,Club,1924
+823,Robin,Confrérie,4390
+824,Bonnin,Ordre,4445
+825,Leclerc,Confrérie,3483
+826,Meunier,Association,4031
+827,Marty,Confrérie,2612
+828,Camus SARL,Cercle,335
+829,Ledoux Aubry SARL,Cercle,640
+830,Courtois S.A.S.,Ordre,4949
+831,Marin Techer S.A.S.,Cercle,16
+832,Pasquier S.A.R.L.,Fraternité,1394
+833,Pierre SARL,Confrérie,4520
+834,Louis Payet SA,Fraternité,671
+835,Bodin,Fraternité,1278
+836,Gérard,Association,4959
+837,Lemonnier et Fils,Confrérie,4140
+838,Fournier,Loge,533
+839,Bertin,Loge,853
+840,Langlois SARL,Guilde,898
+841,Benard Techer et Fils,Confrérie,4620
+842,Gérard,Ordre,3006
+843,Thierry Wagner S.A.,Association,775
+844,Boulay Gauthier SARL,Loge,1246
+845,Rodriguez,Guilde,1810
+846,Coste et Fils,Cercle,399
+847,François S.A.S.,Loge,2791
+848,Raymond Jacquot S.A.S.,Confrérie,521
+849,Laine,Cercle,2499
+850,Collin,Fraternité,1162
+851,Marion,Cercle,2757
+852,Lefèvre S.A.,Confrérie,3486
+853,Gilles,Ordre,1904
+854,Weber SARL,Ordre,4116
+855,Bousquet,Ordre,1301
+856,Mary et Fils,Club,4238
+857,Dijoux,Fraternité,512
+858,Philippe et Fils,Guilde,4753
+859,Olivier Dupuis S.A.,Association,3592
+860,Roger,Loge,2837
+861,Laine,Cercle,690
+862,Hernandez,Fraternité,2459
+863,Fernandez Caron S.A.,Fraternité,1185
+864,Faure,Guilde,462
+865,Parent S.A.,Association,4410
+866,Leconte,Club,586
+867,Guichard,Association,4192
+868,Jourdan,Ordre,123
+869,Guichard,Fraternité,3488
+870,Fontaine,Cercle,1945
+871,De Sousa,Ordre,2730
+872,Schneider et Fils,Association,4583
+873,Paul Neveu SA,Confrérie,4763
+874,Michaud et Fils,Confrérie,1848
+875,Gonzalez,Cercle,2114
+876,Diaz Guibert S.A.S.,Association,4551
+877,Blanchet,Association,1429
+878,Gay SA,Association,2672
+879,Regnier S.A.,Cercle,202
+880,Blondel,Cercle,3785
+881,Munoz Blanchet SA,Cercle,3944
+882,Mahe,Club,791
+883,Lebrun,Loge,4775
+884,Bazin S.A.R.L.,Confrérie,2579
+885,Perrot Garnier et Fils,Association,4095
+886,Ruiz,Cercle,333
+887,Marques,Loge,2421
+888,Boulay,Guilde,2336
+889,Dufour,Fraternité,2372
+890,Gauthier,Loge,1426
+891,Vasseur,Guilde,851
+892,Laroche,Guilde,3057
+893,Coulon Lefebvre S.A.S.,Loge,123
+894,Bouvet Vasseur S.A.S.,Guilde,1710
+895,Turpin,Club,3787
+896,Faivre Becker et Fils,Ordre,2513
+897,Giraud,Ordre,2751
+898,Lecoq SA,Guilde,4685
+899,Langlois,Guilde,4274
+900,Morel,Association,709
+901,Hernandez Faure S.A.,Club,3777
+902,Marchand,Fraternité,2527
+903,Gonzalez Marques SARL,Cercle,2218
+904,Becker,Association,1301
+905,Rey Guibert SA,Loge,1766
+906,Leleu S.A.S.,Cercle,2033
+907,Verdier Pruvost S.A.R.L.,Club,8
+908,Lemoine,Fraternité,4291
+909,Moulin,Loge,299
+910,Nguyen Valentin SA,Guilde,1549
+911,Hubert SA,Fraternité,4184
+912,Marty,Ordre,1886
+913,Perret Laroche SA,Confrérie,80
+914,Boyer Carpentier S.A.,Fraternité,1638
+915,Lombard Aubry S.A.,Association,177
+916,Mary,Association,2851
+917,Gros,Fraternité,3059
+918,Dumont,Loge,2719
+919,Lombard et Fils,Club,527
+920,Georges Laroche S.A.,Ordre,3184
+921,Perrier Briand S.A.,Loge,1446
+922,Robin S.A.S.,Club,1480
+923,Maurice,Club,4435
+924,Renard,Association,2733
+925,Foucher,Ordre,1013
+926,Benoit,Cercle,1655
+927,Lelièvre,Club,2065
+928,Robin,Guilde,1736
+929,Pichon,Association,4405
+930,Mercier S.A.,Club,3192
+931,Bodin,Club,93
+932,Bourdon Dufour et Fils,Ordre,3591
+933,Lagarde,Ordre,1153
+934,Verdier,Fraternité,2963
+935,Perrot S.A.,Confrérie,4839
+936,Lombard Lesage et Fils,Loge,3181
+937,Mace,Fraternité,1557
+938,Antoine,Cercle,670
+939,Riou SA,Club,466
+940,Gautier,Guilde,3601
+941,Blot Jacob et Fils,Loge,1280
+942,Schneider,Guilde,1349
+943,Blondel S.A.R.L.,Confrérie,577
+944,Carpentier,Cercle,4615
+945,Gallet Poirier SARL,Cercle,701
+946,Joseph,Association,3589
+947,Pires S.A.S.,Cercle,1743
+948,Fernandez,Ordre,2096
+949,Morel SARL,Loge,2940
+950,Schneider S.A.R.L.,Cercle,1952
+951,Carre Auger SA,Confrérie,2310
+952,Girard,Ordre,3604
+953,Fernandez S.A.S.,Club,2525
+954,Delannoy Caron SA,Fraternité,4125
+955,Launay,Confrérie,4242
+956,Meyer S.A.R.L.,Fraternité,1172
+957,Rodriguez SA,Ordre,1673
+958,Renard,Ordre,175
+959,Leblanc Chauvin S.A.S.,Confrérie,1604
+960,Rousset,Ordre,2253
+961,Delorme,Ordre,708
+962,Rousset et Fils,Ordre,2295
+963,Baron,Fraternité,1595
+964,Gaudin Garnier SA,Confrérie,129
+965,Michel,Guilde,4634
+966,Julien De Oliveira S.A.R.L.,Cercle,4531
+967,Guibert S.A.S.,Fraternité,1141
+968,Gautier SARL,Cercle,970
+969,Weiss S.A.S.,Fraternité,2923
+970,Lefebvre Legrand et Fils,Ordre,608
+971,Jacquot Bouvet S.A.,Guilde,2645
+972,Renaud SARL,Club,2975
+973,Martin,Cercle,4754
+974,Gimenez SA,Ordre,3617
+975,Mendès Ramos S.A.R.L.,Fraternité,1531
+976,Marty SA,Guilde,330
+977,Benoit,Confrérie,1260
+978,Simon,Club,1733
+979,Goncalves Fontaine et Fils,Fraternité,4784
+980,Goncalves SA,Loge,4339
+981,Klein,Association,2681
+982,Dupuis Sanchez S.A.,Ordre,3483
+983,Laine S.A.,Association,1519
+984,Lucas Bonnet S.A.,Loge,4439
+985,Benard SA,Ordre,2695
+986,Pierre et Fils,Association,2093
+987,Moreno S.A.R.L.,Cercle,2421
+988,Blanc,Confrérie,470
+989,Roger,Cercle,2231
+990,Benoit,Association,4196
+991,Maury Denis S.A.S.,Loge,144
+992,Dubois,Association,722
+993,Morin S.A.,Fraternité,555
+994,Hamel,Cercle,2422
+995,Grenier,Confrérie,1686
+996,Briand,Ordre,4462
+997,Peltier,Guilde,1031
+998,Guichard S.A.,Association,3868
+999,Gauthier SARL,Association,1554
+1000,Reynaud,Club,4051
+1001,Robin,Loge,1443
+1002,Roger,Club,3
+1003,Bousquet,Confrérie,3099
+1004,De Sousa S.A.,Ordre,4821
+1005,Lefèvre SA,Loge,4592
+1006,Dijoux,Confrérie,4606
+1007,Andre Gaudin S.A.R.L.,Cercle,1605
+1008,Pages,Fraternité,3292
+1009,Paul S.A.R.L.,Ordre,116
+1010,Hervé SARL,Guilde,1084
+1011,Julien,Loge,2888
+1012,Lucas,Fraternité,4250
+1013,Merle,Ordre,1805
+1014,Carre,Guilde,1716
+1015,Humbert S.A.S.,Ordre,1787
+1016,Chrétien S.A.S.,Confrérie,62
+1017,Daniel,Guilde,1088
+1018,Blanchard,Club,4732
+1019,Deschamps,Cercle,4512
+1020,Rolland Pasquier et Fils,Guilde,2331
+1021,Torres S.A.,Cercle,4498
+1022,Monnier S.A.R.L.,Fraternité,4483
+1023,Roger S.A.R.L.,Association,196
+1024,Gaudin,Loge,3978
+1025,Garnier,Fraternité,3830
+1026,Perrin,Confrérie,2021
+1027,De Sousa Parent SA,Fraternité,3982
+1028,Brun,Loge,1646
+1029,Turpin,Loge,2462
+1030,Pottier,Confrérie,668
+1031,Pruvost S.A.S.,Ordre,1829
+1032,Lopez Normand SARL,Guilde,3763
+1033,Joly S.A.,Fraternité,2967
+1034,Gallet,Confrérie,2875
+1035,Boulay et Fils,Guilde,1342
+1036,Nicolas Moreau SA,Club,1910
+1037,Benard SA,Cercle,3365
+1038,Giraud Moreno S.A.,Loge,4063
+1039,Perrot Laine S.A.R.L.,Fraternité,4861
+1040,Fernandes,Club,4602
+1041,Lacombe,Fraternité,4535
+1042,Collin SA,Confrérie,3494
+1043,Bègue Maréchal S.A.R.L.,Loge,4625
+1044,Jacquet,Loge,3831
+1045,Guérin,Ordre,2809
+1046,Perez S.A.S.,Loge,3600
+1047,Allain SA,Club,856
+1048,Gauthier Blanchard S.A.,Ordre,2867
+1049,Diallo,Club,2864
+1050,Lebreton,Fraternité,1189
+1051,Lamy SA,Club,2411
+1052,Diallo,Club,3540
+1053,Raymond S.A.S.,Fraternité,862
+1054,Prévost,Club,2935
+1055,Huet S.A.R.L.,Loge,2998
+1056,Labbé,Cercle,2955
+1057,Garnier,Fraternité,2146
+1058,Munoz,Fraternité,49
+1059,Faure Albert S.A.,Loge,2618
+1060,Payet Tessier SA,Fraternité,2721
+1061,Jacquet Guyot SARL,Cercle,1287
+1062,Salmon,Cercle,323
+1063,Guillou Pons S.A.,Club,2496
+1064,Berthelot S.A.S.,Cercle,4435
+1065,Moreno S.A.,Club,1319
+1066,Ruiz,Ordre,2000
+1067,Gaudin Couturier S.A.,Fraternité,3855
+1068,Fontaine Nguyen et Fils,Guilde,1355
+1069,Schmitt et Fils,Association,879
+1070,Charpentier Lopez et Fils,Fraternité,4994
+1071,Vallet S.A.R.L.,Fraternité,1298
+1072,De Oliveira Bernard et Fils,Association,2335
+1073,Vasseur Robin S.A.S.,Guilde,3739
+1074,Bazin,Cercle,4680
+1075,Durand Bernier S.A.R.L.,Club,612
+1076,Clément,Ordre,1150
+1077,Richard,Confrérie,2059
+1078,Fernandes S.A.S.,Fraternité,3690
+1079,Leblanc SARL,Confrérie,1952
+1080,Lévy S.A.R.L.,Guilde,1289
+1081,Pons,Guilde,1395
+1082,Delorme,Club,4395
+1083,Legendre,Loge,3454
+1084,Durand,Ordre,3399
+1085,Gonzalez,Guilde,2361
+1086,Noël S.A.,Fraternité,1288
+1087,Roger Chauvin S.A.R.L.,Confrérie,2439
+1088,Pelletier,Guilde,4432
+1089,Pires David S.A.R.L.,Club,1572
+1090,Martin Millet SA,Club,2458
+1091,Robert Collin SARL,Club,772
+1092,Gilles Brunel et Fils,Fraternité,1325
+1093,Gillet,Association,4673
+1094,Millet,Association,1844
+1095,Marchand SARL,Confrérie,3705
+1096,Gaudin Payet SARL,Confrérie,2982
+1097,Texier,Loge,2163
+1098,Lebrun Bodin S.A.R.L.,Confrérie,3992
+1099,Vallet,Cercle,377
+1100,Descamps Garcia SA,Association,3184
+1101,Blondel Dos Santos et Fils,Association,4981
+1102,Léger S.A.R.L.,Fraternité,885
+1103,Berthelot S.A.S.,Guilde,1235
+1104,Barbe et Fils,Ordre,3555
+1105,Guyon Monnier S.A.S.,Guilde,1943
+1106,Michaud S.A.R.L.,Guilde,3385
+1107,Raymond Foucher S.A.R.L.,Loge,4660
+1108,Duhamel SARL,Fraternité,2777
+1109,Delannoy,Association,707
+1110,Barre Garcia S.A.S.,Confrérie,3570
+1111,Auger,Fraternité,4998
+1112,Marin,Club,1578
+1113,Potier Fouquet S.A.,Loge,1586
+1114,Rey S.A.R.L.,Ordre,4868
+1115,Bonnin SARL,Guilde,1004
+1116,Simon Guillot SARL,Ordre,52
+1117,Fontaine,Confrérie,1626
+1118,Duval S.A.R.L.,Fraternité,2267
+1119,Caron,Loge,3366
+1120,Gilbert,Association,471
+1121,Normand,Association,2045
+1122,Devaux,Cercle,3600
+1123,Marchand,Fraternité,4434
+1124,Samson et Fils,Confrérie,490
+1125,Bourgeois Gilles SARL,Guilde,849
+1126,Meyer,Association,2035
+1127,Baron Lebreton SA,Association,4112
+1128,Albert Maillet S.A.S.,Confrérie,908
+1129,Bouvet et Fils,Fraternité,1456
+1130,Petitjean,Club,1012
+1131,Benoit S.A.S.,Confrérie,1657
+1132,Joly,Guilde,1713
+1133,Renaud S.A.,Fraternité,4650
+1134,Mary S.A.,Loge,4580
+1135,Maury,Ordre,492
+1136,Jacquet,Guilde,4474
+1137,Lebrun S.A.R.L.,Club,3988
+1138,Laurent,Association,3088
+1139,Martel,Guilde,1211
+1140,Joseph,Cercle,4570
+1141,Weber,Ordre,2159
+1142,Lemaire,Cercle,3749
+1143,Delannoy,Association,4321
+1144,Collin et Fils,Loge,2262
+1145,Breton Fabre et Fils,Fraternité,4537
+1146,Masson S.A.S.,Confrérie,1360
+1147,Robert Bailly S.A.,Club,4442
+1148,Jacquet Costa S.A.R.L.,Confrérie,664
+1149,Chartier,Confrérie,1366
+1150,Lemaire Voisin S.A.S.,Ordre,1778
+1151,Fernandez SARL,Cercle,2949
+1152,Imbert,Cercle,2438
+1153,Fournier,Cercle,814
+1154,Diaz SA,Cercle,2710
+1155,Delahaye S.A.R.L.,Loge,618
+1156,Rivière,Association,2451
+1157,Klein Blanchard SA,Association,2447
+1158,Monnier,Association,2110
+1159,De Sousa,Guilde,3120
+1160,Carlier,Cercle,4500
+1161,Texier S.A.R.L.,Confrérie,2588
+1162,Giraud,Ordre,146
+1163,Gauthier SA,Club,3257
+1164,Roche SA,Association,927
+1165,Weiss François et Fils,Club,436
+1166,Hardy,Ordre,1662
+1167,Gallet SARL,Association,733
+1168,Maillet,Loge,1302
+1169,Simon,Ordre,3972
+1170,Lelièvre Gautier S.A.S.,Ordre,4025
+1171,Bouchet Mendès S.A.,Cercle,3763
+1172,Millet,Loge,4736
+1173,Boyer S.A.R.L.,Confrérie,277
+1174,Lebreton,Fraternité,3794
+1175,Rocher SA,Guilde,3890
+1176,Ribeiro Langlois SA,Club,1913
+1177,Poulain S.A.S.,Club,2166
+1178,Lemoine Bourdon et Fils,Loge,1725
+1179,Michaud S.A.S.,Ordre,4265
+1180,Colas SARL,Ordre,4377
+1181,Hervé Chevallier et Fils,Association,799
+1182,Lemonnier,Confrérie,3571
+1183,Perrin Roussel SARL,Guilde,3681
+1184,Chauvin S.A.S.,Guilde,1604
+1185,Fouquet SA,Club,3497
+1186,Maury,Fraternité,1259
+1187,Brunet Guyon S.A.,Association,535
+1188,Lenoir Bourdon S.A.,Cercle,287
+1189,Pelletier Pons S.A.,Confrérie,1935
+1190,Bègue Pons S.A.,Loge,2621
+1191,Teixeira,Cercle,3422
+1192,Fleury,Club,3588
+1193,Joly SARL,Club,3794
+1194,Hamon,Loge,2181
+1195,Poirier,Ordre,469
+1196,Potier SARL,Cercle,3388
+1197,Leroy,Ordre,4761
+1198,Louis S.A.R.L.,Club,4043
+1199,Simon,Loge,4571
+1200,Caron Peron SARL,Ordre,806
+1201,Fournier SARL,Ordre,7
+1202,Texier,Association,1850
+1203,Aubry S.A.S.,Club,3238
+1204,Lopez Boyer S.A.R.L.,Loge,4249
+1205,Collet,Club,3500
+1206,Dumas Roux et Fils,Association,1791
+1207,Le Roux Renard S.A.R.L.,Club,2141
+1208,Munoz Fabre S.A.R.L.,Confrérie,2449
+1209,Normand,Association,3632
+1210,Laporte,Guilde,1759
+1211,Delahaye S.A.S.,Cercle,292
+1212,Collet,Association,4934
+1213,Robert S.A.,Association,2426
+1214,François SARL,Ordre,4615
+1215,Allard Alves S.A.R.L.,Ordre,1265
+1216,Morvan,Guilde,1129
+1217,Maréchal,Ordre,995
+1218,Legendre Hervé SA,Cercle,4854
+1219,Philippe,Fraternité,4252
+1220,Rey,Cercle,355
+1221,Leroy Blanchard S.A.R.L.,Loge,3244
+1222,Bruneau,Fraternité,2664
+1223,Weber,Confrérie,266
+1224,Lebreton,Confrérie,2486
+1225,Gomes,Association,3982
+1226,David S.A.,Guilde,2380
+1227,Bouvet,Ordre,2903
+1228,Techer SARL,Cercle,271
+1229,Briand,Loge,3369
+1230,Leconte,Ordre,4308
+1231,Denis SA,Club,2072
+1232,Jean,Guilde,161
+1233,Pineau SA,Cercle,4030
+1234,Colin,Association,1864
+1235,Meyer S.A.,Confrérie,2451
+1236,Gérard SARL,Loge,2608
+1237,Labbé Menard et Fils,Confrérie,4626
+1238,Riou,Confrérie,2183
+1239,Martins,Guilde,2265
+1240,Bernard S.A.S.,Club,4677
+1241,Raymond S.A.,Fraternité,2391
+1242,Guérin,Confrérie,692
+1243,Dias,Confrérie,3112
+1244,Bouvet Bonnet S.A.,Guilde,4450
+1245,Seguin S.A.R.L.,Guilde,2747
+1246,Denis,Ordre,1306
+1247,Carlier,Loge,2750
+1248,Coste Marchand et Fils,Fraternité,3163
+1249,Lefort Courtois S.A.S.,Loge,1121
+1250,Colas,Fraternité,881
+1251,Bonnin Charpentier S.A.R.L.,Confrérie,2570
+1252,Delattre et Fils,Ordre,725
+1253,Boyer,Association,4835
+1254,Meunier S.A.S.,Confrérie,1844
+1255,Noël Pottier S.A.S.,Association,4184
+1256,Delorme Delahaye et Fils,Ordre,968
+1257,Lemaire Renard S.A.,Association,63
+1258,Barthelemy S.A.R.L.,Cercle,3697
+1259,Simon,Guilde,4973
+1260,Ferreira,Cercle,307
+1261,Boucher et Fils,Fraternité,2504
+1262,Marchal Auger S.A.,Association,4545
+1263,Delorme Guyot et Fils,Cercle,700
+1264,Regnier Delmas SARL,Loge,1993
+1265,Dumas S.A.S.,Association,2453
+1266,Ollivier,Association,4128
+1267,Delattre SARL,Fraternité,4941
+1268,Legros Gillet SARL,Club,2160
+1269,Mendès,Association,1158
+1270,Rousset SA,Fraternité,1810
+1271,Dupuy Martel et Fils,Confrérie,418
+1272,Lefèvre,Confrérie,2840
+1273,Rodriguez SARL,Ordre,4020
+1274,Charpentier,Ordre,1872
+1275,Richard,Confrérie,2659
+1276,Gimenez,Cercle,894
+1277,Imbert,Association,965
+1278,Gay,Association,2662
+1279,Delorme,Ordre,741
+1280,Jacques Thibault et Fils,Loge,412
+1281,Lombard,Guilde,694
+1282,Barbe,Cercle,879
+1283,Bertrand Joubert SA,Fraternité,282
+1284,Ferreira,Confrérie,4593
+1285,Dupuy Legendre S.A.,Fraternité,2172
+1286,Martineau Courtois SA,Guilde,237
+1287,Legrand Guichard S.A.S.,Cercle,1851
+1288,Gilbert,Loge,2063
+1289,Henry Brunel S.A.R.L.,Ordre,372
+1290,Richard Jacquot S.A.S.,Cercle,3322
+1291,Chartier,Confrérie,1030
+1292,Lombard SA,Association,248
+1293,Normand Bègue S.A.,Ordre,2407
+1294,Pereira,Association,4007
+1295,Leroux Regnier S.A.R.L.,Loge,2708
+1296,Morvan,Club,3980
+1297,Meunier Moreau S.A.,Confrérie,989
+1298,Mercier S.A.,Cercle,3489
+1299,Pottier,Ordre,672
+1300,Descamps S.A.S.,Association,2459
+1301,Pineau Julien et Fils,Loge,3679
+1302,Lopes S.A.,Loge,1421
+1303,Morvan,Club,924
+1304,Nguyen,Club,3365
+1305,Rolland,Association,3713
+1306,Tessier SARL,Club,4803
+1307,Grenier Joly S.A.,Fraternité,4530
+1308,Voisin,Club,1158
+1309,Faivre,Cercle,4713
+1310,Bazin,Club,2897
+1311,Richard,Association,4433
+1312,Pottier,Guilde,1992
+1313,Lopes S.A.S.,Fraternité,4645
+1314,Peron Cordier SARL,Guilde,2425
+1315,Nicolas,Club,2698
+1316,Peltier SARL,Confrérie,1698
+1317,Barbier,Fraternité,413
+1318,Bourdon,Ordre,2709
+1319,Arnaud,Club,823
+1320,Masson S.A.S.,Association,1884
+1321,Evrard,Fraternité,424
+1322,Germain et Fils,Loge,3248
+1323,Regnier,Association,3400
+1324,Duhamel,Guilde,1929
+1325,Henry,Fraternité,4387
+1326,Breton,Loge,885
+1327,Weiss SA,Loge,1598
+1328,Besnard Lecomte et Fils,Ordre,3921
+1329,Renard,Confrérie,403
+1330,Ferrand et Fils,Guilde,4044
+1331,Samson SA,Guilde,127
+1332,Lejeune,Confrérie,2139
+1333,Gauthier,Club,4575
+1334,Benard,Association,1510
+1335,Lagarde,Confrérie,3575
+1336,Bourgeois S.A.S.,Loge,890
+1337,Martel,Cercle,4191
+1338,Dupuis,Association,2320
+1339,Jourdan Godard S.A.R.L.,Fraternité,3822
+1340,Dupuis,Cercle,3259
+1341,Guillot,Loge,1911
+1342,Cordier,Confrérie,4137
+1343,Dupuis,Fraternité,2792
+1344,Chauvet Duval S.A.R.L.,Association,1258
+1345,Clément,Club,2842
+1346,Prévost Peltier S.A.S.,Fraternité,2984
+1347,Vincent,Confrérie,4078
+1348,Maillard,Club,2793
+1349,Riou,Confrérie,2639
+1350,Schneider et Fils,Loge,4152
+1351,Mercier Lemaître SARL,Association,2740
+1352,Jacques S.A.,Loge,2812
+1353,Delannoy,Club,3007
+1354,Fournier S.A.S.,Guilde,2941
+1355,Dubois SA,Fraternité,2636
+1356,Blanchard,Cercle,2797
+1357,Collin,Club,3596
+1358,Brunel,Confrérie,816
+1359,Henry,Ordre,2039
+1360,Valette Buisson SARL,Ordre,4185
+1361,Joly S.A.,Fraternité,1579
+1362,Clerc,Loge,3485
+1363,Leroux,Club,3211
+1364,Chrétien,Cercle,665
+1365,Renaud S.A.R.L.,Association,284
+1366,Chauvin Pottier et Fils,Guilde,3044
+1367,Maillet,Cercle,1113
+1368,Blanchet Allain S.A.,Guilde,810
+1369,Allard S.A.,Confrérie,63
+1370,Besson,Confrérie,1445
+1371,Faivre,Guilde,1515
+1372,Clément et Fils,Confrérie,2974
+1373,Auger,Cercle,493
+1374,Richard S.A.,Cercle,2623
+1375,Bourgeois,Confrérie,790
+1376,Aubert Lenoir SA,Ordre,2539
+1377,Bouvier Delahaye S.A.,Cercle,2758
+1378,Lebreton,Cercle,4299
+1379,Maurice Dupuis S.A.,Guilde,2366
+1380,Descamps S.A.S.,Guilde,3257
+1381,Daniel,Confrérie,868
+1382,Peron,Guilde,1464
+1383,Bernard,Ordre,3014
+1384,Rousset Lambert SARL,Club,4611
+1385,Fontaine S.A.S.,Confrérie,2041
+1386,Letellier,Club,3483
+1387,Guillou,Fraternité,3740
+1388,Gimenez S.A.R.L.,Cercle,4375
+1389,Dupont,Cercle,221
+1390,Chevalier et Fils,Association,2903
+1391,Wagner Lemaire SA,Cercle,1743
+1392,Weiss,Loge,2547
+1393,Monnier,Ordre,450
+1394,Didier S.A.S.,Fraternité,3269
+1395,Lefèvre,Association,302
+1396,Lemaire,Loge,3893
+1397,Da Costa Prévost S.A.,Guilde,816
+1398,Dubois Thomas SARL,Loge,708
+1399,Toussaint Chevallier S.A.,Fraternité,827
+1400,De Sousa Duval SA,Confrérie,3351
+1401,Marin,Cercle,2073
+1402,Rey SA,Club,395
+1403,Legrand,Loge,2284
+1404,Lefort,Confrérie,3252
+1405,Aubry,Cercle,965
+1406,Hubert Georges S.A.,Club,2133
+1407,Lopez,Fraternité,3209
+1408,Ruiz,Fraternité,189
+1409,Hoarau SA,Club,3770
+1410,Perrin,Association,1728
+1411,Reynaud Le Roux S.A.,Association,1239
+1412,Salmon,Ordre,2179
+1413,Monnier et Fils,Guilde,775
+1414,Simon Baudry S.A.R.L.,Club,2325
+1415,Launay S.A.,Ordre,1595
+1416,Mercier,Guilde,1737
+1417,Nicolas S.A.,Guilde,1925
+1418,Clément,Confrérie,432
+1419,Fernandez Vallet SA,Club,3716
+1420,Guyot,Loge,634
+1421,Lecoq Lemoine S.A.S.,Confrérie,2448
+1422,Couturier,Cercle,2228
+1423,Bourdon Morin S.A.,Fraternité,4760
+1424,Martins,Guilde,3870
+1425,Weiss,Fraternité,1788
+1426,Renard,Ordre,3699
+1427,Courtois,Ordre,3825
+1428,Peltier,Loge,1941
+1429,Philippe Leconte S.A.,Confrérie,2980
+1430,Masse Lacroix et Fils,Club,1724
+1431,Vaillant Bernier S.A.,Loge,4425
+1432,Maillard,Ordre,2905
+1433,Lopez,Guilde,2874
+1434,Lemoine,Club,1364
+1435,Duhamel,Cercle,2760
+1436,Delattre,Loge,253
+1437,Charles et Fils,Ordre,2742
+1438,Marin S.A.S.,Confrérie,3317
+1439,Ramos,Ordre,4028
+1440,Noël S.A.,Confrérie,1953
+1441,Bertrand Torres S.A.,Cercle,3862
+1442,Ruiz Vincent SARL,Fraternité,1706
+1443,Menard,Confrérie,4402
+1444,Lelièvre S.A.,Association,4590
+1445,Bonnin Delattre SA,Confrérie,3504
+1446,Leclercq,Ordre,1400
+1447,Fabre,Guilde,2133
+1448,Parent,Ordre,1955
+1449,Mendès,Association,4604
+1450,Collin,Guilde,3803
+1451,Da Silva S.A.R.L.,Guilde,4049
+1452,Bigot Robert SA,Confrérie,4243
+1453,Gosselin,Fraternité,4709
+1454,Chauveau SARL,Loge,3885
+1455,Pruvost,Fraternité,360
+1456,Lombard Descamps SA,Confrérie,1461
+1457,Alves,Confrérie,4609
+1458,Roux Fabre S.A.S.,Guilde,2471
+1459,Lacombe,Association,2660
+1460,Salmon Pruvost SA,Cercle,4069
+1461,Lucas Germain SARL,Loge,2774
+1462,Delannoy SARL,Loge,4092
+1463,Brun,Cercle,2663
+1464,Hamel,Ordre,2253
+1465,Colas,Loge,3892
+1466,Imbert S.A.R.L.,Guilde,3722
+1467,Ribeiro Moreau SA,Club,1402
+1468,Lenoir SARL,Club,3706
+1469,Goncalves,Guilde,1992
+1470,Roche,Loge,4162
+1471,Dumont,Loge,451
+1472,Bigot,Cercle,4961
+1473,Coulon S.A.,Association,1230
+1474,Joly Andre et Fils,Guilde,2768
+1475,Fernandez S.A.,Club,3979
+1476,Laine,Ordre,2998
+1477,François Costa S.A.S.,Association,1103
+1478,Descamps S.A.R.L.,Guilde,1305
+1479,Gros,Confrérie,2628
+1480,Bourgeois et Fils,Confrérie,3882
+1481,Laporte Gilbert SARL,Club,1257
+1482,Lebrun S.A.S.,Ordre,3834
+1483,Merle Lefebvre S.A.S.,Loge,3754
+1484,Blanchet,Fraternité,1438
+1485,Roux,Confrérie,4265
+1486,Bourgeois,Cercle,2336
+1487,Leclercq SA,Club,3448
+1488,Le Gall SA,Cercle,4003
+1489,Germain,Ordre,2511
+1490,Paris Blanchard S.A.,Fraternité,4928
+1491,Vaillant,Guilde,2797
+1492,Jacob Chartier S.A.S.,Club,2963
+1493,Hamon,Club,4884
+1494,Navarro S.A.R.L.,Confrérie,3706
+1495,Andre Vallet S.A.S.,Club,4028
+1496,Lemaître et Fils,Ordre,1659
+1497,Gaudin,Confrérie,3300
+1498,Bonneau,Guilde,1111
+1499,Maréchal SA,Fraternité,2318
+1500,Poulain Durand S.A.S.,Ordre,966
+1501,Buisson S.A.R.L.,Fraternité,425
+1502,Leleu,Club,481
+1503,Klein,Fraternité,1858
+1504,Vincent Seguin SARL,Association,4728
+1505,Mallet SARL,Fraternité,594
+1506,Bruneau Michel SARL,Confrérie,3748
+1507,Marchal Pruvost et Fils,Association,4179
+1508,Renault Lebreton SARL,Club,3933
+1509,Guillou,Club,1153
+1510,Lefebvre,Club,219
+1511,Chrétien Garnier SARL,Cercle,3331
+1512,Hamel,Confrérie,2224
+1513,Gautier,Club,703
+1514,Masse,Association,773
+1515,Perez Picard SARL,Cercle,2882
+1516,Munoz Legrand S.A.R.L.,Confrérie,2818
+1517,Leleu,Association,3329
+1518,Caron S.A.S.,Guilde,2839
+1519,Masse,Club,2191
+1520,Maury S.A.R.L.,Ordre,4518
+1521,Letellier,Ordre,1923
+1522,Couturier,Fraternité,411
+1523,Perrier,Loge,2475
+1524,Dias,Club,758
+1525,Baudry,Ordre,4992
+1526,Muller,Cercle,2034
+1527,Pelletier,Association,4503
+1528,Leroy,Club,716
+1529,Evrard SARL,Club,1652
+1530,Vaillant,Club,2225
+1531,Morvan,Cercle,1738
+1532,Benoit,Cercle,2258
+1533,Colas,Fraternité,2040
+1534,Perret,Cercle,4382
+1535,Brun et Fils,Confrérie,3180
+1536,Blondel,Ordre,4461
+1537,Mahe Roche SARL,Guilde,2736
+1538,Lefebvre SA,Fraternité,3794
+1539,Berger SARL,Fraternité,3717
+1540,Baudry Lenoir S.A.,Ordre,248
+1541,Jean,Ordre,3814
+1542,Ribeiro Blondel SA,Loge,2614
+1543,Brunet S.A.,Cercle,1752
+1544,Lemaire SARL,Guilde,1687
+1545,Thibault S.A.R.L.,Fraternité,1310
+1546,Evrard,Ordre,1880
+1547,Lecomte SARL,Ordre,624
+1548,Chauveau,Ordre,2191
+1549,Barthelemy SA,Ordre,2598
+1550,Albert Hervé S.A.S.,Ordre,3750
+1551,Lambert S.A.,Ordre,3845
+1552,Teixeira,Cercle,4264
+1553,Paris,Cercle,891
+1554,Fleury,Fraternité,1967
+1555,Dufour,Fraternité,550
+1556,Rivière Vaillant S.A.S.,Club,3766
+1557,Petitjean S.A.S.,Club,3054
+1558,Leleu,Cercle,4525
+1559,Lopes,Club,518
+1560,Salmon et Fils,Ordre,946
+1561,Giraud Masse S.A.,Loge,2815
+1562,Garnier,Confrérie,4256
+1563,Masson et Fils,Loge,212
+1564,Pires,Fraternité,3708
+1565,Moulin Besson SARL,Confrérie,3871
+1566,Dias Hernandez SA,Confrérie,515
+1567,Dupré Jourdan SA,Confrérie,4989
+1568,Mallet,Cercle,229
+1569,Blanchet,Ordre,905
+1570,Duval,Ordre,2496
+1571,Hoarau Grondin S.A.,Ordre,4855
+1572,Guyot Maillet S.A.,Association,3562
+1573,Renaud,Loge,138
+1574,Loiseau Martinez SARL,Ordre,4754
+1575,Picard,Fraternité,312
+1576,Fournier,Fraternité,1466
+1577,Blin,Confrérie,421
+1578,Turpin,Ordre,1216
+1579,Picard S.A.R.L.,Confrérie,3358
+1580,Charles S.A.S.,Fraternité,2627
+1581,Vallée Buisson SARL,Loge,535
+1582,Leclerc,Confrérie,2917
+1583,De Sousa,Cercle,344
+1584,Martineau et Fils,Association,4381
+1585,Robin Potier SA,Guilde,3903
+1586,Dumas,Confrérie,4915
+1587,Vallée,Confrérie,1569
+1588,Lemaître,Confrérie,681
+1589,Legendre,Club,499
+1590,Vasseur S.A.R.L.,Cercle,705
+1591,Dubois,Loge,4548
+1592,Diallo,Loge,3950
+1593,Petit S.A.S.,Ordre,4063
+1594,Sanchez,Confrérie,2669
+1595,Lemaire SA,Cercle,2129
+1596,Étienne,Fraternité,2047
+1597,Fouquet,Association,1525
+1598,Hamon Vincent S.A.S.,Guilde,1535
+1599,Rivière,Guilde,1007
+1600,Dumas,Club,4929
+1601,Brun S.A.R.L.,Fraternité,3006
+1602,Morvan,Confrérie,4595
+1603,Mary Roche S.A.S.,Fraternité,3722
+1604,Martinez Fernandes S.A.,Loge,2176
+1605,Michaud,Fraternité,310
+1606,Barthelemy S.A.R.L.,Club,447
+1607,Jacob Ledoux S.A.S.,Cercle,942
+1608,Fleury,Association,1174
+1609,Navarro S.A.S.,Club,647
+1610,Robert SA,Club,2896
+1611,Laporte S.A.S.,Guilde,4484
+1612,Julien Philippe et Fils,Fraternité,4665
+1613,Tessier Gautier S.A.R.L.,Association,386
+1614,Schmitt Thomas SA,Fraternité,4449
+1615,Dupré Goncalves S.A.S.,Club,543
+1616,Martins S.A.S.,Association,55
+1617,Pereira,Loge,2926
+1618,Nguyen,Ordre,1711
+1619,Breton S.A.,Guilde,2522
+1620,Meunier,Cercle,402
+1621,Jourdan SA,Ordre,4065
+1622,Morin,Club,1180
+1623,Maillet,Association,4657
+1624,Fernandez,Cercle,3637
+1625,Clément SARL,Ordre,4699
+1626,Bruneau Aubry SA,Fraternité,203
+1627,Jean S.A.,Confrérie,1450
+1628,Dupuis et Fils,Fraternité,3462
+1629,Carlier Lamy S.A.,Loge,3290
+1630,Colin Bourdon S.A.R.L.,Fraternité,1121
+1631,Marin,Cercle,3678
+1632,Allard Guillou et Fils,Fraternité,1954
+1633,Gomez,Cercle,29
+1634,Petitjean,Club,2170
+1635,Barthelemy Hamon et Fils,Association,3269
+1636,Denis Prévost S.A.R.L.,Confrérie,4176
+1637,Guillon Hernandez SA,Ordre,2284
+1638,Renard,Fraternité,4260
+1639,Dias,Cercle,822
+1640,Gaillard,Cercle,3440
+1641,Weiss,Club,3905
+1642,Jacquot S.A.,Confrérie,3625
+1643,Seguin S.A.,Guilde,649
+1644,Chevalier,Fraternité,4668
+1645,Bruneau et Fils,Fraternité,2303
+1646,Petitjean Perez SARL,Confrérie,128
+1647,Reynaud Charpentier S.A.,Loge,2780
+1648,Fabre,Association,3378
+1649,Chartier Moreau S.A.,Association,3731
+1650,Perez,Club,2662
+1651,Bonnin,Club,454
+1652,Fernandes,Guilde,3900
+1653,Rossi S.A.S.,Club,1534
+1654,Charles Lejeune SA,Fraternité,1832
+1655,Dufour,Fraternité,778
+1656,Lebrun Guibert S.A.,Ordre,3723
+1657,Bouvet,Loge,4995
+1658,Hoarau Gros SA,Fraternité,1878
+1659,Charrier,Association,3557
+1660,Jourdan S.A.R.L.,Association,460
+1661,Guérin SARL,Association,4975
+1662,Chauveau,Ordre,1078
+1663,Dijoux,Cercle,2946
+1664,Grondin,Ordre,4659
+1665,Aubry,Guilde,562
+1666,Charrier SA,Ordre,4841
+1667,Guyon S.A.,Guilde,2941
+1668,Descamps Poirier et Fils,Ordre,479
+1669,Gimenez,Association,4334
+1670,Blanchard,Guilde,1262
+1671,Moreau,Fraternité,1927
+1672,Traore,Confrérie,2994
+1673,Chevalier S.A.,Club,1190
+1674,Joubert S.A.S.,Loge,14
+1675,Duhamel,Club,2794
+1676,Paris,Association,2570
+1677,Barbier,Association,2108
+1678,Delannoy S.A.S.,Association,2775
+1679,Wagner SA,Association,3178
+1680,Dupré S.A.S.,Guilde,4413
+1681,Costa Andre SARL,Club,4918
+1682,Caron,Club,832
+1683,Benard Gauthier SA,Confrérie,1216
+1684,Foucher,Cercle,2122
+1685,Rocher,Loge,3447
+1686,Baron,Ordre,4940
+1687,Moreau,Confrérie,2753
+1688,Bouvier,Loge,2737
+1689,Jacquet S.A.,Guilde,1814
+1690,Bazin,Guilde,3196
+1691,Guillon Carlier S.A.,Confrérie,4288
+1692,Breton,Club,4215
+1693,Maillard SA,Association,4943
+1694,Barthelemy,Ordre,2690
+1695,Rossi Duval S.A.S.,Club,57
+1696,Delorme,Cercle,307
+1697,Étienne,Guilde,619
+1698,Guilbert S.A.,Confrérie,1025
+1699,Durand,Confrérie,4656
+1700,Georges,Confrérie,2371
+1701,Laine,Loge,2168
+1702,Lefebvre SA,Guilde,2738
+1703,Lemaire,Loge,4765
+1704,Blondel,Club,99
+1705,Charpentier Simon S.A.R.L.,Loge,4116
+1706,Morel,Loge,544
+1707,Bouchet Olivier S.A.,Club,2155
+1708,Lemonnier SARL,Guilde,2337
+1709,Baudry S.A.,Ordre,1160
+1710,Gilbert,Ordre,4984
+1711,Louis,Ordre,3043
+1712,Dijoux,Confrérie,1611
+1713,Grégoire S.A.R.L.,Loge,2241
+1714,Chauvin Mace SA,Club,1352
+1715,Bouvet Perrin et Fils,Cercle,4849
+1716,Lesage,Guilde,2924
+1717,Seguin,Cercle,3029
+1718,Bernier S.A.R.L.,Ordre,4339
+1719,Paris Dumont S.A.R.L.,Cercle,538
+1720,Perrot SARL,Cercle,1295
+1721,Laine et Fils,Fraternité,2685
+1722,Gimenez,Guilde,3082
+1723,Boutin,Loge,273
+1724,Verdier S.A.S.,Loge,4488
+1725,Richard SA,Club,36
+1726,Moreno Bertrand et Fils,Loge,4942
+1727,Godard,Cercle,2044
+1728,Roger S.A.R.L.,Guilde,1212
+1729,Munoz Roger SA,Confrérie,3481
+1730,Morvan Texier S.A.R.L.,Association,2473
+1731,Marty,Guilde,3554
+1732,Turpin,Club,3697
+1733,Letellier et Fils,Fraternité,363
+1734,Perrier,Ordre,4966
+1735,Lemaître Dupont S.A.S.,Fraternité,440
+1736,Mace Blot S.A.R.L.,Confrérie,2566
+1737,Jacquot,Loge,3059
+1738,Dupont,Loge,1077
+1739,Lefort,Loge,2720
+1740,Lambert Nicolas SA,Ordre,2894
+1741,Michaud SARL,Confrérie,3452
+1742,Vaillant,Guilde,612
+1743,Leclerc,Club,686
+1744,Imbert Moreno S.A.S.,Ordre,3440
+1745,Regnier Laurent et Fils,Cercle,1147
+1746,Traore,Ordre,968
+1747,Rodrigues S.A.R.L.,Club,2528
+1748,Valette Joubert SARL,Loge,1771
+1749,Caron Duval S.A.R.L.,Ordre,696
+1750,Perret,Club,386
+1751,Evrard Guyon et Fils,Association,1680
+1752,Marchand,Fraternité,679
+1753,Lefebvre SA,Association,3557
+1754,Martineau,Guilde,2935
+1755,Grenier,Guilde,4422
+1756,Besson,Guilde,1132
+1757,Grégoire,Cercle,1114
+1758,Barbe S.A.S.,Loge,4694
+1759,Vasseur,Confrérie,4305
+1760,Chartier,Confrérie,3976
+1761,Carlier,Ordre,832
+1762,Clerc,Club,1258
+1763,Devaux S.A.R.L.,Confrérie,4397
+1764,Paris Raynaud S.A.,Ordre,2619
+1765,Sauvage S.A.S.,Guilde,734
+1766,Masson SARL,Club,3350
+1767,Guibert Pascal S.A.R.L.,Confrérie,2994
+1768,Le Gall Diallo S.A.R.L.,Confrérie,4685
+1769,Lévêque et Fils,Fraternité,4799
+1770,Pottier Georges et Fils,Ordre,4322
+1771,De Sousa,Loge,4288
+1772,Renard Perrin S.A.,Guilde,2342
+1773,Berger,Fraternité,365
+1774,Guyot S.A.,Ordre,1015
+1775,Hebert,Cercle,1141
+1776,Vidal Lacroix S.A.,Ordre,914
+1777,Pottier,Guilde,1732
+1778,Lemoine,Confrérie,2123
+1779,Lecomte S.A.,Cercle,4591
+1780,Bouchet S.A.R.L.,Cercle,4612
+1781,Buisson Fischer SARL,Loge,1449
+1782,Dufour Dupuis SA,Cercle,742
+1783,Bonnet S.A.S.,Confrérie,4051
+1784,Gosselin Petitjean S.A.R.L.,Guilde,2983
+1785,Brunel,Cercle,1716
+1786,Texier SARL,Fraternité,2739
+1787,Legros,Confrérie,1955
+1788,Godard,Loge,398
+1789,Delmas,Loge,3914
+1790,Toussaint S.A.S.,Cercle,2658
+1791,Meunier S.A.S.,Confrérie,4019
+1792,Delmas SA,Association,925
+1793,Poulain,Guilde,2684
+1794,Fournier,Association,3444
+1795,Dupré Léger S.A.R.L.,Loge,261
+1796,Lévêque S.A.,Club,1391
+1797,Loiseau SA,Loge,4825
+1798,Letellier,Loge,1352
+1799,Paris Delorme et Fils,Confrérie,2226
+1800,Bouchet,Association,4989
+1801,Muller Grégoire S.A.R.L.,Guilde,2025
+1802,Renault,Ordre,2806
+1803,Foucher SARL,Guilde,3187
+1804,Collin Tessier S.A.R.L.,Association,2650
+1805,Navarro SARL,Loge,1187
+1806,Perez Breton et Fils,Confrérie,3916
+1807,Gérard,Club,3504
+1808,Adam,Loge,1590
+1809,Thomas SA,Guilde,3595
+1810,Fournier Roy S.A.S.,Club,414
+1811,Bodin SA,Association,867
+1812,Perrier,Guilde,1514
+1813,Marchal S.A.R.L.,Association,735
+1814,Bouchet S.A.R.L.,Ordre,3785
+1815,Mahe,Ordre,640
+1816,Gallet,Guilde,2296
+1817,Mathieu,Confrérie,2695
+1818,Schmitt,Loge,2392
+1819,Perrier Humbert et Fils,Cercle,2634
+1820,Brun,Association,4858
+1821,Blot SA,Association,386
+1822,Pichon,Club,2695
+1823,Gallet S.A.S.,Ordre,2497
+1824,Nguyen Martineau SA,Cercle,1586
+1825,Martel SA,Ordre,2731
+1826,Perrier et Fils,Ordre,3584
+1827,Camus,Club,4277
+1828,Devaux,Cercle,628
+1829,Andre,Ordre,4928
+1830,Durand,Club,1042
+1831,Vaillant SA,Association,3134
+1832,Marty Gallet SA,Fraternité,2899
+1833,Turpin Jacob S.A.,Ordre,4270
+1834,Dubois,Club,1850
+1835,Tessier SARL,Confrérie,2776
+1836,Rousset,Confrérie,674
+1837,Guichard S.A.S.,Confrérie,2821
+1838,Dumas,Loge,208
+1839,Hoareau,Loge,3946
+1840,Roy,Ordre,915
+1841,Sanchez,Guilde,3142
+1842,Carpentier S.A.S.,Guilde,1268
+1843,Marchal SA,Club,22
+1844,Laporte,Association,4608
+1845,Pichon,Guilde,540
+1846,Gilbert et Fils,Fraternité,2510
+1847,Baron,Confrérie,156
+1848,Neveu Chrétien SARL,Association,2147
+1849,Lemonnier SARL,Ordre,2911
+1850,Boucher S.A.R.L.,Loge,2523
+1851,Boulanger S.A.R.L.,Club,2896
+1852,Valentin Aubert SARL,Club,3766
+1853,Regnier S.A.S.,Confrérie,4127
+1854,Mathieu,Association,1786
+1855,Legrand Riou S.A.S.,Ordre,2489
+1856,Hardy Brun S.A.,Guilde,2796
+1857,Peron,Club,1176
+1858,Jean Roy S.A.S.,Fraternité,1030
+1859,Pages S.A.,Guilde,1887
+1860,Thomas S.A.S.,Association,1766
+1861,Boulanger SA,Association,1133
+1862,Regnier Verdier S.A.S.,Club,3704
+1863,Fleury Bertin S.A.S.,Loge,4170
+1864,Faivre S.A.S.,Ordre,4115
+1865,Gallet S.A.S.,Confrérie,3603
+1866,Grenier S.A.R.L.,Ordre,2539
+1867,Poirier,Confrérie,4348
+1868,Le Goff S.A.R.L.,Guilde,335
+1869,Nicolas Louis S.A.R.L.,Ordre,906
+1870,Mercier SARL,Guilde,1126
+1871,Raynaud Henry S.A.,Confrérie,3548
+1872,Brun,Confrérie,3365
+1873,Moulin,Cercle,3199
+1874,Allain,Club,3748
+1875,Georges S.A.R.L.,Club,1349
+1876,Millet,Loge,4471
+1877,Gaillard,Association,4189
+1878,Da Silva Letellier et Fils,Ordre,3047
+1879,Baudry SA,Club,685
+1880,Dupont,Loge,4718
+1881,Leblanc Marchal S.A.R.L.,Loge,4990
+1882,Dupont,Fraternité,923
+1883,Regnier Baron et Fils,Club,4350
+1884,Jacob Bazin S.A.R.L.,Association,2343
+1885,Guérin Gauthier S.A.S.,Ordre,1264
+1886,Gomes S.A.R.L.,Association,1607
+1887,Joubert Gay S.A.S.,Ordre,841
+1888,Girard S.A.S.,Club,1627
+1889,Charpentier,Cercle,462
+1890,Benoit Roger SARL,Fraternité,1884
+1891,Dos Santos,Fraternité,869
+1892,Faivre SARL,Confrérie,4688
+1893,Lebreton,Club,3678
+1894,Delorme Roger S.A.S.,Association,4286
+1895,Picard SA,Ordre,4192
+1896,Delattre Meyer S.A.S.,Ordre,916
+1897,Guyot Langlois et Fils,Cercle,4490
+1898,Poirier Robert S.A.R.L.,Club,4488
+1899,Blanchard Boutin S.A.S.,Guilde,2816
+1900,Alves Foucher S.A.S.,Loge,548
+1901,Fabre,Guilde,4096
+1902,Rocher Leroy S.A.,Cercle,4612
+1903,Delattre,Ordre,759
+1904,Royer Bonnin S.A.,Association,1827
+1905,Chauvin SA,Ordre,2548
+1906,Leduc,Confrérie,3613
+1907,Weber Camus S.A.,Loge,3881
+1908,Boucher,Fraternité,3019
+1909,Coste,Confrérie,366
+1910,Joly,Club,766
+1911,Noël,Loge,3282
+1912,Raymond Cordier et Fils,Ordre,2082
+1913,Fischer,Cercle,4072
+1914,Dumont S.A.R.L.,Cercle,480
+1915,Leconte,Loge,1588
+1916,Roy Robin S.A.S.,Confrérie,1605
+1917,Lesage Gallet et Fils,Loge,811
+1918,Bourgeois Paris SARL,Fraternité,2214
+1919,Lejeune,Confrérie,4617
+1920,Lecoq,Confrérie,1997
+1921,Martin Fouquet SA,Confrérie,2741
+1922,Philippe S.A.R.L.,Fraternité,4086
+1923,Toussaint,Cercle,3983
+1924,Bourdon SA,Cercle,913
+1925,Lamy,Cercle,2251
+1926,Barthelemy Auger S.A.S.,Confrérie,3646
+1927,Albert,Fraternité,2630
+1928,Rodrigues Perrot S.A.R.L.,Club,132
+1929,Martel S.A.R.L.,Guilde,4752
+1930,Bègue SARL,Guilde,468
+1931,Payet Hoarau S.A.S.,Guilde,167
+1932,Berger,Fraternité,4827
+1933,Fournier Bertin SA,Cercle,2466
+1934,Lucas Huet SA,Fraternité,4888
+1935,Mallet Baron S.A.R.L.,Association,1622
+1936,Bertrand Gosselin et Fils,Guilde,1719
+1937,Ferrand,Association,2771
+1938,Weber SA,Cercle,3561
+1939,Dumont,Guilde,2000
+1940,Charrier Boulanger SARL,Fraternité,4390
+1941,Pires,Association,558
+1942,Henry,Association,3384
+1943,Meyer,Association,3447
+1944,Allain Bouchet S.A.S.,Fraternité,4987
+1945,Pruvost Tanguy et Fils,Cercle,2159
+1946,Chrétien,Association,2383
+1947,Maillot,Cercle,340
+1948,Peron S.A.,Confrérie,3618
+1949,Chrétien Martel et Fils,Cercle,4071
+1950,Gallet,Confrérie,4557
+1951,Ramos,Guilde,2710
+1952,Pinto,Club,4787
+1953,Menard,Loge,91
+1954,Maillet Lejeune S.A.,Club,407
+1955,Hoarau,Association,650
+1956,Garcia,Ordre,5000
+1957,Boutin,Confrérie,902
+1958,Briand et Fils,Cercle,1723
+1959,Pascal,Association,4349
+1960,Gomez Regnier S.A.S.,Club,3299
+1961,Hebert Delmas et Fils,Association,345
+1962,Georges et Fils,Confrérie,2045
+1963,Lefort,Guilde,3662
+1964,Roux SARL,Loge,4062
+1965,Petitjean Hebert SARL,Guilde,581
+1966,Guillon,Association,2322
+1967,Boucher Delattre SARL,Ordre,4354
+1968,Chevallier et Fils,Cercle,3172
+1969,Fouquet,Ordre,2166
+1970,Pinto,Confrérie,652
+1971,Denis,Loge,3369
+1972,Delahaye,Fraternité,1525
+1973,Vincent,Confrérie,1865
+1974,Huet S.A.S.,Association,2341
+1975,Pruvost Chartier S.A.,Association,1901
+1976,Bonnin,Confrérie,4816
+1977,Leconte,Club,1664
+1978,Ribeiro,Loge,1032
+1979,Pereira S.A.R.L.,Fraternité,3788
+1980,Delorme,Ordre,3092
+1981,Hebert,Association,2256
+1982,Giraud,Loge,1837
+1983,Diallo,Cercle,1930
+1984,Schmitt Marin S.A.R.L.,Fraternité,3104
+1985,Renard,Ordre,3628
+1986,Lefèvre Nguyen SA,Cercle,1802
+1987,Collet Moulin S.A.S.,Cercle,3581
+1988,Delahaye De Sousa S.A.R.L.,Association,4183
+1989,Weber,Cercle,3709
+1990,Barbier,Guilde,4274
+1991,Dubois,Cercle,3086
+1992,Marty SA,Club,4156
+1993,Lebrun,Association,327
+1994,Laurent,Association,2207
+1995,Cordier,Guilde,4667
+1996,Vallet,Fraternité,1123
+1997,Riou,Cercle,3339
+1998,Monnier,Confrérie,3303
+1999,Rodriguez,Loge,1227
+2000,Gillet Léger et Fils,Confrérie,286
+2001,Bouvet,Ordre,2845
+2002,Mahe Vallet SA,Confrérie,1153
+2003,Colin,Association,4461
+2004,Maurice S.A.,Cercle,1614
+2005,Vincent SA,Association,365
+2006,Antoine Hebert SARL,Club,3844
+2007,Leleu Pierre S.A.S.,Association,447
+2008,Leduc,Association,1313
+2009,Da Costa,Association,1177
+2010,Lecomte Meyer S.A.S.,Confrérie,3110
+2011,Bruneau,Guilde,3446
+2012,Lucas,Confrérie,4298
+2013,Pineau,Guilde,3647
+2014,Bouvet Bruneau et Fils,Confrérie,2304
+2015,Fernandes,Club,3384
+2016,Ferrand Verdier S.A.,Club,1645
+2017,Étienne Dubois S.A.,Loge,4141
+2018,Étienne Maréchal SARL,Cercle,4813
+2019,Blanc,Club,3428
+2020,Legendre Charpentier et Fils,Guilde,4805
+2021,Raynaud SA,Ordre,2333
+2022,Bertrand,Guilde,2939
+2023,Pineau S.A.S.,Guilde,905
+2024,Boulanger,Confrérie,304
+2025,Dupuis Joubert SA,Cercle,2934
+2026,Labbé,Association,3923
+2027,Antoine,Association,3745
+2028,Gaudin,Fraternité,972
+2029,Dumas,Ordre,3310
+2030,Marie,Association,1415
+2031,Samson,Fraternité,3131
+2032,Lombard,Ordre,491
+2033,Jacob Joly S.A.R.L.,Club,2737
+2034,Arnaud,Cercle,749
+2035,Auger,Club,2251
+2036,Léger,Confrérie,2426
+2037,Riou et Fils,Guilde,1364
+2038,Camus et Fils,Loge,4256
+2039,Thibault Morin SA,Ordre,2265
+2040,Monnier SARL,Association,1922
+2041,Meunier S.A.S.,Fraternité,2687
+2042,Pires Dupuis SARL,Guilde,2561
+2043,Imbert,Club,925
+2044,Laurent S.A.S.,Club,4537
+2045,Moulin S.A.S.,Club,3905
+2046,Dumas SA,Guilde,2809
+2047,Lopes SARL,Cercle,3035
+2048,Marin,Fraternité,2507
+2049,Guyot,Loge,4131
+2050,Leduc Mercier SA,Fraternité,2893
+2051,Blanchard,Cercle,4647
+2052,Perrot Valentin S.A.,Association,1594
+2053,Hoareau Adam S.A.S.,Club,3339
+2054,Faure,Association,917
+2055,Munoz,Fraternité,3559
+2056,Meunier Lebreton S.A.,Ordre,918
+2057,Perrin,Confrérie,4291
+2058,Simon,Guilde,2461
+2059,Coulon,Fraternité,1336
+2060,Bonnet,Guilde,668
+2061,Benard Dupré SA,Confrérie,2604
+2062,De Sousa,Guilde,3424
+2063,Masse,Confrérie,3391
+2064,Gros S.A.S.,Ordre,3671
+2065,Barthelemy S.A.,Fraternité,423
+2066,Hubert S.A.S.,Confrérie,2537
+2067,Carre Dupré SARL,Confrérie,3999
+2068,Garnier Charrier S.A.S.,Loge,3542
+2069,Louis,Confrérie,324
+2070,Ramos S.A.,Association,279
+2071,Martinez,Cercle,3639
+2072,Peltier Guillou S.A.,Confrérie,2614
+2073,Gilles Voisin SA,Association,2708
+2074,Pascal Durand S.A.R.L.,Fraternité,4462
+2075,Perrot Lelièvre et Fils,Cercle,4971
+2076,Normand SA,Fraternité,2958
+2077,Henry,Ordre,1251
+2078,Charpentier S.A.R.L.,Guilde,2158
+2079,Peltier et Fils,Association,1451
+2080,Torres Laporte S.A.,Ordre,2432
+2081,Rémy S.A.S.,Fraternité,3433
+2082,Dupré,Fraternité,4568
+2083,Fleury,Loge,3062
+2084,Seguin S.A.S.,Association,3345
+2085,Marques S.A.,Loge,1068
+2086,Martel,Club,3006
+2087,Lejeune Peron et Fils,Ordre,380
+2088,Baudry,Confrérie,2763
+2089,Garnier,Club,1154
+2090,Gimenez,Confrérie,1332
+2091,Rodrigues,Club,3167
+2092,Langlois Gillet et Fils,Cercle,2621
+2093,Dupuis S.A.R.L.,Cercle,4858
+2094,Jacquet Tessier S.A.R.L.,Club,2699
+2095,Tanguy,Loge,4184
+2096,Pascal,Fraternité,4121
+2097,Bouvet S.A.R.L.,Club,58
+2098,Gauthier,Loge,1411
+2099,Hoareau SA,Loge,4254
+2100,Letellier Louis S.A.S.,Loge,1521
+2101,Hebert S.A.,Cercle,1475
+2102,Humbert,Club,4505
+2103,Cohen,Confrérie,4797
+2104,Rossi Fontaine SA,Confrérie,2103
+2105,Hoareau Joubert S.A.,Fraternité,1686
+2106,Perret,Club,3349
+2107,Philippe SA,Fraternité,1488
+2108,Bertin Allain et Fils,Loge,3004
+2109,Lelièvre Prévost SARL,Loge,1227
+2110,Gosselin,Loge,4616
+2111,Dupont,Association,2215
+2112,Coulon,Ordre,2646
+2113,Gaillard S.A.S.,Guilde,3464
+2114,Raymond,Club,913
+2115,Alexandre,Association,1653
+2116,Breton Leconte et Fils,Loge,1195
+2117,Boulay SA,Club,1831
+2118,Torres,Club,757
+2119,Bourgeois,Ordre,2560
+2120,Munoz S.A.,Guilde,4252
+2121,Maury S.A.,Confrérie,1134
+2122,Masse,Club,1335
+2123,Roussel,Cercle,3882
+2124,Mercier S.A.R.L.,Cercle,3875
+2125,Coste,Club,1264
+2126,Moreno S.A.R.L.,Guilde,2594
+2127,Cousin,Association,4158
+2128,Benard Besson S.A.,Club,2485
+2129,Lamy,Fraternité,3923
+2130,Klein Martel SA,Club,4654
+2131,Bonnet S.A.R.L.,Confrérie,3783
+2132,Techer Ferrand S.A.,Ordre,2835
+2133,Pons,Ordre,3448
+2134,Royer,Cercle,4217
+2135,Besson Cohen et Fils,Club,3613
+2136,Brunel Hamel et Fils,Guilde,3920
+2137,Chauveau,Club,1133
+2138,Boutin,Cercle,187
+2139,Jean Boulanger SARL,Guilde,305
+2140,Morvan S.A.R.L.,Association,1320
+2141,Blanchard et Fils,Cercle,3521
+2142,Vallet,Guilde,156
+2143,Leduc SARL,Club,849
+2144,Weiss,Association,2804
+2145,Bonnet S.A.R.L.,Loge,4448
+2146,Marin SARL,Confrérie,4246
+2147,Lefort Lemaître SA,Ordre,2355
+2148,Voisin Navarro SA,Cercle,4207
+2149,Navarro,Cercle,3371
+2150,Renaud,Cercle,3058
+2151,Leroy,Fraternité,2794
+2152,Hebert Mallet et Fils,Confrérie,170
+2153,Bouvet,Ordre,3556
+2154,Henry Marty SARL,Loge,3026
+2155,Lacroix,Cercle,1780
+2156,Lejeune Barbier S.A.,Guilde,4509
+2157,Peron,Ordre,1955
+2158,Traore,Guilde,1913
+2159,Godard,Loge,2889
+2160,Martins S.A.S.,Ordre,3382
+2161,Marchal SA,Loge,2379
+2162,Chevallier,Fraternité,3038
+2163,Michel Leblanc SARL,Fraternité,3900
+2164,Da Costa SA,Confrérie,3379
+2165,Dumont S.A.R.L.,Guilde,2527
+2166,Lecomte,Loge,4588
+2167,Boulay,Loge,2229
+2168,Colin,Club,3074
+2169,Moreno,Ordre,4321
+2170,Goncalves,Loge,1227
+2171,Mace SARL,Fraternité,3205
+2172,Thomas,Loge,925
+2173,De Oliveira,Club,158
+2174,Germain Leroy S.A.,Loge,4483
+2175,Marchand,Association,880
+2176,Pelletier SA,Fraternité,28
+2177,Langlois SA,Guilde,1817
+2178,Lefebvre,Loge,1866
+2179,Lambert S.A.S.,Fraternité,4909
+2180,Allain Girard et Fils,Confrérie,3909
+2181,Lacroix,Ordre,3932
+2182,Navarro,Loge,829
+2183,Ferrand,Association,4064
+2184,Peron S.A.S.,Ordre,2631
+2185,Ollivier,Confrérie,4216
+2186,Buisson S.A.S.,Loge,491
+2187,Germain Berger SA,Loge,1863
+2188,Martinez,Confrérie,2302
+2189,Gérard,Fraternité,2844
+2190,Bonnet,Ordre,4404
+2191,Guillon,Confrérie,146
+2192,Delmas SA,Loge,1504
+2193,Noël,Guilde,2606
+2194,Dubois SARL,Fraternité,1541
+2195,Ledoux,Cercle,513
+2196,Lefebvre S.A.,Guilde,147
+2197,Petit S.A.S.,Fraternité,740
+2198,Perez SA,Ordre,1134
+2199,Faivre,Confrérie,3092
+2200,Leclerc,Cercle,4825
+2201,Pichon,Confrérie,2604
+2202,Rémy,Guilde,4114
+2203,Lévy S.A.,Loge,2541
+2204,Renaud Barbier S.A.R.L.,Fraternité,269
+2205,Guillet,Club,3441
+2206,Mercier Marchal S.A.S.,Confrérie,2939
+2207,Bernard,Guilde,3310
+2208,Maury S.A.,Guilde,3297
+2209,Delorme,Cercle,2019
+2210,Faivre,Loge,3271
+2211,Huet S.A.R.L.,Guilde,2334
+2212,Dias,Fraternité,1660
+2213,Muller Germain et Fils,Fraternité,1185
+2214,Martinez,Fraternité,566
+2215,Dupuis Richard SA,Confrérie,4669
+2216,Louis,Loge,4877
+2217,Bertin et Fils,Club,2189
+2218,Masse Ferrand SARL,Club,1122
+2219,Morin,Confrérie,251
+2220,Boyer,Club,279
+2221,Dias Hervé SA,Guilde,3327
+2222,Schmitt S.A.S.,Association,1091
+2223,Antoine,Ordre,2566
+2224,Duval,Confrérie,790
+2225,Breton S.A.R.L.,Fraternité,2986
+2226,Didier,Confrérie,2837
+2227,Bernard Marion SARL,Cercle,2405
+2228,Martinez S.A.R.L.,Club,3246
+2229,Langlois Schneider S.A.S.,Ordre,1219
+2230,Gay,Cercle,4073
+2231,Delorme,Loge,2894
+2232,Barbier François S.A.R.L.,Club,3715
+2233,Goncalves,Guilde,1582
+2234,Jacquot Loiseau et Fils,Confrérie,1412
+2235,Da Costa,Ordre,2071
+2236,Lucas,Association,2245
+2237,Ramos,Cercle,952
+2238,Laurent,Fraternité,1739
+2239,Weiss Charrier et Fils,Fraternité,4346
+2240,Fleury,Fraternité,503
+2241,Bonneau Boulay S.A.S.,Fraternité,2217
+2242,Laroche,Loge,1964
+2243,Collet,Ordre,898
+2244,Laurent,Confrérie,1415
+2245,Pons S.A.,Cercle,2993
+2246,Diallo,Cercle,3038
+2247,Le Gall S.A.S.,Association,1713
+2248,Girard SA,Ordre,1894
+2249,Boulay,Loge,1252
+2250,Delahaye S.A.R.L.,Guilde,4631
+2251,Normand Nicolas S.A.,Ordre,13
+2252,Henry,Association,1734
+2253,Foucher,Ordre,1810
+2254,Voisin,Fraternité,767
+2255,Schneider,Confrérie,3299
+2256,Antoine,Cercle,3267
+2257,Millet Charpentier SA,Club,3828
+2258,Launay,Association,689
+2259,Raynaud,Association,4761
+2260,Roger,Association,781
+2261,Coste Gaillard S.A.S.,Fraternité,3768
+2262,Delattre,Loge,1331
+2263,Pottier S.A.,Confrérie,4858
+2264,Cousin Jacquet S.A.,Confrérie,3797
+2265,Laine et Fils,Fraternité,294
+2266,Becker Pages SARL,Guilde,2916
+2267,Jourdan Lebon S.A.S.,Loge,2605
+2268,Fabre,Club,3362
+2269,Clerc,Guilde,4889
+2270,Roussel,Confrérie,1161
+2271,Cordier,Loge,2113
+2272,Maréchal Nicolas S.A.S.,Fraternité,1206
+2273,Marchand Le Roux SARL,Guilde,3536
+2274,Besnard,Ordre,4006
+2275,Gimenez,Cercle,753
+2276,Valentin,Fraternité,4457
+2277,Lemoine Pires SARL,Club,798
+2278,De Oliveira Barbier et Fils,Association,997
+2279,Bourgeois,Fraternité,2137
+2280,Lévêque Ribeiro S.A.S.,Confrérie,944
+2281,Letellier S.A.S.,Fraternité,4426
+2282,Gimenez S.A.S.,Cercle,955
+2283,Da Costa S.A.,Club,164
+2284,Gautier,Club,2641
+2285,Charpentier SARL,Guilde,4384
+2286,Guillaume,Loge,468
+2287,Martineau,Guilde,1939
+2288,Didier S.A.,Ordre,3825
+2289,Valentin,Loge,1229
+2290,Pierre S.A.,Loge,4738
+2291,Jacob,Fraternité,725
+2292,Vasseur,Fraternité,1161
+2293,Diallo SA,Cercle,2804
+2294,Bègue,Confrérie,139
+2295,Carpentier,Ordre,2615
+2296,Charrier Roussel SA,Association,1047
+2297,Garcia Deschamps S.A.S.,Club,2215
+2298,Fontaine,Association,2130
+2299,Lebrun,Cercle,3853
+2300,Breton,Guilde,1877
+2301,Blanc,Association,1492
+2302,Prévost,Club,703
+2303,Delorme,Confrérie,4671
+2304,Torres SA,Fraternité,2983
+2305,Fernandes,Guilde,402
+2306,Auger,Cercle,1383
+2307,Gomes,Club,2139
+2308,Toussaint Hervé S.A.,Ordre,214
+2309,Robert SARL,Fraternité,2455
+2310,Berthelot SA,Club,3987
+2311,Berger Texier et Fils,Cercle,1181
+2312,Chevallier,Cercle,3940
+2313,Hamon Lucas S.A.S.,Association,3345
+2314,Lemoine,Ordre,4242
+2315,Turpin Guillaume et Fils,Fraternité,1135
+2316,Vallet,Confrérie,3612
+2317,Samson Sanchez SARL,Fraternité,1893
+2318,Allard Pasquier et Fils,Fraternité,3463
+2319,Perret,Confrérie,2618
+2320,Renard Leclerc SA,Loge,3065
+2321,Briand Imbert S.A.S.,Loge,2845
+2322,Faure Mercier S.A.,Guilde,3609
+2323,Lebreton,Club,375
+2324,Faivre,Loge,1462
+2325,Mathieu,Guilde,1457
+2326,Grégoire Gilles S.A.R.L.,Confrérie,1610
+2327,Prévost SARL,Fraternité,1840
+2328,Pons Lemonnier S.A.,Ordre,3436
+2329,Laurent,Ordre,3661
+2330,Lemoine S.A.R.L.,Association,2636
+2331,Grenier S.A.R.L.,Confrérie,2721
+2332,Rivière,Association,3162
+2333,Collet et Fils,Ordre,4384
+2334,Fernandez Charrier et Fils,Ordre,4433
+2335,Robert SA,Ordre,1821
+2336,Huet SARL,Loge,1770
+2337,Brun,Confrérie,1176
+2338,Menard Mary S.A.,Loge,606
+2339,Mace Dumont et Fils,Fraternité,1604
+2340,Nguyen,Ordre,1627
+2341,Marchand,Association,3709
+2342,Lacroix,Club,1737
+2343,Grenier,Club,1685
+2344,Guyot S.A.R.L.,Ordre,3287
+2345,Garnier,Association,782
+2346,Martinez,Confrérie,1695
+2347,Delmas,Loge,2925
+2348,Picard,Fraternité,1906
+2349,Delannoy,Cercle,1213
+2350,Rivière,Ordre,1948
+2351,Jacquet,Loge,3006
+2352,Boucher,Guilde,1864
+2353,Joubert S.A.,Club,4218
+2354,Gaudin S.A.R.L.,Fraternité,4041
+2355,Besson,Fraternité,2516
+2356,Carpentier et Fils,Guilde,3962
+2357,Berthelot Le Gall et Fils,Ordre,1741
+2358,Letellier S.A.,Cercle,3627
+2359,Mercier,Association,3406
+2360,Gaillard S.A.R.L.,Confrérie,1847
+2361,Langlois,Club,449
+2362,Da Costa S.A.S.,Loge,440
+2363,Baudry,Loge,1406
+2364,Mace,Confrérie,3438
+2365,Vaillant,Association,3041
+2366,Ramos Voisin S.A.,Confrérie,4870
+2367,Munoz,Loge,839
+2368,Schmitt,Ordre,3404
+2369,Wagner et Fils,Club,4713
+2370,Gaudin,Cercle,3575
+2371,Martins,Association,1388
+2372,Mallet SARL,Cercle,4136
+2373,Joseph,Confrérie,1041
+2374,Besnard,Fraternité,201
+2375,Bouchet S.A.S.,Guilde,492
+2376,Dubois SARL,Cercle,2977
+2377,Besson S.A.,Club,761
+2378,Couturier Perrier S.A.,Fraternité,4263
+2379,Dufour Letellier S.A.,Association,61
+2380,Blin S.A.,Cercle,282
+2381,Adam et Fils,Fraternité,532
+2382,Aubert,Cercle,4065
+2383,Poirier S.A.S.,Ordre,2419
+2384,Barbier,Fraternité,4456
+2385,Bonnin,Guilde,4619
+2386,Bertin S.A.,Fraternité,4707
+2387,Delahaye Pires S.A.,Cercle,2085
+2388,Boulay,Ordre,3386
+2389,Coulon,Ordre,2535
+2390,Robert,Guilde,1950
+2391,Jacquot,Loge,3048
+2392,Lopez Arnaud S.A.R.L.,Cercle,3257
+2393,Guillet et Fils,Fraternité,4263
+2394,Lopes,Cercle,4643
+2395,Valentin,Confrérie,1071
+2396,Guillet et Fils,Association,3217
+2397,Chauvet S.A.,Association,1113
+2398,Dupuy,Confrérie,3778
+2399,Lejeune Delattre SARL,Guilde,2268
+2400,Allard Ledoux S.A.R.L.,Fraternité,1
+2401,Pinto,Loge,538
+2402,Roussel,Guilde,902
+2403,Devaux et Fils,Club,4834
+2404,Bertrand,Guilde,551
+2405,Duval,Confrérie,3515
+2406,Carlier S.A.S.,Loge,1716
+2407,Bernard,Guilde,2480
+2408,Le Roux et Fils,Confrérie,1588
+2409,Turpin,Confrérie,423
+2410,Paul Girard SARL,Association,3621
+2411,Blanchet,Guilde,4594
+2412,Gérard S.A.S.,Cercle,4164
+2413,Peron,Ordre,1168
+2414,Grenier,Club,2256
+2415,Collin Delahaye S.A.,Cercle,2129
+2416,Carlier,Club,3686
+2417,Boutin Petitjean S.A.R.L.,Ordre,3229
+2418,Brunel SARL,Ordre,2115
+2419,Rousset,Ordre,3094
+2420,Jacquot,Fraternité,389
+2421,Albert et Fils,Association,4711
+2422,Tessier Leduc SA,Confrérie,1368
+2423,Clerc,Club,305
+2424,Chartier S.A.S.,Confrérie,5000
+2425,Richard,Confrérie,4176
+2426,Rivière SA,Ordre,689
+2427,Richard,Association,1578
+2428,Gauthier,Fraternité,3715
+2429,Munoz S.A.S.,Confrérie,1634
+2430,Courtois Perret S.A.R.L.,Guilde,416
+2431,Roussel SA,Association,142
+2432,Reynaud S.A.S.,Association,4307
+2433,Gros,Guilde,1255
+2434,Fernandez S.A.R.L.,Fraternité,4150
+2435,Traore,Loge,2689
+2436,Cohen S.A.,Association,1395
+2437,Perrot Didier et Fils,Confrérie,1049
+2438,Guibert Pottier S.A.R.L.,Cercle,2224
+2439,Henry,Club,518
+2440,Valette,Guilde,1211
+2441,Roux et Fils,Ordre,3202
+2442,Besson SA,Club,4716
+2443,Noël SARL,Fraternité,690
+2444,Devaux S.A.,Cercle,796
+2445,Michel,Cercle,1577
+2446,Moreau S.A.R.L.,Ordre,3023
+2447,Jean Martinez SA,Association,117
+2448,Richard,Loge,3099
+2449,Bailly,Confrérie,4575
+2450,Bourgeois,Fraternité,1054
+2451,Bigot,Club,4005
+2452,Guyot,Guilde,2568
+2453,Lombard Marchand SA,Confrérie,210
+2454,Roche et Fils,Loge,3406
+2455,Roux SA,Loge,3051
+2456,Philippe S.A.R.L.,Association,4708
+2457,Le Goff,Club,4501
+2458,Renard,Loge,1040
+2459,Dupré et Fils,Club,3489
+2460,Munoz S.A.,Club,128
+2461,Paul Lacombe SA,Club,3348
+2462,Gillet,Confrérie,1031
+2463,Leconte S.A.S.,Confrérie,2442
+2464,Sauvage Leconte S.A.S.,Cercle,634
+2465,Labbé,Cercle,1967
+2466,Lefort Perez S.A.R.L.,Confrérie,2527
+2467,Monnier SARL,Club,4572
+2468,Fabre,Association,2495
+2469,Germain,Cercle,125
+2470,Bouchet S.A.,Loge,1089
+2471,Gilles Bouvet S.A.R.L.,Club,2511
+2472,Bourdon,Club,4894
+2473,Hamel S.A.S.,Confrérie,1389
+2474,Blanchard,Cercle,4883
+2475,Picard S.A.,Club,3627
+2476,Delattre S.A.S.,Fraternité,2282
+2477,Fontaine Allain SA,Ordre,2463
+2478,Maillard,Confrérie,2523
+2479,Texier S.A.S.,Club,871
+2480,Camus,Association,3115
+2481,Étienne S.A.R.L.,Cercle,1365
+2482,Lombard,Cercle,1552
+2483,Tanguy S.A.,Cercle,1025
+2484,Lévêque,Confrérie,3548
+2485,Perret,Guilde,1009
+2486,Cordier Fischer S.A.R.L.,Ordre,1257
+2487,Baudry,Loge,3513
+2488,Peron Blondel S.A.R.L.,Loge,3257
+2489,Boulay,Confrérie,320
+2490,Adam,Club,1706
+2491,Gautier S.A.S.,Confrérie,2318
+2492,Peltier,Guilde,2678
+2493,Masson Ramos SA,Association,599
+2494,Brun S.A.,Loge,2361
+2495,Bouvet,Cercle,2113
+2496,Lebrun et Fils,Fraternité,2015
+2497,Fernandez S.A.,Loge,1919
+2498,Texier,Confrérie,3674
+2499,Weber S.A.R.L.,Association,3961
+2500,Olivier Garnier S.A.,Guilde,2734
+2501,Aubry,Loge,1482
+2502,Nicolas,Club,111
+2503,Marin S.A.,Confrérie,3053
+2504,Texier,Cercle,1100
+2505,Lenoir SARL,Club,3815
+2506,Vallet S.A.S.,Confrérie,4045
+2507,Fischer Texier et Fils,Loge,2822
+2508,Briand SA,Guilde,1989
+2509,Colas,Guilde,421
+2510,Bertrand,Ordre,669
+2511,Cordier SARL,Cercle,4862
+2512,Lecomte,Fraternité,1419
+2513,Lacombe SA,Ordre,3489
+2514,Klein Maillet et Fils,Club,938
+2515,Mendès,Cercle,213
+2516,Lecoq,Club,88
+2517,Peron Barbe S.A.S.,Cercle,259
+2518,Roy S.A.S.,Confrérie,1233
+2519,Le Roux S.A.,Loge,2872
+2520,Garcia,Cercle,613
+2521,Vaillant S.A.R.L.,Club,695
+2522,Faivre S.A.R.L.,Guilde,4367
+2523,Gaudin Morel et Fils,Loge,1504
+2524,Maury S.A.,Ordre,1873
+2525,Joubert,Ordre,1571
+2526,Gomes SA,Cercle,243
+2527,Ramos,Confrérie,512
+2528,Blanchard,Loge,2232
+2529,Benoit Collet S.A.S.,Cercle,4079
+2530,Ferrand,Loge,1238
+2531,Renault SA,Association,3509
+2532,Pelletier,Ordre,3886
+2533,Blanchet,Guilde,223
+2534,Philippe,Loge,1146
+2535,Pons Mathieu SA,Fraternité,1729
+2536,Jacob Alves SA,Confrérie,4810
+2537,Fleury,Fraternité,772
+2538,Marty S.A.,Ordre,4152
+2539,Boutin Chauveau S.A.S.,Ordre,2908
+2540,Clerc,Club,461
+2541,Toussaint,Fraternité,534
+2542,Pinto et Fils,Fraternité,4906
+2543,Pons,Club,1687
+2544,Gonzalez Bonnin et Fils,Loge,2588
+2545,Marty,Fraternité,4354
+2546,Voisin,Confrérie,977
+2547,Dos Santos Nicolas SARL,Ordre,4827
+2548,Laurent Andre S.A.,Loge,124
+2549,Bailly Mary S.A.,Guilde,4118
+2550,Cordier,Ordre,221
+2551,Leroy,Guilde,4141
+2552,Bonnin,Confrérie,47
+2553,Auger,Guilde,1695
+2554,Vaillant,Ordre,352
+2555,Maillet Jacquet SARL,Club,3719
+2556,Daniel SA,Association,2644
+2557,Gosselin et Fils,Confrérie,2844
+2558,Blanchard SARL,Club,507
+2559,Pierre,Loge,631
+2560,Fernandez Gaillard SA,Ordre,4788
+2561,Bernard,Club,3247
+2562,Poirier S.A.,Cercle,3976
+2563,Weiss,Guilde,281
+2564,Dufour Caron S.A.,Cercle,2476
+2565,Le Roux,Cercle,4848
+2566,Robert,Guilde,482
+2567,Lombard,Association,1303
+2568,Lemaître S.A.R.L.,Cercle,1397
+2569,Marion,Loge,801
+2570,Bouvier SA,Confrérie,1016
+2571,Coste S.A.R.L.,Association,3046
+2572,Martins,Loge,2447
+2573,Pinto,Fraternité,4339
+2574,Marie S.A.,Guilde,1276
+2575,Gimenez SA,Ordre,4212
+2576,Reynaud,Cercle,1604
+2577,Julien,Club,4264
+2578,Nguyen,Fraternité,3371
+2579,Leleu et Fils,Fraternité,2672
+2580,Leroux Diallo S.A.R.L.,Fraternité,2792
+2581,Charles,Confrérie,2841
+2582,Lopes Morel SARL,Fraternité,2768
+2583,Dufour Thierry et Fils,Association,2268
+2584,Fabre,Confrérie,2342
+2585,Aubry,Loge,3016
+2586,Guillet S.A.S.,Loge,4311
+2587,Royer Teixeira S.A.,Association,1232
+2588,Carlier S.A.R.L.,Club,3239
+2589,Joseph,Club,905
+2590,Étienne S.A.R.L.,Cercle,2049
+2591,Noël,Guilde,2283
+2592,Simon Leduc et Fils,Confrérie,1492
+2593,Mercier S.A.R.L.,Association,1843
+2594,Wagner S.A.R.L.,Cercle,1587
+2595,Pinto,Association,2386
+2596,Benoit Charrier et Fils,Ordre,4907
+2597,Gauthier SARL,Club,4031
+2598,Adam,Ordre,2700
+2599,Moulin,Association,3823
+2600,Marin et Fils,Club,3622
+2601,Lecomte SARL,Loge,3125
+2602,Julien,Guilde,3108
+2603,Allain,Guilde,2400
+2604,Roux Mercier S.A.S.,Association,156
+2605,Gérard SA,Ordre,2237
+2606,Perrin SARL,Association,1389
+2607,Besson,Cercle,3061
+2608,Roche S.A.S.,Ordre,1723
+2609,Barre S.A.R.L.,Association,199
+2610,Marty S.A.R.L.,Guilde,4731
+2611,Grondin,Cercle,3019
+2612,Chauveau,Fraternité,3823
+2613,Moreau,Club,3698
+2614,Rivière,Cercle,4824
+2615,Leclerc,Guilde,3696
+2616,Baudry,Club,4545
+2617,Perrier,Confrérie,788
+2618,Hamel SARL,Guilde,1607
+2619,Ledoux,Association,931
+2620,Perret Boucher SARL,Fraternité,2125
+2621,Gaudin et Fils,Cercle,2928
+2622,Guillon,Loge,4833
+2623,Hardy Grégoire SA,Confrérie,1907
+2624,Boutin S.A.S.,Club,4065
+2625,Grondin,Confrérie,4309
+2626,Roger,Association,4242
+2627,Brun Colin S.A.S.,Cercle,4066
+2628,Roux,Club,3014
+2629,Baron S.A.,Association,348
+2630,Lelièvre,Ordre,4674
+2631,Morvan,Ordre,3924
+2632,Rivière,Cercle,2536
+2633,Rousset Prévost SA,Guilde,439
+2634,Rodriguez,Club,2599
+2635,Laine SARL,Club,4521
+2636,Charles S.A.R.L.,Confrérie,3952
+2637,Mallet Roussel et Fils,Confrérie,4295
+2638,Chauvet,Fraternité,2065
+2639,Moreau,Fraternité,842
+2640,Dupré,Club,4009
+2641,Millet Thomas SA,Club,5000
+2642,Bourdon,Loge,1006
+2643,Guyot,Club,365
+2644,Dupuy Vallée S.A.S.,Fraternité,4069
+2645,Fischer,Confrérie,455
+2646,Bourdon et Fils,Cercle,2630
+2647,Denis Leclercq et Fils,Cercle,4825
+2648,Michel,Loge,2515
+2649,Renard Morvan SA,Club,698
+2650,Bonnet,Association,931
+2651,Bailly,Association,3136
+2652,Laurent Fernandez S.A.R.L.,Fraternité,4351
+2653,Lecoq Bourdon SARL,Club,3483
+2654,Bazin S.A.S.,Fraternité,413
+2655,Morvan,Confrérie,1628
+2656,Simon,Guilde,4145
+2657,Grondin et Fils,Cercle,1194
+2658,Lopes,Fraternité,1512
+2659,Laporte,Cercle,1327
+2660,Leduc Pineau SA,Confrérie,2608
+2661,Lesage Hebert S.A.R.L.,Fraternité,4446
+2662,Marie Chevalier et Fils,Club,3140
+2663,Rossi,Ordre,4707
+2664,Potier,Loge,630
+2665,Bonnin S.A.,Guilde,4144
+2666,Hernandez,Fraternité,728
+2667,Hamel,Loge,2544
+2668,Costa et Fils,Guilde,1722
+2669,Leroy S.A.R.L.,Guilde,2009
+2670,Didier SARL,Fraternité,2166
+2671,Raymond Evrard S.A.S.,Cercle,4618
+2672,Pons SA,Loge,1220
+2673,Henry,Club,1042
+2674,Bailly,Fraternité,4035
+2675,Perrot,Confrérie,292
+2676,Legros,Ordre,4699
+2677,Marie Humbert S.A.R.L.,Confrérie,4746
+2678,Texier SARL,Association,4564
+2679,Samson,Cercle,4745
+2680,Regnier,Loge,4299
+2681,Barthelemy,Ordre,3594
+2682,Delmas Lemaître S.A.S.,Loge,1499
+2683,Raymond,Guilde,1808
+2684,Roy,Guilde,2212
+2685,Legendre Mallet SA,Guilde,1566
+2686,Vasseur Mahe S.A.,Loge,3152
+2687,Wagner,Fraternité,3428
+2688,Auger,Guilde,1507
+2689,Prévost et Fils,Ordre,3089
+2690,Berthelot Martineau et Fils,Confrérie,3013
+2691,Dupuy SA,Club,4183
+2692,Labbé Roux S.A.R.L.,Club,485
+2693,Hoarau,Fraternité,4267
+2694,Costa,Confrérie,2093
+2695,Humbert,Ordre,2712
+2696,Boutin,Confrérie,1642
+2697,Clément,Ordre,4251
+2698,Vincent,Ordre,3503
+2699,Bonnet,Guilde,4393
+2700,Alves et Fils,Loge,1304
+2701,Berger S.A.,Ordre,3073
+2702,Hardy Denis SA,Club,2136
+2703,Louis,Fraternité,1868
+2704,Loiseau S.A.,Fraternité,597
+2705,Thierry,Association,226
+2706,Lamy Jean et Fils,Ordre,2771
+2707,Maurice,Club,63
+2708,Paul,Fraternité,2545
+2709,Becker Rémy S.A.,Cercle,3320
+2710,Fontaine,Ordre,4962
+2711,Joly SA,Fraternité,2119
+2712,Costa Blanc S.A.R.L.,Guilde,2491
+2713,Ollivier S.A.R.L.,Loge,4948
+2714,Hoareau,Association,732
+2715,Diallo,Fraternité,2356
+2716,Lopez Jacquet S.A.R.L.,Cercle,4531
+2717,Duhamel,Confrérie,2901
+2718,Poulain Morel et Fils,Confrérie,4809
+2719,Bonnet Morin S.A.,Cercle,3310
+2720,Ferrand SARL,Guilde,2796
+2721,Blanc,Fraternité,1264
+2722,Muller,Ordre,2312
+2723,Goncalves,Cercle,120
+2724,Coulon,Confrérie,3930
+2725,Paris,Association,1017
+2726,Regnier,Cercle,837
+2727,Daniel,Ordre,4599
+2728,Robin SARL,Loge,1740
+2729,Baron,Cercle,2395
+2730,Hamel,Cercle,936
+2731,Hernandez Jean S.A.R.L.,Club,4371
+2732,Lacroix,Cercle,1411
+2733,Bazin Arnaud S.A.R.L.,Guilde,3998
+2734,Collin,Cercle,2830
+2735,Marie,Club,1072
+2736,Marchand,Loge,2857
+2737,Pons,Association,3231
+2738,Leclerc Costa S.A.R.L.,Club,437
+2739,Descamps Perrin S.A.,Cercle,3823
+2740,Benard et Fils,Association,4747
+2741,Lambert SA,Confrérie,4155
+2742,Moulin Moreau S.A.S.,Ordre,2013
+2743,Carpentier,Ordre,862
+2744,Garnier S.A.R.L.,Cercle,560
+2745,Lopes Buisson S.A.,Cercle,2933
+2746,Pereira S.A.,Association,580
+2747,Bouchet Lebreton SA,Cercle,1396
+2748,Leclercq,Association,3289
+2749,Olivier,Confrérie,427
+2750,Bernier Colas S.A.,Confrérie,1466
+2751,Sanchez,Club,3607
+2752,Marin Millet S.A.R.L.,Club,1276
+2753,Blanchet,Club,3816
+2754,Fleury Royer SARL,Guilde,1725
+2755,Dufour,Cercle,2112
+2756,Leleu S.A.S.,Cercle,2356
+2757,Barre et Fils,Ordre,127
+2758,Lebreton et Fils,Ordre,31
+2759,Mercier,Guilde,912
+2760,Martin S.A.,Confrérie,602
+2761,Bourgeois SA,Guilde,3218
+2762,Fleury SA,Confrérie,781
+2763,Rodrigues,Cercle,3600
+2764,Joubert S.A.S.,Cercle,2911
+2765,Payet,Association,4747
+2766,Bruneau,Fraternité,231
+2767,Renault,Cercle,1252
+2768,Lamy Evrard SARL,Confrérie,433
+2769,Rousseau,Loge,4811
+2770,Gérard,Guilde,239
+2771,Joseph Guichard SA,Association,1294
+2772,Boutin,Association,4444
+2773,Antoine S.A.R.L.,Loge,2271
+2774,Guillot,Ordre,4787
+2775,Robert,Association,2425
+2776,Devaux,Fraternité,4605
+2777,Boulanger,Association,4398
+2778,De Sousa,Ordre,3606
+2779,Ledoux,Cercle,3547
+2780,Bailly SA,Confrérie,1532
+2781,Dupuis,Club,1350
+2782,Rousseau et Fils,Guilde,354
+2783,Ribeiro,Fraternité,3477
+2784,Potier,Guilde,3230
+2785,Jacquot S.A.S.,Guilde,2958
+2786,Ferreira,Loge,2165
+2787,Gilbert,Guilde,2645
+2788,Clément SARL,Cercle,3896
+2789,Léger De Oliveira SA,Guilde,3524
+2790,Rousset S.A.S.,Guilde,4155
+2791,Aubry,Club,3308
+2792,Ribeiro,Cercle,176
+2793,Weiss S.A.R.L.,Loge,4987
+2794,Lévêque Rémy S.A.S.,Confrérie,3966
+2795,Vidal SA,Club,590
+2796,Morel,Confrérie,3971
+2797,Ferreira S.A.,Guilde,3554
+2798,Collin SARL,Confrérie,611
+2799,Mallet S.A.R.L.,Fraternité,2031
+2800,De Sousa Guillon S.A.R.L.,Guilde,2446
+2801,Weber Guyot et Fils,Loge,4062
+2802,Antoine Torres S.A.R.L.,Ordre,260
+2803,Peltier Allard S.A.S.,Guilde,4878
+2804,Bonnin,Club,73
+2805,Vallée S.A.S.,Association,3765
+2806,Leconte,Loge,2701
+2807,Techer Guillet S.A.S.,Cercle,3895
+2808,Roussel,Guilde,4962
+2809,Lelièvre Bourgeois SA,Loge,2632
+2810,Martineau S.A.S.,Ordre,1082
+2811,Bonnin SA,Guilde,864
+2812,Lejeune Chrétien et Fils,Club,2575
+2813,Lesage,Loge,2578
+2814,Paul S.A.,Ordre,1935
+2815,Simon SARL,Loge,679
+2816,Hoarau S.A.S.,Ordre,1629
+2817,Noël,Fraternité,672
+2818,Nicolas Bodin et Fils,Ordre,1203
+2819,Pruvost,Club,1814
+2820,Laporte Lévêque SARL,Association,1433
+2821,Hoarau S.A.,Association,4832
+2822,Laporte Vaillant S.A.S.,Cercle,394
+2823,Maillet,Loge,2535
+2824,Bertrand Lombard S.A.,Association,2054
+2825,Andre Ribeiro et Fils,Association,665
+2826,Raynaud,Guilde,4897
+2827,Lefebvre,Cercle,2720
+2828,Bailly S.A.R.L.,Cercle,2937
+2829,Bazin,Ordre,4726
+2830,Hardy S.A.R.L.,Ordre,3181
+2831,Vidal Monnier S.A.R.L.,Association,4889
+2832,Royer Thomas S.A.,Club,47
+2833,Leblanc,Loge,4779
+2834,Wagner,Loge,1845
+2835,Germain SARL,Loge,2922
+2836,Bernard,Loge,2987
+2837,Mercier,Ordre,756
+2838,Sauvage Ollivier SA,Ordre,4100
+2839,Le Goff,Fraternité,2465
+2840,Hoarau S.A.R.L.,Guilde,3660
+2841,Delattre S.A.R.L.,Confrérie,1588
+2842,Da Silva S.A.S.,Club,3260
+2843,Weiss,Cercle,4791
+2844,Durand,Ordre,2853
+2845,Roche,Loge,4241
+2846,Chauveau Imbert SA,Fraternité,986
+2847,Guillou,Club,229
+2848,Monnier SA,Guilde,1492
+2849,Bigot et Fils,Confrérie,3089
+2850,Pelletier,Association,4568
+2851,Lacombe,Ordre,1621
+2852,Bruneau,Confrérie,3727
+2853,Lefèvre Vallée S.A.,Cercle,4161
+2854,Peron,Loge,3493
+2855,Teixeira,Loge,3285
+2856,Baudry SA,Loge,1746
+2857,Berthelot S.A.S.,Club,1796
+2858,Delmas,Cercle,4103
+2859,Launay,Ordre,1999
+2860,Germain Costa et Fils,Confrérie,3540
+2861,Humbert S.A.,Confrérie,4100
+2862,Legendre,Fraternité,2549
+2863,Pottier Lévêque S.A.S.,Confrérie,2721
+2864,Pires,Ordre,1235
+2865,Pelletier,Cercle,2455
+2866,Masse SA,Loge,2248
+2867,Mace,Fraternité,1128
+2868,Ferrand Aubert S.A.S.,Association,3085
+2869,Paul Salmon et Fils,Cercle,3176
+2870,Benard,Ordre,625
+2871,Torres S.A.S.,Club,4664
+2872,Pelletier,Guilde,3716
+2873,Leduc et Fils,Guilde,2234
+2874,Daniel Dijoux SA,Ordre,2100
+2875,Roche,Fraternité,2181
+2876,Mercier,Loge,1146
+2877,Loiseau Pineau S.A.S.,Loge,3327
+2878,Roche,Confrérie,4162
+2879,Buisson,Fraternité,3082
+2880,Le Roux,Fraternité,3596
+2881,Hernandez,Loge,3349
+2882,Dumont S.A.S.,Cercle,1103
+2883,Adam,Association,2450
+2884,Lopes,Guilde,4158
+2885,Jacquot S.A.S.,Cercle,2791
+2886,Louis S.A.S.,Ordre,3434
+2887,Guichard Cousin SARL,Cercle,297
+2888,Riou,Confrérie,2620
+2889,Gilles et Fils,Confrérie,923
+2890,Besnard Imbert et Fils,Fraternité,1051
+2891,De Oliveira,Fraternité,2492
+2892,Texier Lacombe SA,Loge,1620
+2893,Diaz,Guilde,490
+2894,Maillot,Guilde,2822
+2895,Dubois Moreno S.A.S.,Association,4182
+2896,Pierre S.A.R.L.,Club,1648
+2897,Hernandez S.A.S.,Association,463
+2898,Moulin Pires SA,Loge,2455
+2899,Pichon SA,Fraternité,1030
+2900,Pineau,Confrérie,1481
+2901,Ollivier,Club,3949
+2902,Lombard,Confrérie,2097
+2903,Huet Guibert et Fils,Cercle,841
+2904,Bousquet Jacob SA,Association,130
+2905,Carlier et Fils,Confrérie,3013
+2906,Wagner S.A.S.,Club,4642
+2907,Blot S.A.S.,Loge,3334
+2908,Gosselin S.A.R.L.,Fraternité,3878
+2909,Torres,Association,3111
+2910,Gimenez,Association,264
+2911,Garcia,Loge,2452
+2912,Daniel,Loge,4133
+2913,Ferrand,Association,4649
+2914,Jean,Ordre,2658
+2915,Clément,Confrérie,4588
+2916,Barbier S.A.,Fraternité,2748
+2917,Weber,Ordre,2050
+2918,Leblanc SA,Loge,4190
+2919,Guillou et Fils,Confrérie,3916
+2920,Philippe SA,Guilde,249
+2921,Jacquot,Association,4141
+2922,Laurent,Fraternité,3465
+2923,Gonzalez,Guilde,1637
+2924,Aubert,Guilde,3996
+2925,Diallo,Loge,2773
+2926,Noël Alves S.A.,Guilde,4454
+2927,Masse Gauthier et Fils,Guilde,902
+2928,Hubert Perrot SARL,Confrérie,4743
+2929,Michaud S.A.,Club,1159
+2930,Pasquier SARL,Club,2246
+2931,Charpentier,Fraternité,3796
+2932,Dumas S.A.,Cercle,981
+2933,Torres S.A.R.L.,Cercle,562
+2934,Robert,Club,1065
+2935,Wagner,Ordre,4666
+2936,Fischer Joseph S.A.S.,Cercle,431
+2937,Delorme,Loge,4423
+2938,Vasseur,Ordre,420
+2939,Gay SARL,Cercle,2968
+2940,Germain Bonnin S.A.,Cercle,961
+2941,Weber Andre S.A.R.L.,Confrérie,1273
+2942,Delattre,Loge,249
+2943,Letellier,Fraternité,4829
+2944,Moulin SA,Fraternité,1972
+2945,Gilbert Collet S.A.R.L.,Guilde,4093
+2946,Gonzalez S.A.R.L.,Confrérie,3252
+2947,Benoit,Confrérie,2852
+2948,Durand Lévêque S.A.,Fraternité,4882
+2949,Blot,Guilde,3003
+2950,Boucher,Fraternité,2256
+2951,Ribeiro S.A.S.,Loge,3607
+2952,Gautier SA,Ordre,4012
+2953,François SA,Confrérie,4633
+2954,Gay Boucher SA,Ordre,2190
+2955,Maillot,Association,105
+2956,Marty Martin et Fils,Cercle,2405
+2957,Cousin,Guilde,4950
+2958,Durand Martineau S.A.S.,Loge,2294
+2959,Joubert,Guilde,1660
+2960,Riou S.A.R.L.,Club,4398
+2961,Lebrun,Cercle,2529
+2962,Bourgeois,Association,999
+2963,Lemaître,Guilde,4613
+2964,Guilbert S.A.,Loge,4573
+2965,Alves et Fils,Loge,4977
+2966,Leduc Loiseau S.A.S.,Fraternité,328
+2967,Faivre et Fils,Cercle,3444
+2968,Fabre,Association,4225
+2969,Barre,Fraternité,2857
+2970,Lagarde S.A.S.,Guilde,493
+2971,Olivier Charles S.A.R.L.,Ordre,2172
+2972,Lambert,Guilde,3230
+2973,Carre,Association,516
+2974,Fleury,Club,3874
+2975,Gosselin,Club,2549
+2976,Alves,Fraternité,686
+2977,Guilbert SARL,Confrérie,1181
+2978,Roche,Cercle,3379
+2979,Monnier Grenier S.A.R.L.,Cercle,4683
+2980,Verdier S.A.R.L.,Cercle,4394
+2981,Thomas Bailly SA,Confrérie,3197
+2982,Benoit Rossi S.A.R.L.,Loge,1338
+2983,Michel,Cercle,3776
+2984,Petitjean Lemaître SARL,Loge,1054
+2985,Brunet Delahaye et Fils,Fraternité,1874
+2986,Pasquier S.A.S.,Club,4507
+2987,Regnier,Cercle,4092
+2988,Maillot Morel SA,Guilde,1523
+2989,Grégoire S.A.S.,Loge,699
+2990,Vallée SARL,Ordre,3691
+2991,Courtois,Fraternité,1591
+2992,Barbier,Cercle,3632
+2993,Guillaume,Cercle,2888
+2994,Simon,Loge,4724
+2995,Menard,Confrérie,3628
+2996,Maury Lefebvre S.A.,Association,1432
+2997,Colas,Confrérie,4978
+2998,Roux,Loge,1200
+2999,Maurice,Loge,1344
+3000,Chevalier S.A.R.L.,Ordre,1742
+3001,Garnier SARL,Club,1101
+3002,De Oliveira SA,Guilde,1579
+3003,Dias Dumont S.A.,Fraternité,2334
+3004,Petit S.A.S.,Fraternité,2971
+3005,Briand S.A.S.,Guilde,4165
+3006,Lambert François S.A.,Club,1034
+3007,Boucher,Confrérie,1638
+3008,Vallet Roux S.A.R.L.,Fraternité,2525
+3009,Maillet,Confrérie,4233
+3010,Buisson S.A.,Cercle,886
+3011,Roger,Association,2070
+3012,Pineau SARL,Cercle,4557
+3013,Lejeune,Association,3916
+3014,Valette Payet SA,Association,77
+3015,Henry,Cercle,2774
+3016,Peltier S.A.,Cercle,2350
+3017,Pruvost S.A.,Ordre,3866
+3018,Briand S.A.,Association,923
+3019,Ollivier,Club,4233
+3020,Roy Buisson et Fils,Cercle,2773
+3021,Bonnet S.A.,Confrérie,3217
+3022,Mace et Fils,Association,4961
+3023,Colas S.A.S.,Cercle,3041
+3024,Maillot,Loge,1811
+3025,Imbert,Cercle,288
+3026,Adam S.A.S.,Club,4357
+3027,Marion et Fils,Loge,3441
+3028,Leconte S.A.R.L.,Confrérie,3597
+3029,Jacquot SA,Association,495
+3030,Lucas,Loge,2420
+3031,Besnard,Ordre,3273
+3032,Marie,Ordre,3096
+3033,Maillot,Club,3791
+3034,Nicolas,Club,2337
+3035,Gosselin,Guilde,88
+3036,Lelièvre,Confrérie,2658
+3037,Lévêque,Cercle,2934
+3038,Marie Neveu SA,Guilde,28
+3039,Blanc,Cercle,1788
+3040,Turpin et Fils,Cercle,372
+3041,Maillot,Guilde,1686
+3042,Raymond,Guilde,3253
+3043,Riou,Guilde,3104
+3044,Lecomte,Ordre,2541
+3045,Arnaud,Cercle,2952
+3046,Guillaume,Club,1178
+3047,Sanchez S.A.,Cercle,690
+3048,Clément S.A.R.L.,Confrérie,3361
+3049,Hoarau S.A.R.L.,Club,1229
+3050,Breton Guillou SA,Loge,1705
+3051,Leclercq et Fils,Confrérie,1184
+3052,Michel,Ordre,4675
+3053,Legros et Fils,Club,919
+3054,Morvan Lévêque S.A.S.,Cercle,2372
+3055,Guillon S.A.S.,Cercle,744
+3056,Perrin,Cercle,3195
+3057,Besson,Association,2851
+3058,Hubert,Ordre,3352
+3059,Barbe,Club,1388
+3060,Mallet SARL,Guilde,986
+3061,Lemaître,Fraternité,3600
+3062,Poulain S.A.,Guilde,4636
+3063,Germain,Cercle,406
+3064,Marin,Confrérie,1129
+3065,Boucher,Club,3671
+3066,Masson,Guilde,2480
+3067,Guyot,Association,3874
+3068,Aubry,Association,3866
+3069,Guillet,Cercle,222
+3070,Duhamel Charles S.A.,Fraternité,242
+3071,Barre S.A.S.,Fraternité,2501
+3072,Gautier SA,Cercle,964
+3073,Lagarde S.A.R.L.,Fraternité,2928
+3074,Guichard,Guilde,786
+3075,Sauvage et Fils,Fraternité,1464
+3076,Cohen SARL,Club,3052
+3077,Julien Chartier S.A.,Cercle,2075
+3078,Turpin,Loge,1803
+3079,Denis,Ordre,4009
+3080,Berthelot,Association,215
+3081,Loiseau,Cercle,1615
+3082,Lecoq S.A.S.,Fraternité,4287
+3083,Lelièvre,Ordre,2590
+3084,Hebert Texier S.A.,Confrérie,1836
+3085,Voisin,Guilde,1555
+3086,Torres Collin S.A.,Club,1975
+3087,Guillaume,Confrérie,64
+3088,Pereira,Loge,60
+3089,Robert Samson SARL,Guilde,1151
+3090,Seguin Berger S.A.S.,Fraternité,2412
+3091,Parent,Fraternité,3307
+3092,Baron,Club,3650
+3093,Reynaud,Cercle,4819
+3094,Philippe,Confrérie,2960
+3095,Gros,Ordre,761
+3096,Raynaud,Fraternité,1498
+3097,Lefort,Cercle,4207
+3098,Picard Seguin S.A.S.,Confrérie,3936
+3099,Lévêque SARL,Fraternité,759
+3100,Rousseau S.A.S.,Fraternité,268
+3101,Poulain,Fraternité,3342
+3102,Marty S.A.,Association,351
+3103,Marin,Fraternité,1186
+3104,Paul et Fils,Cercle,4545
+3105,Neveu et Fils,Association,4926
+3106,Allain,Club,3754
+3107,Schmitt S.A.R.L.,Ordre,82
+3108,Clément Labbé S.A.S.,Ordre,1252
+3109,Vincent,Ordre,3652
+3110,Techer,Confrérie,866
+3111,Bouvet S.A.,Loge,1864
+3112,Regnier Maillet S.A.S.,Club,2207
+3113,Joubert Verdier SARL,Fraternité,1865
+3114,Blin Maréchal et Fils,Guilde,4440
+3115,Gautier S.A.S.,Cercle,3911
+3116,Martinez,Ordre,2621
+3117,Meyer Mary et Fils,Cercle,4761
+3118,Marques,Association,3046
+3119,Masson et Fils,Loge,3491
+3120,Guillaume,Cercle,740
+3121,Adam,Confrérie,2875
+3122,Jacob S.A.R.L.,Guilde,1950
+3123,Masse,Ordre,4937
+3124,Leclercq,Guilde,2204
+3125,Perez,Club,4262
+3126,David,Club,5
+3127,Leblanc et Fils,Ordre,3853
+3128,Humbert et Fils,Ordre,906
+3129,Verdier,Cercle,3477
+3130,Lévy,Guilde,2205
+3131,Seguin Voisin et Fils,Confrérie,719
+3132,Gérard Guillou S.A.S.,Cercle,3615
+3133,Blot S.A.,Fraternité,1826
+3134,Giraud SARL,Ordre,3637
+3135,Chevalier Klein S.A.S.,Fraternité,2380
+3136,Rey,Cercle,2050
+3137,Daniel S.A.R.L.,Confrérie,3480
+3138,Berger,Fraternité,1424
+3139,Toussaint,Association,453
+3140,De Oliveira S.A.S.,Club,1585
+3141,Neveu,Ordre,3995
+3142,Ferrand Duhamel S.A.R.L.,Fraternité,3530
+3143,Petit,Association,4268
+3144,Maillard,Guilde,4078
+3145,Grenier Toussaint S.A.,Cercle,193
+3146,Leleu S.A.S.,Loge,91
+3147,Dias,Ordre,647
+3148,Chrétien Bonnet S.A.,Confrérie,1537
+3149,Laurent SARL,Club,3220
+3150,Leconte Pineau S.A.R.L.,Club,750
+3151,Labbé,Club,955
+3152,Cohen,Club,2374
+3153,Blanchard,Association,771
+3154,Foucher,Club,4521
+3155,Guillou,Guilde,3987
+3156,Raynaud S.A.R.L.,Association,813
+3157,Germain Lacombe SARL,Guilde,2822
+3158,Leconte,Fraternité,4757
+3159,Grégoire et Fils,Association,722
+3160,Gomes,Ordre,3409
+3161,Blanc SARL,Guilde,1119
+3162,Godard,Loge,4810
+3163,Picard Leroy S.A.R.L.,Confrérie,2363
+3164,Moreno Jacquet et Fils,Guilde,4779
+3165,Regnier Raymond SA,Fraternité,4698
+3166,Noël S.A.,Cercle,2006
+3167,Alves,Fraternité,3187
+3168,Marin SA,Ordre,1933
+3169,Pons Dupuy S.A.,Loge,3459
+3170,Seguin S.A.,Loge,1086
+3171,Allard,Club,2208
+3172,Bernard,Guilde,550
+3173,Gomez Raymond SA,Guilde,2958
+3174,Dias,Ordre,4670
+3175,Bouvet Morel S.A.S.,Loge,1078
+3176,Andre,Cercle,1696
+3177,Lecoq,Loge,3792
+3178,Lamy,Guilde,1253
+3179,Menard,Cercle,370
+3180,Leclerc Baron SA,Association,4006
+3181,Ferrand SA,Guilde,1192
+3182,Perrot,Club,3780
+3183,Raymond Weber S.A.R.L.,Guilde,1147
+3184,Delahaye et Fils,Guilde,2700
+3185,Joly Garnier S.A.S.,Confrérie,636
+3186,Laroche Valette S.A.,Confrérie,762
+3187,Fabre,Loge,2234
+3188,Diaz Payet et Fils,Cercle,2386
+3189,Mallet et Fils,Ordre,4064
+3190,Pinto S.A.S.,Association,2298
+3191,Picard,Loge,3538
+3192,Benoit,Cercle,256
+3193,Poirier S.A.R.L.,Loge,406
+3194,Nguyen Schneider S.A.R.L.,Fraternité,4274
+3195,Étienne,Cercle,3052
+3196,Delattre,Guilde,999
+3197,Besnard,Confrérie,4342
+3198,Daniel,Association,4391
+3199,Olivier,Loge,3570
+3200,Dijoux,Guilde,1608
+3201,Gilles et Fils,Loge,2031
+3202,Fontaine SARL,Loge,1156
+3203,Vallet,Association,4184
+3204,Didier,Confrérie,1986
+3205,Bousquet Couturier S.A.S.,Ordre,1745
+3206,Leclerc,Club,2661
+3207,Jacob,Fraternité,945
+3208,Gonzalez,Fraternité,4993
+3209,Lemaire,Ordre,2597
+3210,Delaunay,Ordre,1996
+3211,Valentin,Club,3432
+3212,Millet S.A.S.,Ordre,3675
+3213,Faivre,Club,3603
+3214,Samson S.A.,Confrérie,1373
+3215,Vallée,Guilde,1974
+3216,Voisin,Fraternité,518
+3217,Schmitt Bertin SA,Confrérie,3392
+3218,Hoarau Pereira S.A.R.L.,Loge,2496
+3219,Diaz,Confrérie,2416
+3220,Robert SARL,Club,351
+3221,Dupuis Rolland SA,Confrérie,344
+3222,Berger,Cercle,3173
+3223,Valette,Cercle,4177
+3224,Moreau,Fraternité,2134
+3225,Pons,Ordre,335
+3226,Carpentier S.A.R.L.,Fraternité,847
+3227,Godard,Association,4259
+3228,Meunier,Club,3584
+3229,Clerc Duhamel et Fils,Fraternité,1169
+3230,Bègue,Club,1589
+3231,Legros,Association,1767
+3232,Couturier,Fraternité,1151
+3233,Lebreton,Guilde,3883
+3234,Rolland,Cercle,1585
+3235,Rousseau,Fraternité,2497
+3236,Grenier,Fraternité,1955
+3237,Andre SA,Guilde,2293
+3238,Cohen,Ordre,1571
+3239,Garnier Étienne SA,Cercle,1946
+3240,Gérard,Confrérie,1861
+3241,Louis Poulain S.A.R.L.,Fraternité,2748
+3242,Lenoir,Guilde,4554
+3243,Peron,Association,2720
+3244,Dumont,Association,1027
+3245,Rousseau et Fils,Club,2234
+3246,Martin,Ordre,4462
+3247,Ramos,Confrérie,1408
+3248,Pires SA,Confrérie,4739
+3249,Boucher,Ordre,3736
+3250,Martins,Club,2428
+3251,Pelletier,Fraternité,4714
+3252,Mathieu,Club,3498
+3253,Cousin,Confrérie,3816
+3254,Gautier Huet S.A.,Confrérie,2196
+3255,Andre,Fraternité,434
+3256,Durand,Confrérie,50
+3257,Philippe,Cercle,1744
+3258,Robin S.A.S.,Confrérie,1057
+3259,Delmas,Fraternité,3189
+3260,Caron S.A.S.,Guilde,2103
+3261,Muller Nguyen et Fils,Club,2613
+3262,Adam,Loge,1172
+3263,Millet,Association,3210
+3264,Boyer SARL,Fraternité,3599
+3265,Maillot,Confrérie,4029
+3266,François,Confrérie,2310
+3267,Philippe Grégoire SARL,Confrérie,1434
+3268,Potier,Cercle,1912
+3269,Le Goff S.A.S.,Fraternité,677
+3270,Humbert Hervé S.A.S.,Guilde,2250
+3271,Devaux,Confrérie,4442
+3272,Lenoir et Fils,Fraternité,2781
+3273,Menard et Fils,Association,175
+3274,Mendès Gallet S.A.,Cercle,3563
+3275,Sauvage,Fraternité,2818
+3276,Delmas Colin et Fils,Guilde,2766
+3277,Antoine,Loge,749
+3278,Renaud Brunel S.A.S.,Fraternité,4289
+3279,Fournier,Club,2424
+3280,Texier Duhamel S.A.S.,Cercle,1694
+3281,Fournier,Fraternité,2246
+3282,Legrand Fontaine S.A.S.,Guilde,4302
+3283,Gautier S.A.R.L.,Guilde,1795
+3284,Valette,Loge,1819
+3285,Marques,Association,1247
+3286,Mary Garnier SARL,Confrérie,1883
+3287,Gauthier,Association,3918
+3288,Tessier Leroux S.A.S.,Ordre,1526
+3289,Ferreira SARL,Association,2285
+3290,Boulanger,Loge,3693
+3291,Bertin Schmitt S.A.R.L.,Cercle,1680
+3292,Lelièvre S.A.,Loge,4745
+3293,Mathieu SARL,Club,2044
+3294,Thibault Laurent SARL,Confrérie,3893
+3295,Léger,Association,3936
+3296,Blanc Gonzalez S.A.R.L.,Confrérie,832
+3297,Lucas,Confrérie,2549
+3298,Laine Delahaye et Fils,Cercle,3336
+3299,Martinez et Fils,Association,3166
+3300,Lesage,Fraternité,3422
+3301,Masson,Guilde,2580
+3302,Gérard Guilbert et Fils,Ordre,2205
+3303,Vallée Chevalier S.A.R.L.,Loge,2774
+3304,Robert Mary et Fils,Association,4069
+3305,Merle Roche S.A.S.,Association,290
+3306,Ramos,Cercle,2281
+3307,Gillet,Loge,1538
+3308,Gay SA,Ordre,2367
+3309,Grenier S.A.R.L.,Cercle,4327
+3310,Delaunay Menard SARL,Association,2685
+3311,Bertin,Association,3271
+3312,Allain SA,Guilde,82
+3313,Pinto,Cercle,2901
+3314,Étienne SARL,Club,2994
+3315,Delannoy,Guilde,2933
+3316,Leleu,Ordre,2014
+3317,Valentin S.A.,Confrérie,4119
+3318,Toussaint SA,Guilde,4690
+3319,Barbe,Ordre,3493
+3320,Jean S.A.S.,Association,1332
+3321,Riou et Fils,Confrérie,3565
+3322,Delannoy Delorme SA,Loge,3338
+3323,Gilles SARL,Guilde,4804
+3324,Evrard,Ordre,4782
+3325,Schmitt,Fraternité,2208
+3326,Gomes,Association,3496
+3327,Leduc,Fraternité,2934
+3328,Lefort,Association,3000
+3329,Benoit,Association,4657
+3330,Gautier,Confrérie,2753
+3331,Dos Santos et Fils,Club,1662
+3332,Henry,Cercle,1983
+3333,Reynaud,Fraternité,4993
+3334,Vidal,Loge,4117
+3335,Berger,Fraternité,3545
+3336,Boutin Wagner S.A.R.L.,Loge,3592
+3337,Loiseau,Club,1284
+3338,Dumas,Club,1613
+3339,Guillaume et Fils,Cercle,414
+3340,Bouvet Mathieu S.A.,Ordre,271
+3341,Rolland,Loge,809
+3342,Gosselin,Ordre,2162
+3343,Cousin,Loge,33
+3344,Pons,Ordre,532
+3345,Teixeira,Loge,4050
+3346,Collin Caron S.A.S.,Ordre,893
+3347,Brunet Guichard S.A.S.,Confrérie,1175
+3348,Grenier,Ordre,573
+3349,Hardy,Guilde,3129
+3350,Lopez,Loge,1159
+3351,Jean,Loge,840
+3352,Raymond SA,Loge,787
+3353,Pascal,Fraternité,3711
+3354,Cousin,Fraternité,1015
+3355,Payet,Fraternité,485
+3356,Langlois,Guilde,2791
+3357,Morin,Association,1742
+3358,Barthelemy,Fraternité,3787
+3359,Imbert,Confrérie,3960
+3360,Bodin Delaunay SA,Loge,2411
+3361,Vallée S.A.,Cercle,4549
+3362,Vasseur,Fraternité,348
+3363,Pottier,Loge,2541
+3364,Clément Dias SA,Loge,1570
+3365,Antoine S.A.,Cercle,1807
+3366,Lemoine Caron SARL,Club,2947
+3367,Riou,Club,1565
+3368,Leroy,Loge,4630
+3369,David et Fils,Cercle,3598
+3370,Lombard,Association,3420
+3371,Aubert et Fils,Ordre,1118
+3372,Roy SARL,Cercle,4925
+3373,Leclerc,Guilde,1154
+3374,Grondin,Cercle,3829
+3375,Dupont,Cercle,1204
+3376,Rolland SARL,Fraternité,514
+3377,Parent,Club,332
+3378,Chevallier S.A.R.L.,Guilde,2829
+3379,Pires,Ordre,3515
+3380,Guyot,Club,1074
+3381,Imbert Carre S.A.S.,Guilde,374
+3382,Renaud,Cercle,4931
+3383,Girard,Fraternité,1442
+3384,Voisin SARL,Cercle,3816
+3385,Grégoire,Guilde,1061
+3386,Dufour Bonnet S.A.R.L.,Club,4538
+3387,Labbé SARL,Cercle,2511
+3388,Delattre Jacques SA,Association,554
+3389,Lambert,Ordre,1123
+3390,Peltier Moreau et Fils,Cercle,3525
+3391,Traore,Loge,1039
+3392,Chartier,Club,1359
+3393,Gros,Fraternité,1650
+3394,Lefèvre Roy et Fils,Association,4449
+3395,Langlois,Association,2939
+3396,Weber,Cercle,68
+3397,Charpentier,Guilde,1825
+3398,Petitjean,Guilde,3301
+3399,Voisin,Cercle,2022
+3400,Poirier,Guilde,1012
+3401,Andre et Fils,Confrérie,1577
+3402,Reynaud Marty SA,Ordre,2503
+3403,Fleury,Ordre,1591
+3404,Maillot Delannoy SA,Confrérie,1410
+3405,Mahe S.A.,Fraternité,2226
+3406,Marie,Cercle,3801
+3407,Merle SA,Club,225
+3408,Girard,Fraternité,2494
+3409,Prévost,Fraternité,530
+3410,Chartier S.A.,Cercle,1702
+3411,Coste,Fraternité,1137
+3412,Lefort,Fraternité,2696
+3413,Duval,Cercle,2296
+3414,Durand et Fils,Loge,3398
+3415,Moreau,Association,520
+3416,Barbe Boulay SA,Guilde,1335
+3417,Munoz,Fraternité,15
+3418,Prévost,Cercle,2526
+3419,Bouvet,Club,577
+3420,Morvan,Fraternité,798
+3421,Chrétien,Loge,4625
+3422,Gimenez,Association,1583
+3423,Dupont,Loge,4802
+3424,Valette,Association,2858
+3425,Bouvet,Guilde,3530
+3426,Moulin S.A.,Club,3733
+3427,Guillou et Fils,Confrérie,2670
+3428,Da Costa Riou SA,Association,174
+3429,Launay SARL,Fraternité,967
+3430,Lefèvre S.A.S.,Loge,2588
+3431,Goncalves SA,Cercle,484
+3432,Joseph,Confrérie,3408
+3433,Bazin,Cercle,1999
+3434,Vasseur,Association,2473
+3435,Jacquet Martel S.A.S.,Guilde,3114
+3436,Potier,Cercle,2104
+3437,Ollivier Dumas S.A.R.L.,Association,2612
+3438,Berger SARL,Club,3367
+3439,Descamps,Association,1808
+3440,Roux Gomez SARL,Ordre,4371
+3441,Traore Grégoire SARL,Association,2116
+3442,Peron SARL,Ordre,4796
+3443,Joseph,Association,3415
+3444,Fabre Gros et Fils,Association,3298
+3445,Gilles Boulanger et Fils,Fraternité,2825
+3446,Rossi,Ordre,1286
+3447,Navarro,Association,2129
+3448,Meyer,Fraternité,640
+3449,Samson Dupont SA,Guilde,3589
+3450,Lemaître et Fils,Loge,3476
+3451,Perrot Carlier SA,Cercle,1851
+3452,Rousseau Guillon S.A.,Loge,2823
+3453,Paul,Confrérie,4664
+3454,Hamon,Confrérie,1679
+3455,Delattre,Confrérie,802
+3456,Le Goff,Ordre,130
+3457,Valentin SARL,Confrérie,2852
+3458,Dumont S.A.R.L.,Ordre,317
+3459,Bailly Lesage S.A.R.L.,Confrérie,760
+3460,Monnier Gosselin S.A.R.L.,Fraternité,3602
+3461,Thibault Antoine et Fils,Ordre,1038
+3462,Voisin,Ordre,1847
+3463,Chauveau Mathieu S.A.R.L.,Loge,150
+3464,Delannoy Blanchard et Fils,Ordre,4637
+3465,Ferrand S.A.R.L.,Guilde,4913
+3466,Vincent,Loge,1504
+3467,Gérard Parent et Fils,Association,4357
+3468,Rey Klein S.A.S.,Cercle,3098
+3469,Foucher,Confrérie,4632
+3470,Gay Rousset S.A.R.L.,Association,4562
+3471,Fouquet S.A.,Ordre,1670
+3472,Traore,Confrérie,4336
+3473,Grenier Turpin S.A.R.L.,Cercle,1970
+3474,Legros,Cercle,1621
+3475,Adam,Ordre,4970
+3476,Guillon S.A.,Fraternité,4445
+3477,Nicolas,Ordre,4136
+3478,Thibault Da Silva SA,Loge,230
+3479,Clément,Club,2779
+3480,Maillard,Club,2132
+3481,Bazin Thierry S.A.S.,Association,1791
+3482,Le Gall,Guilde,1698
+3483,Blanc Paris S.A.S.,Loge,118
+3484,Buisson,Confrérie,1675
+3485,Ferreira,Cercle,4890
+3486,Leroux SARL,Cercle,3332
+3487,Jacquot S.A.,Loge,4966
+3488,Weber,Fraternité,2991
+3489,Bruneau Grenier et Fils,Association,4790
+3490,Labbé SARL,Fraternité,2015
+3491,Adam S.A.S.,Loge,978
+3492,Andre,Ordre,2084
+3493,Bousquet Pages S.A.R.L.,Ordre,4821
+3494,Pineau,Association,3217
+3495,Delattre Roger SA,Ordre,1323
+3496,Brun,Fraternité,2429
+3497,Rossi,Ordre,1839
+3498,Clerc,Fraternité,2040
+3499,Guilbert,Association,4877
+3500,Jacquet,Club,4279
+3501,Rey,Loge,2377
+3502,Chevallier,Club,3821
+3503,Gaudin,Ordre,2915
+3504,Royer Imbert S.A.S.,Loge,2424
+3505,Cordier et Fils,Ordre,1123
+3506,Toussaint,Association,294
+3507,Navarro,Cercle,945
+3508,Louis,Club,4100
+3509,Gillet Verdier S.A.R.L.,Ordre,3616
+3510,Berger,Loge,1153
+3511,Vaillant Martel S.A.R.L.,Ordre,4903
+3512,Dumont,Association,1945
+3513,Diaz,Cercle,2250
+3514,Legros Ruiz SA,Association,1729
+3515,Raynaud,Ordre,4784
+3516,Lambert,Confrérie,1804
+3517,Chauveau,Loge,3049
+3518,Richard SA,Loge,2945
+3519,Nguyen Roussel S.A.R.L.,Confrérie,1356
+3520,Lagarde S.A.R.L.,Loge,1497
+3521,Becker,Fraternité,4093
+3522,Bailly,Loge,840
+3523,Guillou Buisson S.A.,Association,2803
+3524,Gillet,Guilde,2332
+3525,Jacques Le Roux et Fils,Club,4012
+3526,Hernandez,Confrérie,4142
+3527,Deschamps,Club,2490
+3528,Monnier,Fraternité,4723
+3529,Denis,Confrérie,2422
+3530,Pineau S.A.,Cercle,4404
+3531,Leclerc,Ordre,3577
+3532,Vidal Peltier SA,Association,11
+3533,Besnard,Ordre,1670
+3534,Duval,Guilde,3252
+3535,Barre Launay S.A.,Club,4944
+3536,Lévy,Cercle,2117
+3537,Maillet S.A.R.L.,Confrérie,814
+3538,Breton Lemaître S.A.S.,Guilde,2774
+3539,Bernier S.A.S.,Club,2245
+3540,Gomez SA,Guilde,1168
+3541,Vaillant et Fils,Ordre,2004
+3542,Lemonnier,Association,2868
+3543,Foucher,Confrérie,3833
+3544,Leclerc S.A.S.,Association,162
+3545,Philippe Dupuy et Fils,Club,77
+3546,Picard,Fraternité,4373
+3547,Bonnet,Loge,453
+3548,Mallet,Guilde,4392
+3549,Gomez Moulin S.A.R.L.,Cercle,2469
+3550,Olivier,Ordre,1798
+3551,Vallet,Club,4091
+3552,Clément,Ordre,513
+3553,Paul S.A.R.L.,Club,3358
+3554,Carlier,Fraternité,4859
+3555,Laporte Gimenez S.A.S.,Guilde,588
+3556,Payet Delattre SARL,Fraternité,1357
+3557,Turpin,Fraternité,3215
+3558,Lemoine,Loge,58
+3559,Ruiz Delaunay SARL,Fraternité,3100
+3560,Samson,Confrérie,1902
+3561,Martineau Couturier S.A.S.,Club,2050
+3562,Diaz Lacroix S.A.R.L.,Association,3799
+3563,Lévêque S.A.,Loge,1123
+3564,Breton Rousset S.A.,Guilde,3952
+3565,Barthelemy S.A.S.,Guilde,1321
+3566,Girard SARL,Loge,4190
+3567,Leduc Lecomte et Fils,Fraternité,277
+3568,Gilbert SARL,Fraternité,3623
+3569,Bouchet,Club,4630
+3570,Deschamps S.A.,Association,4399
+3571,Lebon,Ordre,3223
+3572,Poulain,Association,1702
+3573,Carpentier,Ordre,1301
+3574,Courtois S.A.S.,Loge,2836
+3575,Descamps,Ordre,4918
+3576,Potier,Association,3933
+3577,Rey,Club,343
+3578,Perrin S.A.S.,Confrérie,1259
+3579,Coulon Roche SARL,Confrérie,1654
+3580,Besson,Association,1368
+3581,Barre S.A.,Guilde,3700
+3582,Dumas,Guilde,4850
+3583,Riou S.A.R.L.,Cercle,270
+3584,Turpin S.A.S.,Loge,1345
+3585,Toussaint SA,Cercle,1411
+3586,Tessier,Club,4099
+3587,Costa,Guilde,621
+3588,Étienne,Association,3411
+3589,Rodriguez,Guilde,276
+3590,Duval Roger S.A.,Loge,3996
+3591,Martins,Guilde,2587
+3592,Mahe SARL,Guilde,1389
+3593,Jacquot Vidal S.A.S.,Ordre,1443
+3594,Moreau Alexandre S.A.S.,Guilde,189
+3595,Schmitt Guichard SARL,Confrérie,4306
+3596,Pages,Fraternité,1507
+3597,Lecomte,Confrérie,3478
+3598,Georges Lamy S.A.S.,Cercle,194
+3599,Da Silva,Loge,3365
+3600,Marty SA,Association,1831
+3601,Hernandez Verdier S.A.,Association,2254
+3602,Ollivier et Fils,Association,643
+3603,Ferrand et Fils,Loge,4457
+3604,Ruiz Munoz S.A.S.,Guilde,3292
+3605,Joseph,Cercle,1286
+3606,Hamel S.A.S.,Association,4918
+3607,Perez,Confrérie,2915
+3608,Diaz S.A.S.,Fraternité,1589
+3609,Delattre SARL,Loge,349
+3610,Marchand,Guilde,3341
+3611,Cordier Thomas et Fils,Association,4098
+3612,Hernandez,Cercle,3770
+3613,Coulon Jacob et Fils,Confrérie,224
+3614,Chevalier Guillou et Fils,Ordre,2444
+3615,Léger,Confrérie,4296
+3616,Allard Leblanc SARL,Ordre,1154
+3617,Lebreton S.A.,Confrérie,2372
+3618,Grégoire,Confrérie,2796
+3619,Lefort,Guilde,3968
+3620,Olivier Bonnin S.A.S.,Confrérie,4379
+3621,Roger et Fils,Association,623
+3622,Boutin,Ordre,1810
+3623,Lesage SA,Association,325
+3624,Delahaye Ledoux S.A.R.L.,Guilde,4296
+3625,Ledoux,Fraternité,4786
+3626,Gay Lecoq et Fils,Ordre,2505
+3627,Besson Bousquet SARL,Loge,3461
+3628,Lopez,Club,1816
+3629,Bouvet S.A.R.L.,Ordre,3002
+3630,Ruiz,Loge,83
+3631,Voisin et Fils,Club,3010
+3632,Traore Martin S.A.R.L.,Loge,2937
+3633,Becker Bègue S.A.,Guilde,1793
+3634,Collin,Ordre,3467
+3635,Vaillant,Fraternité,2766
+3636,Chauveau,Association,2077
+3637,Michaud Vallée S.A.S.,Ordre,1336
+3638,Maréchal Menard SARL,Cercle,3853
+3639,Masse S.A.R.L.,Fraternité,2264
+3640,Bailly,Ordre,3968
+3641,Gros Fischer SARL,Club,2414
+3642,Rossi S.A.R.L.,Fraternité,2854
+3643,Lebon,Confrérie,4219
+3644,Peron,Club,3725
+3645,Roger SARL,Association,695
+3646,Blanchet,Cercle,235
+3647,Samson,Confrérie,415
+3648,Laine,Loge,1149
+3649,Bonnet,Confrérie,4710
+3650,Devaux Sanchez et Fils,Fraternité,3252
+3651,Jourdan,Cercle,3481
+3652,Fontaine,Loge,4575
+3653,Petit S.A.R.L.,Association,770
+3654,Duval,Loge,4866
+3655,Étienne Colin SA,Guilde,2002
+3656,Roger,Association,2796
+3657,Riou SA,Cercle,1809
+3658,Lévy,Guilde,3354
+3659,Gautier,Fraternité,3624
+3660,Marie SA,Fraternité,2358
+3661,Baudry S.A.,Ordre,4558
+3662,Pages,Confrérie,1855
+3663,Charles,Cercle,4027
+3664,Guillon,Fraternité,549
+3665,Nicolas S.A.S.,Cercle,4701
+3666,Maurice SARL,Guilde,3520
+3667,Schmitt,Club,282
+3668,Breton,Fraternité,3542
+3669,Pascal,Ordre,267
+3670,Perret,Fraternité,151
+3671,Jacquot,Guilde,3829
+3672,Perrin SARL,Ordre,2467
+3673,Jacquot S.A.R.L.,Loge,3524
+3674,Dos Santos,Confrérie,4426
+3675,Lombard SA,Loge,4778
+3676,Paris,Loge,4548
+3677,Durand SA,Cercle,91
+3678,Benard,Guilde,3296
+3679,Robin,Guilde,3010
+3680,Breton,Guilde,90
+3681,Ramos,Association,1116
+3682,Tanguy SA,Loge,147
+3683,Guilbert Pires S.A.S.,Confrérie,2264
+3684,Vaillant,Ordre,4707
+3685,Blondel,Ordre,3102
+3686,Blot,Fraternité,371
+3687,Barre S.A.S.,Cercle,4167
+3688,Duval,Confrérie,1339
+3689,Faivre,Club,1126
+3690,Lacroix,Ordre,461
+3691,Bigot Étienne S.A.,Fraternité,4801
+3692,Collet,Confrérie,1205
+3693,Dumont,Cercle,3783
+3694,Rodrigues Germain S.A.S.,Ordre,2245
+3695,Salmon,Guilde,1486
+3696,Clerc S.A.R.L.,Cercle,3014
+3697,Fernandez Marin SA,Guilde,2309
+3698,Martinez Millet et Fils,Fraternité,4103
+3699,Rossi,Association,3075
+3700,Bouchet,Confrérie,1308
+3701,Royer SA,Loge,1011
+3702,Leroy SARL,Club,3329
+3703,Peltier Raymond S.A.R.L.,Guilde,4078
+3704,Mace,Association,1033
+3705,Caron,Fraternité,3996
+3706,Becker SARL,Loge,3455
+3707,Labbé,Guilde,3309
+3708,Payet Barre S.A.S.,Ordre,3886
+3709,Vasseur SA,Ordre,2638
+3710,Chevallier,Confrérie,3387
+3711,Marques,Cercle,2477
+3712,Weiss,Club,1059
+3713,Léger et Fils,Association,947
+3714,Weiss,Loge,3909
+3715,Collin SA,Ordre,545
+3716,Carpentier Renault SARL,Club,4949
+3717,Godard,Ordre,3269
+3718,Mendès Georges SA,Club,2199
+3719,Noël,Loge,4218
+3720,Dias,Confrérie,2023
+3721,Daniel Chartier SA,Fraternité,1405
+3722,Maillard,Club,254
+3723,Martineau S.A.S.,Confrérie,1453
+3724,Faure Teixeira SA,Confrérie,4397
+3725,Pierre,Association,1770
+3726,Mercier Langlois SARL,Cercle,206
+3727,Joly Godard SARL,Fraternité,701
+3728,Le Goff,Ordre,1382
+3729,Maillot Leclerc S.A.S.,Loge,3113
+3730,Blanchard,Ordre,1008
+3731,Didier et Fils,Ordre,1013
+3732,Gay,Confrérie,1040
+3733,Léger S.A.,Guilde,2252
+3734,Martins,Ordre,3255
+3735,Potier Fontaine S.A.R.L.,Club,424
+3736,Ruiz Marie S.A.,Cercle,969
+3737,Fernandes Guyon et Fils,Loge,3476
+3738,Lacroix,Loge,4228
+3739,Rémy S.A.S.,Guilde,4999
+3740,Cordier S.A.R.L.,Guilde,1409
+3741,Lemaire,Ordre,3899
+3742,Laine SA,Cercle,2711
+3743,Barthelemy,Ordre,802
+3744,Vallet,Club,763
+3745,Fabre,Loge,4666
+3746,Gérard,Association,3924
+3747,Philippe,Confrérie,2011
+3748,Potier,Ordre,4356
+3749,Thibault SARL,Fraternité,3958
+3750,Léger S.A.R.L.,Club,820
+3751,Pereira,Ordre,3287
+3752,Rey S.A.R.L.,Club,3813
+3753,Aubry,Association,216
+3754,Dos Santos S.A.R.L.,Loge,1612
+3755,Masse,Association,11
+3756,Da Costa Renard S.A.,Ordre,3455
+3757,Hamel,Confrérie,1976
+3758,Mendès Barthelemy SA,Confrérie,4253
+3759,Blanchard Michaud S.A.S.,Guilde,2390
+3760,Lebreton Laine et Fils,Association,2307
+3761,Blondel Chartier SARL,Cercle,4246
+3762,Noël,Club,4937
+3763,Jean,Fraternité,2616
+3764,Dubois,Ordre,2096
+3765,Goncalves Lemaître SA,Loge,1468
+3766,Boyer,Fraternité,4265
+3767,Guillon SA,Association,1575
+3768,Michel,Cercle,2611
+3769,Vallée,Association,3887
+3770,Godard,Loge,4699
+3771,Launay Adam SA,Cercle,826
+3772,Gay,Guilde,4320
+3773,Paris Briand et Fils,Club,302
+3774,Laporte S.A.S.,Ordre,185
+3775,Rossi,Guilde,1112
+3776,Camus Cordier et Fils,Ordre,1063
+3777,Gomes,Fraternité,4886
+3778,Cohen Cousin S.A.S.,Cercle,961
+3779,Masson Jacob SARL,Association,4468
+3780,Rousseau Georges et Fils,Guilde,1659
+3781,Le Goff,Loge,2233
+3782,Olivier,Confrérie,4320
+3783,Dupuis Gomez S.A.R.L.,Fraternité,736
+3784,Camus,Cercle,4837
+3785,Launay Guérin et Fils,Confrérie,3404
+3786,Léger,Fraternité,3045
+3787,Coste SARL,Ordre,4916
+3788,Dubois,Fraternité,2260
+3789,Pinto Bourgeois S.A.R.L.,Cercle,1324
+3790,Pereira S.A.,Fraternité,584
+3791,Schmitt Klein S.A.,Association,3899
+3792,Merle,Confrérie,2289
+3793,Coste S.A.R.L.,Association,234
+3794,Alexandre Lacroix et Fils,Ordre,2948
+3795,Alexandre,Guilde,3545
+3796,Weber Morin SARL,Guilde,326
+3797,Pruvost,Ordre,1927
+3798,Girard Traore et Fils,Ordre,1294
+3799,Martel SARL,Club,799
+3800,Jacob,Association,3187
+3801,Courtois,Club,785
+3802,Barthelemy,Loge,4824
+3803,Léger S.A.S.,Guilde,2579
+3804,Carre,Association,1986
+3805,Da Costa Rey S.A.,Guilde,509
+3806,Legros,Ordre,986
+3807,Chevalier Delmas S.A.S.,Cercle,1405
+3808,Pons Da Silva et Fils,Ordre,4880
+3809,Lebon Maillot S.A.R.L.,Loge,4238
+3810,Gaudin Leroux et Fils,Ordre,883
+3811,Lemaire Leduc et Fils,Cercle,382
+3812,Renaud,Cercle,2139
+3813,Chauvet,Fraternité,8
+3814,Rivière Gauthier SA,Loge,2637
+3815,Joseph,Cercle,4696
+3816,Hamel,Club,2000
+3817,Hoarau,Confrérie,4006
+3818,Fontaine,Association,2401
+3819,Petit,Guilde,3084
+3820,Blanc Le Gall S.A.,Guilde,2780
+3821,Georges S.A.R.L.,Club,1192
+3822,Gauthier Pierre SA,Ordre,2600
+3823,Mallet Charrier et Fils,Fraternité,873
+3824,Lévy,Loge,4121
+3825,Martel S.A.,Fraternité,1677
+3826,Nicolas,Loge,4496
+3827,Charles Marion SARL,Loge,4566
+3828,Maurice S.A.R.L.,Confrérie,2902
+3829,Langlois,Fraternité,1658
+3830,Fontaine S.A.S.,Association,3434
+3831,Berger,Club,357
+3832,Maréchal S.A.,Guilde,290
+3833,Alves,Confrérie,4753
+3834,Bertin,Association,2752
+3835,Philippe,Guilde,4134
+3836,Maillard,Association,4752
+3837,Vaillant,Fraternité,4993
+3838,Étienne Millet S.A.,Confrérie,2465
+3839,Rodriguez,Cercle,4044
+3840,Denis S.A.R.L.,Association,4619
+3841,Brunet Prévost S.A.S.,Club,1913
+3842,Chevalier,Guilde,79
+3843,Blanc Pineau SA,Loge,2498
+3844,Guillaume,Guilde,3170
+3845,Lecomte,Confrérie,85
+3846,Letellier,Club,2053
+3847,Guichard Ruiz et Fils,Cercle,1729
+3848,Texier Letellier SA,Association,1430
+3849,Riou,Fraternité,4499
+3850,Duhamel S.A.,Cercle,4938
+3851,Andre S.A.R.L.,Loge,1434
+3852,Bonnet,Confrérie,4254
+3853,Gimenez Brun SA,Loge,662
+3854,Roussel,Association,760
+3855,Duval,Ordre,3601
+3856,Bègue,Club,4021
+3857,Fabre,Guilde,3553
+3858,Langlois S.A.R.L.,Cercle,4101
+3859,Collin S.A.R.L.,Confrérie,3868
+3860,Clément,Loge,4226
+3861,Klein,Ordre,3408
+3862,Delaunay,Club,1043
+3863,Barre,Fraternité,2888
+3864,De Oliveira,Loge,2733
+3865,Royer Pierre SARL,Cercle,2297
+3866,Barthelemy S.A.R.L.,Association,3719
+3867,Barbe,Loge,3722
+3868,Vaillant SARL,Ordre,3984
+3869,Lemonnier,Fraternité,1950
+3870,Perrin,Confrérie,1222
+3871,Aubry,Ordre,538
+3872,Ramos,Ordre,4155
+3873,Garcia Hebert S.A.,Cercle,2524
+3874,Schneider,Fraternité,4485
+3875,Martin,Cercle,1532
+3876,Benard Samson S.A.,Cercle,3991
+3877,Weber,Guilde,92
+3878,Riou et Fils,Cercle,4271
+3879,Adam SARL,Ordre,975
+3880,Fernandez Renaud S.A.R.L.,Fraternité,2466
+3881,Thierry Guyon SARL,Loge,1222
+3882,Guillon,Loge,3553
+3883,Collet Lacroix S.A.R.L.,Association,3651
+3884,Le Gall,Ordre,1380
+3885,Roy Chauvet S.A.S.,Guilde,791
+3886,Delattre S.A.,Guilde,186
+3887,Bailly Aubert S.A.,Club,4990
+3888,Robert,Guilde,1388
+3889,Moreno S.A.R.L.,Loge,4479
+3890,Thibault,Fraternité,3264
+3891,Moreno S.A.S.,Guilde,2191
+3892,Leroux Jean SARL,Club,4675
+3893,Brun et Fils,Guilde,4861
+3894,Rocher,Guilde,1900
+3895,Briand,Association,1880
+3896,Marty,Club,571
+3897,Lévêque,Confrérie,4659
+3898,Vaillant,Confrérie,1511
+3899,Bigot Louis et Fils,Guilde,3332
+3900,Dos Santos Pineau S.A.,Ordre,119
+3901,Couturier S.A.,Guilde,4581
+3902,Chauvin,Ordre,1381
+3903,Imbert et Fils,Fraternité,4428
+3904,Adam S.A.,Fraternité,3468
+3905,Mary SARL,Association,2947
+3906,Langlois,Loge,4363
+3907,Turpin SA,Fraternité,3975
+3908,Turpin S.A.R.L.,Club,3116
+3909,Klein S.A.S.,Association,3573
+3910,Leclerc S.A.R.L.,Guilde,386
+3911,Masse SA,Cercle,927
+3912,Perrier S.A.R.L.,Club,4711
+3913,Didier,Ordre,4028
+3914,Legrand,Confrérie,4475
+3915,Humbert,Cercle,1006
+3916,Giraud Torres et Fils,Confrérie,1775
+3917,Delattre et Fils,Association,3066
+3918,Langlois Pons SARL,Loge,2841
+3919,Clerc Gauthier S.A.,Club,3503
+3920,Parent S.A.S.,Cercle,4939
+3921,Brunet David S.A.,Guilde,4116
+3922,Gomez,Fraternité,3501
+3923,Lemaire Alves SARL,Loge,1619
+3924,Louis,Fraternité,3041
+3925,De Sousa,Association,1456
+3926,Bousquet S.A.,Ordre,2383
+3927,Toussaint,Cercle,3718
+3928,Gaudin,Club,4316
+3929,Dupont SARL,Club,3560
+3930,Bodin S.A.S.,Fraternité,3563
+3931,Menard,Confrérie,4342
+3932,Jacquot Maillard SARL,Cercle,2597
+3933,Lemaire,Fraternité,653
+3934,Martins,Cercle,2739
+3935,Lucas,Guilde,713
+3936,Gérard,Guilde,3397
+3937,Marchal,Fraternité,4797
+3938,Maillet Voisin S.A.,Confrérie,372
+3939,Gosselin,Fraternité,1626
+3940,Caron,Guilde,4355
+3941,Traore Clerc S.A.R.L.,Association,4681
+3942,Labbé,Fraternité,2873
+3943,Tessier,Ordre,2882
+3944,Cousin Valentin et Fils,Cercle,4549
+3945,Wagner,Ordre,3325
+3946,Martineau,Confrérie,3036
+3947,Denis,Ordre,4271
+3948,Fouquet,Guilde,3729
+3949,Pereira,Fraternité,1760
+3950,Barthelemy SARL,Fraternité,4560
+3951,Gomez Bourgeois SA,Cercle,2757
+3952,Blanc Royer SA,Fraternité,4282
+3953,Marty,Guilde,2334
+3954,Gauthier Dijoux S.A.S.,Ordre,3348
+3955,Poirier,Loge,346
+3956,Aubry,Cercle,2003
+3957,Lombard,Club,3349
+3958,Rousseau Salmon et Fils,Guilde,810
+3959,Marie Bertrand et Fils,Confrérie,309
+3960,Foucher Dupont S.A.R.L.,Club,1661
+3961,Gaudin,Fraternité,3551
+3962,Hamel SA,Fraternité,2587
+3963,Vallée Brunel SA,Club,2691
+3964,Buisson,Confrérie,4558
+3965,Carpentier,Association,1372
+3966,Deschamps,Guilde,2895
+3967,Chauvin SA,Cercle,2493
+3968,Martinez,Fraternité,216
+3969,Peltier,Loge,2865
+3970,Cousin Thomas SARL,Guilde,3565
+3971,Riou Joubert S.A.S.,Association,1864
+3972,Coulon,Loge,313
+3973,Vaillant S.A.R.L.,Club,4665
+3974,Bailly,Club,1804
+3975,Guillet,Fraternité,3760
+3976,Thierry,Confrérie,2348
+3977,Bazin,Loge,4548
+3978,Vallée,Ordre,3369
+3979,Blondel,Ordre,72
+3980,Maillet Marchand S.A.R.L.,Association,230
+3981,Dufour Martinez SARL,Cercle,3566
+3982,Roger,Ordre,2732
+3983,Pages,Fraternité,91
+3984,Leblanc SA,Guilde,4445
+3985,Morin De Sousa SARL,Club,115
+3986,Diaz Girard S.A.S.,Fraternité,3775
+3987,Langlois,Loge,4039
+3988,Sauvage Durand S.A.S.,Cercle,4437
+3989,Petit Gérard SA,Association,1498
+3990,Merle S.A.S.,Fraternité,2440
+3991,Chauveau,Association,217
+3992,Caron SA,Ordre,4823
+3993,Cousin,Cercle,1
+3994,Gaudin Maréchal SA,Club,3938
+3995,Picard Gérard et Fils,Club,1092
+3996,Mary,Fraternité,3502
+3997,Grondin,Association,374
+3998,Dupont,Ordre,1287
+3999,Muller,Cercle,4292
+4000,Poulain,Confrérie,3548
+4001,Bouchet SA,Confrérie,2590
+4002,Delaunay,Cercle,2680
+4003,Nguyen,Cercle,1935
+4004,Ferreira,Ordre,1012
+4005,Guichard,Confrérie,4034
+4006,Roche,Fraternité,4134
+4007,Jacob,Loge,1071
+4008,Caron,Fraternité,1634
+4009,Devaux Dufour SARL,Cercle,2614
+4010,Didier et Fils,Fraternité,2614
+4011,Pierre,Ordre,1023
+4012,Bigot SA,Guilde,4872
+4013,Gérard,Confrérie,2996
+4014,Gay Fernandes S.A.R.L.,Club,4953
+4015,Marion,Association,4931
+4016,Martineau Chauvet SA,Club,1394
+4017,Hoareau,Guilde,478
+4018,Merle,Guilde,989
+4019,Olivier,Ordre,500
+4020,Germain et Fils,Cercle,292
+4021,Fischer,Fraternité,4071
+4022,Guilbert SARL,Confrérie,4613
+4023,Carre De Sousa SARL,Loge,4776
+4024,Lévy,Ordre,1005
+4025,Blanchet,Ordre,4781
+4026,Moulin,Cercle,2411
+4027,Renaud Monnier S.A.R.L.,Cercle,1774
+4028,Lelièvre Lemonnier S.A.,Club,3395
+4029,Pons,Ordre,3506
+4030,Vallet,Loge,352
+4031,Faure,Association,4507
+4032,Petit,Fraternité,4013
+4033,Dupré,Confrérie,2935
+4034,Philippe S.A.,Club,616
+4035,Deschamps,Guilde,110
+4036,Le Roux SARL,Ordre,1802
+4037,Bousquet,Guilde,3484
+4038,Olivier Michaud SARL,Guilde,134
+4039,Godard,Club,2723
+4040,Adam Mahe SA,Guilde,2170
+4041,Texier SA,Confrérie,506
+4042,Carpentier,Fraternité,1586
+4043,Noël Bertrand SARL,Club,3780
+4044,Charles S.A.S.,Loge,3486
+4045,Hamon S.A.R.L.,Fraternité,311
+4046,Roux,Ordre,189
+4047,Louis S.A.,Guilde,2989
+4048,Garnier S.A.,Confrérie,2635
+4049,Antoine S.A.R.L.,Fraternité,3086
+4050,Bertrand,Ordre,2134
+4051,Normand S.A.,Confrérie,1296
+4052,Simon Normand S.A.R.L.,Cercle,3223
+4053,Hoarau Chevallier SA,Loge,515
+4054,Bourdon Masson SARL,Association,3585
+4055,Gillet S.A.S.,Loge,3693
+4056,Delattre,Fraternité,2548
+4057,Lefort S.A.,Guilde,4918
+4058,Reynaud S.A.S.,Confrérie,2763
+4059,Muller,Club,1905
+4060,Durand Camus SARL,Cercle,4622
+4061,Mercier,Fraternité,3028
+4062,Peron et Fils,Cercle,2412
+4063,Pinto S.A.R.L.,Ordre,2121
+4064,Sanchez S.A.R.L.,Fraternité,2303
+4065,Costa Pires SA,Association,4873
+4066,Charles,Fraternité,3046
+4067,Barbe,Club,2294
+4068,Pires,Confrérie,1087
+4069,Perrin,Ordre,2470
+4070,Breton,Association,3205
+4071,Buisson,Association,2853
+4072,Lefort,Guilde,3964
+4073,Alexandre,Confrérie,1763
+4074,Delahaye et Fils,Club,337
+4075,Didier,Fraternité,4423
+4076,Blanchard,Association,3611
+4077,Meyer,Club,621
+4078,Mallet,Cercle,528
+4079,Bernard,Loge,1488
+4080,Olivier,Club,4844
+4081,Garnier SARL,Loge,4107
+4082,Brunet,Cercle,1185
+4083,Maréchal,Cercle,269
+4084,Lemaître Jacquot et Fils,Guilde,1662
+4085,Moreno SARL,Guilde,2916
+4086,Hubert,Association,1631
+4087,Vasseur,Association,2524
+4088,Da Costa,Ordre,523
+4089,Couturier,Ordre,809
+4090,Toussaint S.A.,Ordre,1009
+4091,Boulanger Rivière SARL,Confrérie,1787
+4092,Hebert,Fraternité,2404
+4093,Colin Lopez SA,Guilde,4019
+4094,Joly,Fraternité,4857
+4095,Jacquet et Fils,Ordre,94
+4096,Jacquet Lucas SARL,Club,4868
+4097,Martineau S.A.S.,Confrérie,3312
+4098,Lefebvre S.A.S.,Fraternité,432
+4099,Barbe,Confrérie,743
+4100,Grégoire Lesage S.A.,Club,3138
+4101,Duhamel,Cercle,467
+4102,Bigot,Loge,1440
+4103,Marchal,Ordre,4334
+4104,Bertin,Club,532
+4105,Allain,Confrérie,3589
+4106,Navarro et Fils,Club,2122
+4107,Rodrigues Roche S.A.,Club,1862
+4108,Chrétien,Confrérie,1271
+4109,Raymond Garcia SA,Guilde,4200
+4110,Besson Philippe SA,Club,4764
+4111,Seguin,Fraternité,4404
+4112,Georges,Club,94
+4113,Blanc,Fraternité,1268
+4114,Delmas,Fraternité,3825
+4115,Vasseur,Ordre,9
+4116,Marchal Maury S.A.S.,Confrérie,3281
+4117,Bouvier David SARL,Loge,1289
+4118,Michel,Fraternité,1717
+4119,Chauveau Lefèvre S.A.S.,Guilde,4929
+4120,Merle S.A.,Guilde,4875
+4121,Descamps Gautier et Fils,Cercle,4380
+4122,Dias S.A.,Cercle,3239
+4123,Maury Launay SA,Loge,1686
+4124,Colas,Club,1704
+4125,Grenier,Loge,2346
+4126,Adam Aubert SA,Confrérie,490
+4127,Georges,Guilde,3116
+4128,Boutin,Cercle,3839
+4129,Étienne S.A.R.L.,Confrérie,4641
+4130,Grondin Marques SARL,Confrérie,337
+4131,Leroy,Association,1717
+4132,Marion S.A.R.L.,Loge,628
+4133,Mary,Guilde,2851
+4134,Voisin SA,Loge,2772
+4135,Schneider SA,Club,979
+4136,Becker,Fraternité,1979
+4137,Dias S.A.S.,Club,1893
+4138,Antoine S.A.,Cercle,1071
+4139,Ruiz,Ordre,2918
+4140,Chrétien,Ordre,3316
+4141,Masson,Ordre,3722
+4142,Aubert,Guilde,2925
+4143,Parent S.A.,Guilde,3268
+4144,Dias Schneider S.A.,Club,3362
+4145,Devaux,Guilde,2535
+4146,Delaunay SA,Confrérie,2877
+4147,Delaunay Joubert SARL,Club,146
+4148,Peron SA,Fraternité,4872
+4149,Lesage S.A.R.L.,Guilde,4957
+4150,Fleury,Guilde,299
+4151,Teixeira,Club,3121
+4152,Huet,Confrérie,250
+4153,Devaux,Loge,4705
+4154,Berger S.A.S.,Club,2262
+4155,Mahe SA,Guilde,4541
+4156,Joly,Fraternité,326
+4157,Fouquet Masson S.A.R.L.,Guilde,432
+4158,Clément,Ordre,4932
+4159,Laporte,Ordre,2026
+4160,Faivre,Loge,3420
+4161,Masse,Cercle,4825
+4162,Baron,Club,3673
+4163,Martin,Fraternité,390
+4164,Rémy,Club,3511
+4165,Renault,Confrérie,3953
+4166,Perrot Traore S.A.R.L.,Association,1592
+4167,Gilbert S.A.S.,Guilde,3689
+4168,Techer,Guilde,2555
+4169,Marty,Confrérie,3477
+4170,Lombard,Association,2498
+4171,Brunel et Fils,Ordre,4346
+4172,Lucas,Cercle,3349
+4173,Raymond,Loge,628
+4174,Seguin SARL,Guilde,3964
+4175,Louis Legendre SARL,Fraternité,3292
+4176,Chauveau Barthelemy SARL,Guilde,4690
+4177,Lenoir,Guilde,754
+4178,Moreau S.A.,Fraternité,4759
+4179,Delahaye,Cercle,3630
+4180,Bourgeois Nicolas S.A.,Club,1119
+4181,Poirier S.A.,Fraternité,4814
+4182,Delahaye Imbert S.A.S.,Ordre,4038
+4183,Leblanc Fabre et Fils,Club,521
+4184,Schmitt Regnier S.A.R.L.,Ordre,3627
+4185,Blanchet S.A.R.L.,Ordre,3668
+4186,Mary Schmitt SA,Club,2213
+4187,Besson SARL,Cercle,4477
+4188,Roux,Ordre,4208
+4189,Alves,Association,329
+4190,Le Gall,Fraternité,3939
+4191,Bernier Hoareau SARL,Cercle,1149
+4192,Gay,Cercle,2807
+4193,Mary Huet SARL,Cercle,4568
+4194,Bourdon et Fils,Ordre,3938
+4195,Maurice Barbe et Fils,Club,2645
+4196,Bertin,Association,3337
+4197,Charles Perrot S.A.R.L.,Ordre,715
+4198,Louis,Confrérie,3760
+4199,Legros S.A.R.L.,Cercle,2037
+4200,Ferreira Vasseur SARL,Ordre,157
+4201,Guichard,Association,4986
+4202,Michaud,Ordre,422
+4203,Prévost SA,Ordre,4411
+4204,Diaz Faivre et Fils,Association,2941
+4205,Aubert Gilles SA,Guilde,4484
+4206,Traore,Loge,1415
+4207,Maurice,Fraternité,634
+4208,Duval Nicolas SA,Guilde,1479
+4209,Blanchet,Ordre,3541
+4210,Lefort,Confrérie,902
+4211,Guillou Guilbert SARL,Club,485
+4212,Becker,Fraternité,1435
+4213,Marchal,Ordre,242
+4214,Seguin,Club,4676
+4215,Jacquot,Confrérie,3037
+4216,Georges,Guilde,1230
+4217,Jacquot,Association,1681
+4218,Rocher,Association,4926
+4219,Rey S.A.R.L.,Club,4741
+4220,Chauvet et Fils,Loge,4907
+4221,Roux,Confrérie,851
+4222,Sauvage SA,Ordre,4139
+4223,Rolland,Ordre,3797
+4224,Schmitt,Cercle,815
+4225,Pruvost S.A.,Cercle,2930
+4226,Lebon,Confrérie,2059
+4227,Coste,Ordre,2742
+4228,Rodrigues,Cercle,1849
+4229,Rossi,Loge,3340
+4230,Gaillard Lacombe S.A.R.L.,Ordre,2356
+4231,Poulain Perrin et Fils,Association,760
+4232,Robin Humbert S.A.,Guilde,4556
+4233,Monnier Rey S.A.,Fraternité,2734
+4234,Dupuis SARL,Cercle,2579
+4235,Lemoine S.A.,Fraternité,3544
+4236,Fournier,Loge,2697
+4237,Maillard,Loge,1559
+4238,Ollivier SARL,Fraternité,592
+4239,Vaillant Tanguy S.A.,Loge,3902
+4240,Allard S.A.S.,Guilde,4158
+4241,Brunel,Club,3403
+4242,Caron et Fils,Guilde,1395
+4243,Gaillard SARL,Guilde,1907
+4244,Marty Colas SARL,Ordre,365
+4245,Monnier Gros SARL,Association,364
+4246,Schmitt,Fraternité,162
+4247,Ribeiro,Club,3911
+4248,Lombard Le Roux S.A.,Fraternité,627
+4249,Roche Jacquet S.A.R.L.,Loge,3633
+4250,Thomas Mary S.A.S.,Fraternité,4232
+4251,Leblanc,Confrérie,1609
+4252,Charrier,Association,2078
+4253,Bertin SARL,Fraternité,1976
+4254,David Breton S.A.S.,Club,4983
+4255,Hoareau SA,Loge,2715
+4256,Rodriguez Gomez S.A.S.,Guilde,3324
+4257,Blot Hoarau S.A.R.L.,Cercle,1461
+4258,Lopez SA,Ordre,3688
+4259,Techer Girard S.A.,Club,4962
+4260,Parent Garnier SA,Guilde,1586
+4261,Blanc,Cercle,1850
+4262,Morel Dufour SARL,Club,1258
+4263,Michaud S.A.,Confrérie,4
+4264,Ramos Delannoy S.A.R.L.,Fraternité,1770
+4265,Pages Cordier S.A.S.,Cercle,4150
+4266,Berger SA,Loge,2199
+4267,Lévy et Fils,Fraternité,2969
+4268,Da Costa S.A.R.L.,Guilde,1820
+4269,Léger Poirier et Fils,Confrérie,2862
+4270,Masson,Fraternité,2417
+4271,Olivier,Fraternité,1897
+4272,Rey Raymond S.A.R.L.,Cercle,2294
+4273,Fabre,Guilde,2444
+4274,Gérard,Fraternité,4515
+4275,Pasquier,Guilde,4123
+4276,Guillou,Ordre,205
+4277,Bourdon,Fraternité,960
+4278,Fleury,Loge,4904
+4279,Roche,Ordre,217
+4280,Clément,Fraternité,280
+4281,Foucher,Loge,4891
+4282,Dupuy SA,Cercle,2896
+4283,Lejeune,Fraternité,2039
+4284,Mahe,Club,1163
+4285,Rousset SARL,Club,3972
+4286,Dufour Maréchal S.A.R.L.,Guilde,968
+4287,Noël Mercier SA,Fraternité,737
+4288,Lagarde,Association,3039
+4289,Hernandez S.A.,Confrérie,4735
+4290,Voisin S.A.S.,Loge,263
+4291,Hamon,Cercle,4629
+4292,Gilles SA,Loge,4169
+4293,Collet S.A.R.L.,Club,1504
+4294,Dumont et Fils,Association,1145
+4295,Carre,Ordre,2306
+4296,Gallet S.A.S.,Cercle,2263
+4297,François,Cercle,859
+4298,Grégoire S.A.S.,Loge,507
+4299,Bazin Peltier et Fils,Association,4788
+4300,Langlois Pages S.A.R.L.,Club,2267
+4301,Renault,Loge,4728
+4302,Moreau Leclercq S.A.S.,Club,4159
+4303,Grégoire,Confrérie,1432
+4304,Dumont,Cercle,409
+4305,Reynaud SA,Club,3749
+4306,Gros,Ordre,150
+4307,Charrier S.A.S.,Cercle,2954
+4308,Laurent,Association,408
+4309,Clément,Fraternité,4554
+4310,Bodin Petitjean SARL,Association,4858
+4311,Noël S.A.S.,Fraternité,3412
+4312,Adam Duhamel SARL,Guilde,1042
+4313,Paris,Club,4178
+4314,Voisin et Fils,Club,399
+4315,Lejeune Lacroix SA,Guilde,3651
+4316,Hamon,Association,3853
+4317,Couturier Rousseau SA,Loge,3995
+4318,Henry,Fraternité,552
+4319,Morin S.A.,Confrérie,4682
+4320,Da Silva,Ordre,1715
+4321,Godard,Confrérie,1539
+4322,Leconte,Confrérie,3278
+4323,Sanchez,Club,765
+4324,Duval,Guilde,3963
+4325,Raymond Aubry SARL,Ordre,523
+4326,Moreau,Association,1934
+4327,Joly S.A.,Fraternité,3815
+4328,Marty Carpentier et Fils,Fraternité,2452
+4329,Clerc SARL,Confrérie,2959
+4330,Rodrigues S.A.S.,Confrérie,4047
+4331,Peron,Club,2722
+4332,Lebon De Oliveira S.A.S.,Association,57
+4333,Lefèvre et Fils,Guilde,3844
+4334,Baudry,Fraternité,2442
+4335,Robert Perrot S.A.S.,Ordre,4620
+4336,Renard S.A.,Cercle,1028
+4337,Mahe,Ordre,2028
+4338,Fernandez Le Roux SARL,Association,3416
+4339,Perrin S.A.R.L.,Confrérie,3496
+4340,Georges Langlois S.A.,Cercle,104
+4341,Gaillard,Fraternité,3799
+4342,Lecomte,Confrérie,3075
+4343,Hebert Bodin SARL,Loge,317
+4344,Schneider Gros S.A.,Ordre,2275
+4345,Berger S.A.R.L.,Association,3464
+4346,Breton,Loge,343
+4347,Guillot,Fraternité,3618
+4348,Bernard,Club,655
+4349,Chauvet S.A.S.,Guilde,4927
+4350,Chauveau,Club,2766
+4351,Gomez Robert S.A.,Club,324
+4352,Prévost,Confrérie,1387
+4353,Gallet,Fraternité,706
+4354,Lenoir,Fraternité,4623
+4355,Fernandes,Ordre,3178
+4356,Mary Guyon S.A.R.L.,Fraternité,3131
+4357,Guyot,Fraternité,2269
+4358,Rocher SARL,Loge,5
+4359,Bouvet,Club,1318
+4360,Maurice,Association,414
+4361,Guichard Rousset et Fils,Confrérie,1531
+4362,Lamy,Association,2065
+4363,Joly,Cercle,2240
+4364,Paris,Guilde,4746
+4365,Guillon,Fraternité,3935
+4366,Gaillard SARL,Fraternité,1363
+4367,Faivre,Cercle,2891
+4368,Girard S.A.R.L.,Association,250
+4369,Pages,Fraternité,3381
+4370,Laporte,Fraternité,4849
+4371,Clerc Guibert SARL,Cercle,2671
+4372,Guillet Brun S.A.S.,Confrérie,2494
+4373,Clerc,Club,4162
+4374,Vaillant Rodriguez SA,Association,3895
+4375,Pasquier et Fils,Loge,4224
+4376,Traore,Confrérie,9
+4377,Techer,Fraternité,1711
+4378,Bigot Dufour S.A.,Ordre,3500
+4379,Guillot,Association,431
+4380,Boucher S.A.S.,Association,3253
+4381,Bernard S.A.R.L.,Confrérie,1024
+4382,Ribeiro S.A.,Ordre,1349
+4383,Poulain Maillard S.A.,Confrérie,3146
+4384,Boyer Riou et Fils,Cercle,722
+4385,Potier,Ordre,4563
+4386,Prévost,Association,1811
+4387,Pereira,Guilde,2025
+4388,Lefèvre,Ordre,3847
+4389,Bouvet Benoit SARL,Confrérie,1568
+4390,Valentin,Fraternité,297
+4391,Robert Mercier SARL,Fraternité,3598
+4392,Albert,Cercle,2749
+4393,Roche Petit SARL,Club,2389
+4394,Riou,Club,1447
+4395,Boyer Bourgeois S.A.,Club,4376
+4396,Raynaud SARL,Fraternité,3312
+4397,Toussaint S.A.R.L.,Guilde,4914
+4398,Gautier Martel SARL,Guilde,4914
+4399,Fernandez S.A.S.,Ordre,4847
+4400,Merle,Guilde,1404
+4401,Lopez,Fraternité,3058
+4402,Duhamel et Fils,Association,3110
+4403,Masson Vaillant S.A.,Club,4067
+4404,Bourdon Gautier SA,Ordre,242
+4405,Monnier Tanguy et Fils,Loge,4727
+4406,Jacob Lelièvre et Fils,Association,4838
+4407,Chevalier Rocher S.A.R.L.,Confrérie,1701
+4408,Diaz S.A.S.,Cercle,3629
+4409,Collin Hubert S.A.S.,Fraternité,131
+4410,Blanchet SARL,Club,229
+4411,Marion Charles SA,Club,617
+4412,Boyer,Fraternité,3426
+4413,Simon,Confrérie,99
+4414,Barthelemy,Loge,1231
+4415,Philippe,Ordre,4191
+4416,Lesage,Fraternité,3336
+4417,Boucher,Association,1149
+4418,Courtois,Confrérie,2495
+4419,Fontaine,Fraternité,2467
+4420,Schneider,Club,4388
+4421,Loiseau,Guilde,726
+4422,Gimenez,Confrérie,2378
+4423,Pons,Ordre,1741
+4424,Voisin,Cercle,1193
+4425,Brun,Cercle,1875
+4426,Laroche,Club,34
+4427,Bernard,Ordre,4782
+4428,Klein Neveu S.A.S.,Ordre,471
+4429,Lebrun,Ordre,1960
+4430,Laporte Masson S.A.,Confrérie,488
+4431,Samson,Loge,1625
+4432,Leconte S.A.R.L.,Fraternité,3293
+4433,Besnard SARL,Confrérie,433
+4434,Allain,Fraternité,335
+4435,Blondel,Fraternité,40
+4436,Schmitt,Ordre,908
+4437,Gosselin,Club,3006
+4438,Hervé Descamps S.A.R.L.,Ordre,3230
+4439,Langlois,Confrérie,2089
+4440,Rousset,Association,3456
+4441,Fleury,Association,2950
+4442,Lambert Benard SARL,Ordre,1255
+4443,Fernandez,Association,2131
+4444,Munoz Bouchet S.A.S.,Confrérie,1862
+4445,Mallet Bonnin et Fils,Association,3749
+4446,Joubert Laine S.A.S.,Guilde,2439
+4447,Lemoine Rémy et Fils,Ordre,3840
+4448,Millet,Ordre,4724
+4449,Turpin S.A.S.,Fraternité,4504
+4450,Diaz SARL,Guilde,48
+4451,Pascal Martineau S.A.R.L.,Confrérie,2785
+4452,Cordier SA,Confrérie,3230
+4453,Simon Pruvost S.A.,Cercle,2907
+4454,Lefebvre et Fils,Confrérie,3570
+4455,Alves,Confrérie,2256
+4456,Pasquier S.A.R.L.,Confrérie,1954
+4457,Leroux Léger S.A.,Loge,3279
+4458,Garcia,Fraternité,506
+4459,Guyon SA,Loge,617
+4460,Paris,Club,4035
+4461,Pelletier Lucas SARL,Confrérie,625
+4462,Lebreton,Guilde,1883
+4463,Perez Camus SARL,Loge,680
+4464,Fleury,Cercle,3000
+4465,Normand,Ordre,3932
+4466,Jacob S.A.,Guilde,608
+4467,Jacques,Loge,250
+4468,Courtois Fontaine S.A.,Fraternité,1650
+4469,Leblanc Ribeiro SARL,Association,4573
+4470,Delmas,Guilde,3026
+4471,Garnier,Confrérie,4548
+4472,Le Gall Evrard SA,Fraternité,1050
+4473,Laporte S.A.S.,Loge,1386
+4474,Leclercq S.A.R.L.,Association,4824
+4475,Gérard,Ordre,2933
+4476,Pineau,Fraternité,1288
+4477,Fischer SARL,Cercle,4919
+4478,Léger SARL,Ordre,4025
+4479,Meyer,Cercle,2154
+4480,Michel,Association,4034
+4481,Petitjean,Association,2656
+4482,Traore,Confrérie,3002
+4483,Peron,Confrérie,3926
+4484,Martineau,Loge,2262
+4485,Costa,Ordre,341
+4486,Lopes,Fraternité,4796
+4487,Marty S.A.,Loge,3585
+4488,Vidal,Cercle,3017
+4489,Andre S.A.S.,Association,2901
+4490,Dupont SA,Association,2558
+4491,Boulanger,Club,1059
+4492,Lebon,Cercle,569
+4493,Teixeira S.A.,Fraternité,4099
+4494,Collet Caron et Fils,Confrérie,943
+4495,Gaudin,Loge,2055
+4496,Rivière Lebon et Fils,Ordre,1122
+4497,Barbier S.A.R.L.,Club,4746
+4498,Perrin Ferrand S.A.S.,Cercle,1956
+4499,Guillet Toussaint S.A.S.,Guilde,478
+4500,Laine Delmas et Fils,Club,1883
+4501,Noël Dias S.A.S.,Guilde,4400
+4502,Benard,Cercle,998
+4503,Torres,Club,471
+4504,Rémy Bègue S.A.R.L.,Guilde,2034
+4505,Ledoux S.A.,Cercle,4855
+4506,Leduc Guillaume S.A.S.,Guilde,1571
+4507,Michel S.A.S.,Guilde,2166
+4508,Costa SARL,Association,2437
+4509,Rousset,Cercle,847
+4510,Langlois,Confrérie,3000
+4511,Chevallier,Club,2652
+4512,Hamel Hardy SA,Loge,3594
+4513,Lelièvre,Loge,2548
+4514,Le Roux,Ordre,3615
+4515,De Sousa,Club,3228
+4516,Dumas et Fils,Association,4172
+4517,Bonnet,Loge,4150
+4518,Weber Peron SARL,Loge,566
+4519,Lefèvre Guibert et Fils,Association,1377
+4520,Bailly,Club,4062
+4521,Jacquot S.A.S.,Club,1901
+4522,Roche S.A.,Loge,2412
+4523,Lefort S.A.,Confrérie,530
+4524,Gilles S.A.S.,Cercle,682
+4525,De Oliveira S.A.S.,Association,2689
+4526,Roux,Confrérie,4001
+4527,Hebert Delannoy et Fils,Confrérie,3946
+4528,Boulanger et Fils,Fraternité,1648
+4529,Ramos,Association,2482
+4530,Bousquet S.A.R.L.,Club,2321
+4531,Boutin Buisson et Fils,Fraternité,3768
+4532,Delannoy Maréchal SARL,Club,1700
+4533,Charpentier Tanguy SA,Club,3987
+4534,De Sousa SA,Cercle,1577
+4535,Schmitt,Loge,2752
+4536,Lebreton,Club,815
+4537,Lesage,Association,2556
+4538,Lefèvre S.A.S.,Cercle,154
+4539,Laroche,Guilde,547
+4540,Benoit,Club,983
+4541,Blanchard Ribeiro S.A.R.L.,Association,336
+4542,Hardy,Fraternité,2236
+4543,Renard,Guilde,3342
+4544,Roux,Confrérie,2091
+4545,Bernard,Loge,2530
+4546,Chauvin Lenoir S.A.S.,Guilde,4250
+4547,Léger,Club,3003
+4548,Lesage,Association,4505
+4549,Jacques,Loge,980
+4550,Pottier,Loge,4791
+4551,Mallet Boutin SA,Association,3437
+4552,Julien,Confrérie,3607
+4553,Maréchal,Ordre,4882
+4554,Legrand,Guilde,1637
+4555,Fouquet Meunier SARL,Guilde,3850
+4556,Merle,Association,2552
+4557,Jacquet Leclerc S.A.R.L.,Club,100
+4558,Olivier Costa S.A.,Confrérie,4233
+4559,Gillet,Fraternité,4777
+4560,Thibault Pierre S.A.,Loge,2959
+4561,Maréchal Pereira SARL,Confrérie,68
+4562,Fischer,Ordre,243
+4563,Georges,Club,64
+4564,Gomes,Fraternité,4515
+4565,Blanchard SA,Confrérie,3112
+4566,Coste Martinez S.A.R.L.,Association,2375
+4567,Colas SA,Club,914
+4568,Paul,Club,19
+4569,Maillard Merle SARL,Guilde,4165
+4570,Gauthier SARL,Confrérie,3192
+4571,Meyer S.A.,Cercle,183
+4572,Duval,Fraternité,3407
+4573,Barthelemy,Association,894
+4574,Menard,Fraternité,3852
+4575,Hoarau,Cercle,4648
+4576,Gros,Ordre,542
+4577,Schneider,Ordre,3635
+4578,Julien Bruneau SA,Club,1716
+4579,Hoarau Hernandez S.A.S.,Association,62
+4580,Pottier,Association,3966
+4581,Boucher SA,Association,1505
+4582,Mendès,Loge,1583
+4583,Pires,Cercle,3887
+4584,Breton S.A.R.L.,Loge,4914
+4585,Leroy S.A.R.L.,Fraternité,1834
+4586,Brunet Perrier SARL,Ordre,1636
+4587,Vincent,Association,3149
+4588,Peltier et Fils,Guilde,2459
+4589,Benoit Bouvet S.A.R.L.,Club,4678
+4590,Millet,Fraternité,1539
+4591,Martineau Vidal et Fils,Association,2120
+4592,Pires Millet S.A.,Confrérie,4493
+4593,Germain Regnier SARL,Cercle,4145
+4594,Leblanc,Confrérie,1686
+4595,Pages Rousset S.A.S.,Club,373
+4596,Deschamps Dumont SARL,Loge,77
+4597,Renault Bonneau S.A.S.,Guilde,4681
+4598,Chevallier,Club,2217
+4599,Bonnin S.A.,Loge,2451
+4600,Jean Bouvet SA,Guilde,447
+4601,Pons SA,Confrérie,2993
+4602,Colas SARL,Loge,3020
+4603,Rossi SARL,Fraternité,3800
+4604,Richard Le Goff et Fils,Club,4261
+4605,Morvan Guilbert S.A.S.,Fraternité,4246
+4606,Evrard,Association,1697
+4607,Fischer,Fraternité,4757
+4608,Dumont S.A.R.L.,Guilde,1464
+4609,Hebert SA,Confrérie,2906
+4610,Richard Delahaye et Fils,Guilde,3601
+4611,Didier Michaud S.A.S.,Cercle,2716
+4612,Chevalier,Guilde,2877
+4613,Ledoux Legros S.A.R.L.,Loge,2252
+4614,Descamps,Ordre,1264
+4615,Fontaine,Guilde,3762
+4616,Lelièvre Pineau S.A.R.L.,Cercle,3749
+4617,Rousseau Lejeune S.A.S.,Loge,824
+4618,Salmon S.A.R.L.,Loge,265
+4619,Bernier Renault SARL,Cercle,2477
+4620,Boucher S.A.R.L.,Guilde,1070
+4621,Gimenez,Association,518
+4622,Dupuis,Guilde,1759
+4623,Bruneau S.A.R.L.,Fraternité,2432
+4624,Daniel,Association,3911
+4625,Rousseau S.A.R.L.,Association,3753
+4626,Lefebvre et Fils,Loge,4026
+4627,Gilles,Cercle,2084
+4628,Briand S.A.R.L.,Fraternité,3338
+4629,Blanchet Gérard S.A.,Fraternité,1477
+4630,Laroche,Confrérie,4097
+4631,Fleury,Confrérie,4569
+4632,Morin Guillon SARL,Loge,3898
+4633,Maury,Fraternité,4319
+4634,Pinto Chartier SARL,Loge,317
+4635,Denis,Ordre,1369
+4636,Voisin,Ordre,2874
+4637,Charrier S.A.,Ordre,553
+4638,Hamel Masse SARL,Guilde,4462
+4639,Brunel Marty SARL,Association,284
+4640,Valentin SARL,Cercle,3478
+4641,Guérin,Association,4990
+4642,Lebrun SA,Cercle,1414
+4643,Dupré,Fraternité,1864
+4644,Grégoire Martel S.A.,Club,3837
+4645,Hamel SA,Ordre,1842
+4646,Bousquet Gosselin S.A.R.L.,Guilde,4536
+4647,Tessier S.A.,Guilde,692
+4648,Gosselin S.A.,Ordre,190
+4649,Coulon S.A.S.,Guilde,4973
+4650,Chauvin Teixeira SA,Club,1303
+4651,Chevalier,Loge,3705
+4652,Dupuis Maillot SA,Guilde,4327
+4653,Lefebvre SARL,Ordre,3575
+4654,Torres S.A.R.L.,Confrérie,2206
+4655,Moreno,Confrérie,1004
+4656,Guibert S.A.R.L.,Club,484
+4657,Barbe,Club,2657
+4658,Leroux,Cercle,4472
+4659,Da Silva,Ordre,92
+4660,Diaz,Ordre,320
+4661,Colas,Loge,2934
+4662,Baron S.A.R.L.,Ordre,4535
+4663,Morel SARL,Ordre,1478
+4664,Bailly S.A.R.L.,Confrérie,164
+4665,Delaunay Pages S.A.,Guilde,4775
+4666,Rousset SA,Association,2723
+4667,Legendre Lamy S.A.R.L.,Guilde,817
+4668,Dupont,Cercle,3824
+4669,Jacques,Club,3757
+4670,Mace,Association,2654
+4671,Maillet,Loge,669
+4672,Martel,Loge,4749
+4673,Perrier SARL,Cercle,206
+4674,Boyer,Cercle,4760
+4675,Leclerc,Loge,3709
+4676,Benoit Aubert S.A.,Fraternité,1080
+4677,Camus SA,Loge,1954
+4678,Hubert,Association,2615
+4679,Germain,Loge,2220
+4680,Durand,Loge,4907
+4681,Maillard SA,Fraternité,265
+4682,Dupuy,Cercle,1118
+4683,Verdier SARL,Loge,4181
+4684,Ruiz,Cercle,1127
+4685,Pierre,Loge,23
+4686,Muller SA,Club,956
+4687,Louis,Association,1308
+4688,Ferreira Tessier S.A.R.L.,Guilde,4072
+4689,Leduc,Confrérie,2933
+4690,Brun,Ordre,3139
+4691,Valette SARL,Guilde,1227
+4692,Bertrand,Guilde,2550
+4693,Guichard,Association,1324
+4694,Deschamps S.A.R.L.,Association,2835
+4695,Bernier,Cercle,4917
+4696,Rousseau,Club,3680
+4697,Charles Devaux SA,Loge,3763
+4698,Moulin,Club,2006
+4699,Cordier,Club,2050
+4700,Ferrand S.A.R.L.,Cercle,648
+4701,Dumont Daniel S.A.,Association,395
+4702,Mace SA,Association,2200
+4703,Andre S.A.S.,Ordre,164
+4704,Lévy,Club,2705
+4705,Coste,Fraternité,3596
+4706,Simon,Club,1633
+4707,Colin SARL,Guilde,406
+4708,Weiss,Club,4788
+4709,Le Roux,Guilde,312
+4710,Blondel S.A.,Confrérie,3725
+4711,Grenier S.A.S.,Confrérie,3150
+4712,Julien Jacques S.A.,Association,2045
+4713,Cordier Alves S.A.,Club,4506
+4714,Paris,Confrérie,2493
+4715,Baron,Association,4207
+4716,Breton,Association,2268
+4717,Barre S.A.,Loge,1721
+4718,Colin S.A.R.L.,Fraternité,4718
+4719,Poirier,Ordre,3755
+4720,Couturier,Cercle,839
+4721,Faure Rolland SA,Ordre,1088
+4722,Blin,Loge,1609
+4723,Blin et Fils,Cercle,1331
+4724,Roux et Fils,Ordre,240
+4725,Leblanc Marion et Fils,Confrérie,966
+4726,Germain Laporte S.A.R.L.,Ordre,1531
+4727,Martin,Confrérie,1053
+4728,Barbier,Association,2899
+4729,Salmon SA,Club,4420
+4730,Albert,Guilde,1731
+4731,Buisson Lejeune SARL,Fraternité,2986
+4732,Rodrigues,Loge,136
+4733,Charles et Fils,Fraternité,1457
+4734,Lemaître Cousin et Fils,Club,2679
+4735,Munoz,Association,4432
+4736,Boucher,Fraternité,2433
+4737,Paris S.A.,Cercle,2757
+4738,Caron,Loge,1376
+4739,Aubry Martin S.A.,Association,3818
+4740,Ribeiro,Loge,3290
+4741,Besson,Ordre,3566
+4742,Germain Lebon et Fils,Fraternité,1166
+4743,Maillot,Cercle,4587
+4744,Pascal,Ordre,4890
+4745,Laurent,Guilde,93
+4746,Laporte,Club,1865
+4747,Grenier Ferreira et Fils,Club,3170
+4748,Ruiz S.A.S.,Guilde,617
+4749,Schneider,Association,4433
+4750,Barbe S.A.R.L.,Loge,1084
+4751,Besson Morvan SA,Cercle,1250
+4752,Lebrun,Guilde,4638
+4753,Marchal Marin S.A.,Club,1034
+4754,Couturier S.A.R.L.,Club,4380
+4755,Delannoy SARL,Fraternité,467
+4756,Lopes,Ordre,2878
+4757,Duval Gilbert S.A.S.,Ordre,452
+4758,Dupuis et Fils,Guilde,2956
+4759,Richard Simon et Fils,Fraternité,1117
+4760,Payet S.A.S.,Guilde,4519
+4761,Germain et Fils,Confrérie,1030
+4762,Evrard,Ordre,3808
+4763,Blondel SA,Club,1145
+4764,Da Silva,Fraternité,1171
+4765,Rossi,Ordre,4890
+4766,Thomas Sanchez et Fils,Fraternité,1132
+4767,Marie S.A.R.L.,Fraternité,4869
+4768,Roux S.A.,Club,2707
+4769,Delattre,Loge,89
+4770,Cousin S.A.S.,Cercle,2410
+4771,Bernier,Ordre,4965
+4772,Guillet,Confrérie,4506
+4773,Lebon,Loge,4489
+4774,Roger,Cercle,3090
+4775,Monnier S.A.,Fraternité,2468
+4776,Baron SA,Cercle,1761
+4777,Pages Leclercq et Fils,Cercle,4156
+4778,Delmas S.A.R.L.,Association,503
+4779,Dias S.A.,Fraternité,3436
+4780,Chauvet Cohen S.A.,Ordre,2275
+4781,Martel Payet S.A.S.,Ordre,2115
+4782,Gros François S.A.S.,Ordre,2284
+4783,Antoine Chartier S.A.S.,Guilde,2490
+4784,Aubry Munoz S.A.,Association,2064
+4785,Blanchard Payet SA,Guilde,2097
+4786,Duval,Loge,3799
+4787,Jacquot,Club,849
+4788,Renault Roche SA,Fraternité,2851
+4789,Gauthier,Association,3822
+4790,Denis Gillet SARL,Fraternité,126
+4791,Charpentier François S.A.S.,Ordre,2940
+4792,Potier Lemaître S.A.R.L.,Cercle,3404
+4793,Moreau,Club,2577
+4794,Riou,Cercle,3656
+4795,Devaux,Association,4523
+4796,Chauvin S.A.R.L.,Ordre,2088
+4797,Rodriguez Torres S.A.R.L.,Confrérie,3585
+4798,Maillet Auger SARL,Guilde,1109
+4799,Pelletier SA,Fraternité,553
+4800,Gaudin,Club,849
+4801,Wagner,Loge,1744
+4802,Pelletier,Fraternité,3845
+4803,Giraud Mary et Fils,Association,4422
+4804,Hebert SA,Guilde,4923
+4805,Toussaint S.A.,Association,3384
+4806,Blin,Ordre,3359
+4807,Chartier SA,Association,4229
+4808,Gay,Club,3244
+4809,Barbier,Confrérie,1251
+4810,Brunel Faure SARL,Fraternité,3204
+4811,Guilbert SA,Ordre,544
+4812,Hardy SA,Fraternité,619
+4813,Gillet,Association,836
+4814,Toussaint,Confrérie,1233
+4815,Guilbert,Cercle,4797
+4816,Leleu,Loge,2685
+4817,Besson Jacques et Fils,Loge,4245
+4818,Barre SA,Ordre,3166
+4819,Lemaire Bourgeois S.A.,Fraternité,3406
+4820,Lévêque,Cercle,1103
+4821,Baudry,Loge,2547
+4822,Besnard,Guilde,3871
+4823,Rossi,Fraternité,4634
+4824,François et Fils,Confrérie,1830
+4825,Marin,Fraternité,4130
+4826,Delaunay,Guilde,1151
+4827,Marie Perrier S.A.S.,Guilde,1867
+4828,Nguyen,Fraternité,4783
+4829,Ferrand,Club,3845
+4830,Colin,Ordre,32
+4831,Leroux,Fraternité,1242
+4832,Guyot S.A.,Loge,3202
+4833,Leclercq,Association,3365
+4834,Camus Bazin S.A.,Loge,1570
+4835,Blanchard Benoit et Fils,Club,4527
+4836,Hoarau De Oliveira SA,Ordre,1905
+4837,Guyot Daniel S.A.,Fraternité,2510
+4838,Moreau,Association,4813
+4839,Mathieu Le Goff S.A.,Loge,2371
+4840,Denis,Association,2297
+4841,Gimenez Toussaint S.A.,Guilde,363
+4842,Rousseau,Loge,629
+4843,Marchal,Fraternité,321
+4844,Marty,Loge,561
+4845,Bailly,Ordre,2100
+4846,Barre,Ordre,2904
+4847,Boulay Lefebvre S.A.,Cercle,925
+4848,Lemaire SA,Cercle,3984
+4849,Michaud et Fils,Club,599
+4850,Monnier,Fraternité,1480
+4851,Rodrigues SARL,Cercle,1074
+4852,Payet S.A.,Guilde,2171
+4853,Mathieu,Fraternité,4207
+4854,Regnier Étienne S.A.S.,Association,514
+4855,Verdier S.A.S.,Guilde,1113
+4856,Gillet Briand S.A.,Confrérie,3272
+4857,Imbert SA,Club,309
+4858,Perez Robert et Fils,Loge,373
+4859,Guilbert,Loge,2042
+4860,Carlier Gallet S.A.R.L.,Guilde,2696
+4861,Delahaye Weiss S.A.S.,Loge,4217
+4862,Olivier,Guilde,2712
+4863,Bouchet Fernandez SA,Cercle,3561
+4864,Gimenez Texier S.A.S.,Confrérie,263
+4865,Simon S.A.,Club,639
+4866,Martel Louis S.A.S.,Ordre,2342
+4867,Mahe,Loge,4814
+4868,Barthelemy,Loge,3125
+4869,Vaillant et Fils,Guilde,1000
+4870,Gros et Fils,Fraternité,3741
+4871,Laine Gaillard et Fils,Cercle,4586
+4872,Munoz,Confrérie,3450
+4873,Langlois Lejeune S.A.,Confrérie,1055
+4874,Barthelemy,Association,231
+4875,Hernandez,Cercle,4659
+4876,Baron,Fraternité,1588
+4877,Berger,Loge,2981
+4878,Laine Ferrand et Fils,Ordre,2251
+4879,Blanchard SARL,Cercle,2615
+4880,Ollivier,Cercle,2727
+4881,Gaillard S.A.,Guilde,4403
+4882,Baudry,Ordre,4073
+4883,Nguyen,Club,1178
+4884,Devaux,Cercle,601
+4885,Pereira SARL,Fraternité,4983
+4886,Pons,Loge,3842
+4887,Vasseur Charles S.A.R.L.,Club,1115
+4888,Garcia,Loge,3843
+4889,Coulon,Cercle,1123
+4890,Chevalier S.A.R.L.,Association,2337
+4891,Potier SA,Ordre,2856
+4892,Teixeira S.A.S.,Loge,380
+4893,Berger,Confrérie,3316
+4894,Delattre Alexandre S.A.S.,Association,217
+4895,Martins S.A.S.,Fraternité,2579
+4896,Seguin,Cercle,382
+4897,Ollivier SA,Ordre,907
+4898,Poulain et Fils,Association,2958
+4899,Leroux S.A.R.L.,Ordre,1423
+4900,Lesage SARL,Loge,550
+4901,Lucas,Loge,2847
+4902,Grégoire Louis et Fils,Club,4564
+4903,Lebreton et Fils,Ordre,1298
+4904,Lombard,Ordre,4717
+4905,Grégoire Roussel S.A.R.L.,Association,732
+4906,Navarro Hubert SA,Cercle,3994
+4907,Baron,Confrérie,3510
+4908,Lamy et Fils,Ordre,3291
+4909,Bazin S.A.S.,Loge,2496
+4910,Fernandes Ledoux SA,Guilde,273
+4911,Chartier,Confrérie,3837
+4912,Barre,Cercle,1648
+4913,Pelletier,Guilde,3859
+4914,Fabre Pinto S.A.S.,Guilde,944
+4915,Bouvet,Fraternité,4916
+4916,Peltier Laine SARL,Association,1899
+4917,Bonneau Verdier S.A.R.L.,Ordre,454
+4918,Paris S.A.,Loge,2014
+4919,Le Gall,Confrérie,4092
+4920,Grondin Gaudin S.A.S.,Association,1937
+4921,Gallet,Loge,2444
+4922,Launay SA,Cercle,4714
+4923,Lebreton Charpentier SA,Cercle,781
+4924,Pineau,Ordre,4471
+4925,Robin,Fraternité,3277
+4926,Boutin,Association,2628
+4927,Huet Weber S.A.S.,Club,1938
+4928,Marie,Guilde,3114
+4929,Moreno S.A.R.L.,Confrérie,3352
+4930,Pelletier et Fils,Fraternité,4653
+4931,Couturier,Fraternité,2942
+4932,Renault Diallo SA,Confrérie,2070
+4933,Bouvier,Confrérie,1436
+4934,Valentin S.A.R.L.,Fraternité,2096
+4935,Lévy Martin S.A.,Guilde,1860
+4936,Guillot Moreau S.A.,Confrérie,1771
+4937,David Pelletier SA,Fraternité,3982
+4938,Leleu,Association,4579
+4939,Hubert Cohen S.A.,Cercle,2935
+4940,Moreno,Cercle,3008
+4941,Rocher SARL,Cercle,5
+4942,Pierre S.A.R.L.,Club,2931
+4943,Henry,Guilde,717
+4944,Grégoire,Ordre,3526
+4945,Vidal,Fraternité,317
+4946,Laine,Ordre,1105
+4947,Tanguy Blanc SA,Cercle,867
+4948,Lefèvre S.A.,Ordre,3973
+4949,Bailly,Ordre,1049
+4950,Antoine Camus S.A.S.,Club,4544
+4951,Dupuis Gosselin et Fils,Association,1604
+4952,Moreau Blot S.A.R.L.,Loge,3601
+4953,Chevalier Delattre S.A.S.,Club,4825
+4954,Pages Girard SA,Guilde,3498
+4955,Carpentier Boutin SARL,Guilde,3881
+4956,Guillot Petit S.A.,Confrérie,58
+4957,Durand,Guilde,1708
+4958,Dupré SARL,Fraternité,996
+4959,Lecomte et Fils,Association,2175
+4960,Lecoq SA,Association,2845
+4961,Ledoux,Guilde,1492
+4962,Monnier,Cercle,2314
+4963,Marchand,Cercle,4752
+4964,Roux S.A.R.L.,Association,3101
+4965,Valentin Lefebvre SARL,Club,1580
+4966,Charpentier S.A.,Guilde,4630
+4967,Andre,Association,1953
+4968,Blanchard,Guilde,2596
+4969,Chevalier Schmitt et Fils,Fraternité,3695
+4970,Meunier,Ordre,215
+4971,Guyot,Fraternité,4070
+4972,Sanchez S.A.R.L.,Ordre,1117
+4973,Renault,Loge,3791
+4974,Leleu,Club,3562
+4975,Lopez,Fraternité,542
+4976,Boulay S.A.S.,Fraternité,1134
+4977,Dumont S.A.S.,Confrérie,3303
+4978,Simon,Ordre,4103
+4979,Cohen Noël SARL,Loge,450
+4980,Laroche Pruvost et Fils,Cercle,339
+4981,Martel Barbier SA,Club,3435
+4982,Paris S.A.R.L.,Cercle,1336
+4983,Blondel,Loge,598
+4984,Hardy,Loge,2349
+4985,Rivière,Loge,4829
+4986,Bernard,Guilde,1553
+4987,Guyot Millet S.A.,Cercle,1562
+4988,Pires,Cercle,1386
+4989,Breton Robin SARL,Ordre,2545
+4990,Mercier,Ordre,48
+4991,Richard S.A.,Fraternité,1167
+4992,Gonzalez,Fraternité,1137
+4993,Aubry,Ordre,1428
+4994,Olivier,Loge,1980
+4995,Bourdon,Loge,2794
+4996,Bigot Gillet S.A.R.L.,Confrérie,5
+4997,Dubois Reynaud SA,Confrérie,974
+4998,Dupuy Renaud S.A.R.L.,Club,4485
+4999,Vasseur,Association,4187
+5000,Fontaine,Guilde,2459
