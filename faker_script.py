@@ -96,9 +96,29 @@ RANGS = [
     (10, "Rang royal"),
 ]
 
-# 8 types d'organisation officiels
-TYPES_ORGA = ["Ordre", "Club", "Association", "Confrérie",
-              "Guilde", "Loge", "Cercle", "Fraternité"]
+# 8 types d'organisation — distribution réaliste (clubs et associations majoritaires)
+TYPES_ORGA   = ["Club", "Association", "Guilde", "Loge",
+                 "Cercle", "Confrérie", "Ordre", "Fraternité"]
+POIDS_ORGA   = [0.30,   0.25,          0.15,    0.12,
+                 0.08,   0.05,          0.03,    0.02]
+
+# Grades — distribution pyramidale (30% Apprenti → 1% Chancelier)
+# Correspond à IdGr 1..10 dans l'ordre des GRADES
+POIDS_GRADES = [0.30, 0.20, 0.15, 0.10, 0.08, 0.06, 0.04, 0.03, 0.02, 0.01]
+
+# Types d'aliment — distribution réaliste (épices et herbes majoritaires)
+POIDS_CATALOGUE = {
+    "Épice":           0.20,
+    "Herbe":           0.15,
+    "Légume":          0.15,
+    "Légumineuse":     0.12,
+    "Viande":          0.10,
+    "Céréale":         0.10,
+    "Fruit":           0.08,
+    "Champignon":      0.05,
+    "Poisson":         0.03,
+    "Produit laitier": 0.02,
+}
 
 # Mapping sémantique nom_base → type_aliment
 # Chaque composant aura un type cohérent avec son nom dès la génération
@@ -136,6 +156,43 @@ def _rand_date(start_year=2000, end_year=2024) -> str:
     start = date(start_year, 1, 1)
     delta = (date(end_year, 12, 31) - start).days
     return (start + timedelta(days=_RNG.randint(0, delta))).strftime("%Y-%m-%d")
+
+def _rand_date_repas(start_year=2000, end_year=2024) -> str:
+    """
+    Date de repas concentrée au printemps (mars-avril) et automne (oct-nov),
+    avec une tendance croissante : les années récentes ont plus de repas.
+    """
+    # Tendance croissante : on tire l'année avec un biais vers les années récentes
+    annees = list(range(start_year, end_year + 1))
+    poids  = [i ** 1.5 for i in range(1, len(annees) + 1)]
+    total  = sum(poids)
+    poids  = [p / total for p in poids]
+    annee  = _RNG.choices(annees, weights=poids, k=1)[0]
+
+    # Saisons : 60% printemps/automne, 40% reste de l'année
+    if _RNG.random() < 0.60:
+        # Printemps (mars-avril) ou automne (oct-nov)
+        if _RNG.random() < 0.50:
+            mois = _RNG.choice([3, 4])
+        else:
+            mois = _RNG.choice([10, 11])
+    else:
+        mois = _RNG.randint(1, 12)
+
+    # Jour valide pour le mois
+    import calendar
+    max_jour = calendar.monthrange(annee, mois)[1]
+    jour = _RNG.randint(1, max_jour)
+    return date(annee, mois, jour).strftime("%Y-%m-%d")
+
+def _date_apres_repas(date_repas_str: str) -> str:
+    """
+    Date d'entretien = date du repas + 0 à 30 jours.
+    Les machines ayant servi pour un repas sont entretenues juste après.
+    """
+    d = date.fromisoformat(date_repas_str)
+    d_entretien = d + timedelta(days=_RNG.randint(0, 30))
+    return d_entretien.strftime("%Y-%m-%d")
 
 def _siret() -> int:
     return _RNG.randint(1_000_000_000, 9_999_999_999)
@@ -259,18 +316,31 @@ def gen_territoire(n: int):
         yield (i, _nom_territoire())
 
 def gen_repas(n: int):
+    """Dates concentrées printemps/automne avec tendance croissante dans le temps."""
     for i in range(1, n + 1):
-        yield (i, _nom_repas(), _rand_date(), _adresse(), _nom_chevalier())
+        yield (i, _nom_repas(), _rand_date_repas(), _adresse(), _nom_chevalier())
 
 def gen_composant(n: int):
     """
-    Type_aliment toujours cohérent avec le nom.
-    Ex : Chou frisé → Légume, Agneau rôti → Viande.
-    On tire un item du catalogue, puis on lui donne un numéro unique.
+    Type_aliment cohérent avec le nom ET distribué selon POIDS_CATALOGUE
+    (épices et herbes majoritaires, poisson et produit laitier rares).
     """
+    # Construire la liste pondérée une seule fois
+    types_disponibles = list(POIDS_CATALOGUE.keys())
+    poids_liste       = list(POIDS_CATALOGUE.values())
+
+    # Regrouper le catalogue par type pour le tirage pondéré
+    catalogue_par_type: dict[str, list[str]] = {}
+    for nom_base, type_ali in COMPOSANTS_CATALOGUE:
+        catalogue_par_type.setdefault(type_ali, []).append(nom_base)
+
     for i in range(1, n + 1):
-        nom_base, type_aliment = _RNG.choice(COMPOSANTS_CATALOGUE)
-        nom = f"{nom_base} #{_RNG.randint(1, 999)}"[:50]
+        # Tirer le type selon les poids
+        type_aliment = _RNG.choices(types_disponibles, weights=poids_liste, k=1)[0]
+        # Tirer un nom dans ce type (fallback si le type n'a pas de nom dédié)
+        noms_dispo = catalogue_par_type.get(type_aliment, ["Composant"])
+        nom_base   = _RNG.choice(noms_dispo)
+        nom        = f"{nom_base} #{_RNG.randint(1, 999)}"[:50]
         yield (i, type_aliment, nom, _allergene(type_aliment))
 
 def gen_sauce(n: int, max_idc: int):
@@ -301,9 +371,10 @@ def gen_modele(n: int):
         yield (i, _nom_modele())
 
 def gen_organisation(n: int, max_idt: int):
-    """type_orga limité aux 8 types officiels dès la génération."""
+    """type_orga distribué selon POIDS_ORGA (Club/Association majoritaires, Ordre/Fraternité rares)."""
     for i in range(1, n + 1):
-        yield (i, _nom_orga()[:50], _RNG.choice(TYPES_ORGA), _RNG.randint(1, max_idt))
+        type_orga = _RNG.choices(TYPES_ORGA, weights=POIDS_ORGA, k=1)[0]
+        yield (i, _nom_orga()[:50], type_orga, _RNG.randint(1, max_idt))
 
 def gen_ordre(n: int, orga_ids: list):
     pool = orga_ids[:]
@@ -327,21 +398,22 @@ def gen_club(n: int, orga_ids: list, ordre_orga_ids: list):
 
 def gen_membre(n: int):
     """
-    CodeMembre : entier auto-incrémenté (1, 2, 3...) — pas de chaîne MBR-XXXX.
-    IdGr       : tiré parmi les 10 grades nommés (1..10) obligatoirement.
-    IdD, IdTi, IdRa : tirés parmi les 10 valeurs nommées, optionnels.
+    CodeMembre : entier auto-incrémenté.
+    IdGr       : distribution pyramidale — 30% Apprenti, 1% Chancelier.
+    IdD, IdTi, IdRa : optionnels, distribués uniformément sur 1..10.
     """
+    ids_grades = [g[0] for g in GRADES]   # [1, 2, ..., 10]
     for i in range(1, n + 1):
         yield (
-            i,                                                          # CodeMembre entier
+            i,
             _nom_membre(),
             _adresse(),
             _courriel(),
             _num_tel(),
-            _RNG.randint(1, 10) if _RNG.random() > 0.1 else None,     # IdD optionnel
-            _RNG.randint(1, 10) if _RNG.random() > 0.1 else None,     # IdTi optionnel
-            _RNG.randint(1, 10) if _RNG.random() > 0.1 else None,     # IdRa optionnel
-            _RNG.randint(1, 10),                                        # IdGr obligatoire
+            _RNG.randint(1, 10) if _RNG.random() > 0.1 else None,
+            _RNG.randint(1, 10) if _RNG.random() > 0.1 else None,
+            _RNG.randint(1, 10) if _RNG.random() > 0.1 else None,
+            _RNG.choices(ids_grades, weights=POIDS_GRADES, k=1)[0],   # pyramide
         )
 
 def gen_groupe(n: int, max_idr: int):
@@ -352,9 +424,18 @@ def gen_plat(n: int, max_idl: int):
     for i in range(1, n + 1):
         yield (i, _RNG.randint(1, max_idl) if _RNG.random() > 0.15 else None)
 
-def gen_entretien(n: int, max_codemembre: int):
+def gen_entretien(n: int, max_codemembre: int, dates_repas: list):
+    """
+    60% des entretiens ont lieu dans les 30 jours suivant un repas (corrélation).
+    40% ont une date indépendante.
+    """
     for i in range(1, n + 1):
-        yield (i, _rand_date(), _RNG.randint(1, max_codemembre))
+        if dates_repas and _RNG.random() < 0.60:
+            date_base = _RNG.choice(dates_repas)
+            date_cert = _date_apres_repas(date_base)
+        else:
+            date_cert = _rand_date()
+        yield (i, date_cert, _RNG.randint(1, max_codemembre))
 
 # ---------------------------------------------------------------------------
 # Tables d'association
@@ -546,7 +627,8 @@ def build_all(n: int, output: str, out_dir: Path, tables_filter=None):
 
     groupes = run("Groupe", gen_groupe(n_ref, max(1, len(repas_rows))))
     plats   = run("plat",   gen_plat(n_ref, max(1, len(legumes))))
-    entrets = run("Entretien", gen_entretien(n_ref, n_main))
+    dates_repas = [r[2] for r in repas_rows] if repas_rows else []
+    entrets = run("Entretien", gen_entretien(n_ref, n_main, dates_repas))
 
     # ---- Clés ----
     sirets      = [r[0] for r in organismes] or [1234567890]
