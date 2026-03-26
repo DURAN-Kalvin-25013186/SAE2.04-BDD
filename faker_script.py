@@ -1,32 +1,26 @@
 """
-Faker MLD v2 — Générateur de données de test (MLD corrigé)
-Génère jusqu'à 1 000 000 de tuples pour chaque table.
+Faker MLD v3 — Générateur de données propres (aucun fix nécessaire)
+===================================================================
+Toutes les corrections des scripts fix_* sont intégrées directement :
 
-Corrections prises en compte :
-  - Sauce et Ingrédient ont chacune leur propre PK (idS, idI)
-  - Comporte lie Sauce ↔ Ingrédient (plus d'autoréférence ambiguë)
-  - Légume reste indépendant, référencé optionnellement par plat
-  - Club a sa propre PK (IdClub) + FK vers organisation parente optionnelle
-  - Ordre a sa propre PK (IdOrdre) + FK vers organisation
-  - Historique_entretien a date_entretien DATE (plus VARCHAR)
-  - grade/Titre/Dignité/rang ont un libellé
-  - Entretien.certificat_entretien est DATE (pas TIMESTAMP)
+  - grade, Titre, Dignite, rang : exactement 10 valeurs nommées, jamais plus
+  - composant : type_aliment cohérent avec le nom (Agneau rôti → Viande, etc.)
+  - organisation : type_orga limité aux 8 types officiels
+  - Membre : CodeMembre entier auto-incrémenté (1, 2, 3...)
+  - Legume : noms cohérents tirés d'une liste fixe
 
 Usage:
-    python faker_mld_v2.py                          # 1 000 tuples (tables principales)
-    python faker_mld_v2.py --rows 100000            # 100 000 tuples
-    python faker_mld_v2.py --rows 1000000           # 1 million
-    python faker_mld_v2.py --table Membre --rows 5000
-    python faker_mld_v2.py --output sql             # INSERT SQL
-    python faker_mld_v2.py --output json            # JSON
-    python faker_mld_v2.py --output csv             # CSV (défaut)
-    python faker_mld_v2.py --rows 500000 --out-dir ./data
+    python faker_mld_v3.py                          # 1 000 tuples
+    python faker_mld_v3.py --rows 1000000           # 1 million
+    python faker_mld_v3.py --output sql             # INSERT SQL
+    python faker_mld_v3.py --output json            # JSON
+    python faker_mld_v3.py --out-dir ./data         # dossier personnalisé
+    python faker_mld_v3.py --seed 42                # reproductible
 """
 
 import argparse
 import csv
 import json
-import os
 import random
 import string
 import sys
@@ -44,6 +38,95 @@ except ImportError:
     _FAKER = None
 
 _RNG = random.Random()
+
+# ---------------------------------------------------------------------------
+# Tables de référence fixes — exactement les valeurs nommées, jamais plus
+# ---------------------------------------------------------------------------
+
+# 10 grades nommés — CodeMembre sera limité à 1..10
+GRADES = [
+    (1,  "Apprenti"),
+    (2,  "Compagnon"),
+    (3,  "Maître"),
+    (4,  "Grand Maître"),
+    (5,  "Archonte"),
+    (6,  "Sénéchal"),
+    (7,  "Connétable"),
+    (8,  "Maréchal"),
+    (9,  "Chambellan"),
+    (10, "Chancelier"),
+]
+
+TITRES = [
+    (1,  "Chevalier"),
+    (2,  "Dame"),
+    (3,  "Ecuyer"),
+    (4,  "Damoiselle"),
+    (5,  "Banneret"),
+    (6,  "Bachelier"),
+    (7,  "Paladin"),
+    (8,  "Preux"),
+    (9,  "Prude Femme"),
+    (10, "Vassal"),
+]
+
+DIGNITES = [
+    (1,  "Noble"),
+    (2,  "Roturier"),
+    (3,  "Bourgeois"),
+    (4,  "Anobli"),
+    (5,  "Vassal"),
+    (6,  "Suzerain"),
+    (7,  "Seigneur"),
+    (8,  "Baron"),
+    (9,  "Vicomte"),
+    (10, "Comte"),
+]
+
+RANGS = [
+    (1,  "Premier rang"),
+    (2,  "Deuxième rang"),
+    (3,  "Troisième rang"),
+    (4,  "Rang d'honneur"),
+    (5,  "Rang de table"),
+    (6,  "Rang de cérémonie"),
+    (7,  "Rang militaire"),
+    (8,  "Rang civil"),
+    (9,  "Rang épiscopal"),
+    (10, "Rang royal"),
+]
+
+# 8 types d'organisation officiels
+TYPES_ORGA = ["Ordre", "Club", "Association", "Confrérie",
+              "Guilde", "Loge", "Cercle", "Fraternité"]
+
+# Mapping sémantique nom_base → type_aliment
+# Chaque composant aura un type cohérent avec son nom dès la génération
+COMPOSANTS_CATALOGUE = [
+    ("Agneau rôti",       "Viande"),
+    ("Canard fumé",       "Viande"),
+    ("Venaison",          "Viande"),
+    ("Mouton braisé",     "Viande"),
+    ("Carpe dorée",       "Poisson"),
+    ("Brochet en gelée",  "Poisson"),
+    ("Navet confit",      "Légume"),
+    ("Chou frisé",        "Légume"),
+    ("Pomme sauvage",     "Fruit"),
+    ("Verjus",            "Fruit"),
+    ("Épeautre",          "Céréale"),
+    ("Fromage affiné",    "Produit laitier"),
+    ("Safran",            "Épice"),
+    ("Poivre long",       "Épice"),
+    ("Épices orientales", "Épice"),
+    ("Lentilles du Puy",  "Légumineuse"),
+    ("Truffe noire",      "Champignon"),
+    ("Romarin",           "Herbe"),
+    ("Thym sauvage",      "Herbe"),
+]
+
+# Légumes cohérents
+LEGUMES = ["Carotte", "Navet", "Panais", "Poireau", "Chou", "Betterave",
+           "Raifort", "Salsifis", "Artichaut", "Topinambour", "Ail", "Oignon"]
 
 # ---------------------------------------------------------------------------
 # Générateurs de valeurs primitives
@@ -92,61 +175,23 @@ def _nom_chevalier() -> str:
                "Pendragon", "Le Fay", "de Cornouailles", "des Îles", "de Lyonesse"]
     return f"{_RNG.choice(prenoms)} {_RNG.choice(noms)}"[:50]
 
-# Libellés pour les tables de référence
-_LIBELLES = {
-    "grade":   ["Apprenti", "Compagnon", "Maître", "Grand Maître", "Archonte",
-                "Sénéchal", "Connétable", "Maréchal", "Chambellan", "Chancelier"],
-    "Titre":   ["Chevalier", "Dame", "Ecuyer", "Damoiselle", "Banneret",
-                "Bachelier", "Paladin", "Preux", "Prude Femme", "Vassal"],
-    "Dignite": ["Noble", "Roturier", "Bourgeois", "Anobli", "Vassal",
-                "Suzerain", "Seigneur", "Baron", "Vicomte", "Comte"],
-    "rang":    ["Premier rang", "Deuxième rang", "Troisième rang", "Rang d'honneur",
-                "Rang de table", "Rang de cérémonie", "Rang militaire",
-                "Rang civil", "Rang épiscopal", "Rang royal"],
-}
-
-def _libelle(table: str, i: int) -> str:
-    opts = _LIBELLES.get(table, [])
-    if opts and i <= len(opts):
-        return opts[i - 1]
-    return f"{table.capitalize()} #{i}"
-
-def _type_aliment() -> str:
-    return _RNG.choice(["Viande", "Poisson", "Légume", "Fruit", "Céréale",
-                        "Produit laitier", "Épice", "Légumineuse", "Champignon", "Herbe"])
-
-def _nom_composant() -> str:
-    items = ["Agneau rôti", "Carpe dorée", "Navet confit", "Pomme sauvage",
-             "Épeautre", "Fromage affiné", "Safran", "Lentilles du Puy",
-             "Truffe noire", "Romarin", "Thym sauvage", "Poivre long",
-             "Canard fumé", "Brochet en gelée", "Chou frisé",
-             "Épices orientales", "Verjus", "Venaison", "Mouton braisé"]
-    return (_RNG.choice(items) + f" #{_RNG.randint(1,999)}")[:50]
-
-def _allergene() -> str:
-    a = ["Gluten", "Lactose", "Arachides", "Fruits à coque", "Soja",
-         "Œufs", "Poisson", "Crustacés", "Céleri", "Moutarde",
-         "Sésame", "Sulfites", "Lupin", "Mollusques"]
-    k = _RNG.randint(0, 3)
-    return (", ".join(_RNG.sample(a, k)) if k else "Aucun")[:50]
-
-def _nom_sauce() -> str:
-    sauces = ["Cameline", "Verjus aux épices", "Galentine", "Sauce Robert",
-              "Jance au gingembre", "Dodine blanche", "Sauce noire",
-              "Aigre-doux médiéval", "Coulis d'herbes", "Hypocras réduit"]
-    return (_RNG.choice(sauces) + f" #{_RNG.randint(1,999)}")[:50]
-
-def _nom_ingredient() -> str:
-    ingredients = ["Fleur de sel", "Poivre long", "Gingembre frais",
-                   "Cannelle", "Muscade", "Clou de girofle", "Safran",
-                   "Verjus", "Vinaigre de vin", "Miel sauvage",
-                   "Persil plat", "Ail nouveau", "Oignon blanc"]
-    return (_RNG.choice(ingredients) + f" #{_RNG.randint(1,999)}")[:50]
-
-def _nom_legume() -> str:
-    legumes = ["Carotte", "Navet", "Panais", "Poireau", "Chou", "Betterave",
-               "Raifort", "Salsifis", "Artichaut", "Topinambour", "Ail", "Oignon"]
-    return _RNG.choice(legumes)
+def _allergene(type_aliment: str) -> str:
+    """Retourne des allergènes cohérents avec le type d'aliment du composant."""
+    _ALLERGENES_PAR_TYPE = {
+        "Viande":          ["Céleri", "Sulfites", "Moutarde", "Gluten", "Oeufs"],
+        "Poisson":         ["Poisson", "Gluten", "Sulfites", "Céleri", "Moutarde"],
+        "Légume":          ["Céleri", "Gluten", "Sulfites", "Soja", "Lupin", "Moutarde"],
+        "Fruit":           ["Fruits à coque", "Sulfites", "Arachides", "Soja"],
+        "Céréale":         ["Gluten", "Soja", "Fruits à coque", "Arachides", "Lupin"],
+        "Produit laitier": ["Lactose", "Gluten", "Oeufs"],
+        "Épice":           ["Moutarde", "Sésame", "Sulfites", "Céleri", "Gluten"],
+        "Légumineuse":     ["Arachides", "Soja", "Lupin", "Gluten", "Sulfites", "Céleri"],
+        "Champignon":      ["Sulfites", "Céleri", "Gluten"],
+        "Herbe":           ["Céleri", "Sulfites", "Gluten"],
+    }
+    candidats = _ALLERGENES_PAR_TYPE.get(type_aliment, ["Gluten", "Sulfites", "Céleri"])
+    k = _RNG.randint(0, min(3, len(candidats)))
+    return (", ".join(_RNG.sample(candidats, k)) if k else "Aucun")[:50]
 
 def _nom_machine() -> str:
     types = ["Presse", "Tour", "Fraiseuse", "Perceuse", "Robot", "Convoyeur",
@@ -165,8 +210,7 @@ def _courriel() -> str:
     if _FAKER:
         return _FAKER.email()[:50]
     domains = ["chevalerie.fr", "ordre.eu", "table-ronde.com", "preux.org"]
-    user = f"user{_RNG.randint(1000,99999)}"
-    return f"{user}@{_RNG.choice(domains)}"[:50]
+    return f"user{_RNG.randint(1000,99999)}@{_RNG.choice(domains)}"[:50]
 
 def _num_tel() -> str:
     if _FAKER:
@@ -178,16 +222,28 @@ def _nom_orga() -> str:
         return _FAKER.company()[:50]
     return _raison_sociale()[:50]
 
-def _type_orga() -> str:
-    return _RNG.choice(["Ordre", "Club", "Association", "Confrérie",
-                        "Guilde", "Loge", "Cercle", "Fraternité"])
-
 # ---------------------------------------------------------------------------
 # Générateurs de tables
 # ---------------------------------------------------------------------------
 
+def gen_grade():
+    """Exactement 10 grades nommés — jamais plus."""
+    yield from GRADES
+
+def gen_titre():
+    """Exactement 10 titres nommés — jamais plus."""
+    yield from TITRES
+
+def gen_dignite():
+    """Exactement 10 dignités nommées — jamais plus."""
+    yield from DIGNITES
+
+def gen_rang():
+    """Exactement 10 rangs nommés — jamais plus."""
+    yield from RANGS
+
 def gen_organisme(n: int):
-    """SIRET NUMBER(10), raison_sociale VARCHAR2(50)"""
+    """SIRET unique, raison_sociale cohérente."""
     seen = set()
     i = 0
     while i < n:
@@ -199,140 +255,116 @@ def gen_organisme(n: int):
         i += 1
 
 def gen_territoire(n: int):
-    """IdT NUMBER(10), nom_territoire VARCHAR2(50)"""
     for i in range(1, n + 1):
         yield (i, _nom_territoire())
 
 def gen_repas(n: int):
-    """IdR, nom_repas, date_repas DATE, adr_repas, nom_chevalier_dame"""
     for i in range(1, n + 1):
         yield (i, _nom_repas(), _rand_date(), _adresse(), _nom_chevalier())
 
-def gen_grade(n: int):
-    """IdGr NUMBER(10), libelle VARCHAR2(50)"""
-    for i in range(1, n + 1):
-        yield (i, _libelle("grade", i))
-
-def gen_titre(n: int):
-    """IdTi NUMBER(10), libelle VARCHAR2(50)"""
-    for i in range(1, n + 1):
-        yield (i, _libelle("Titre", i))
-
-def gen_dignite(n: int):
-    """IdD NUMBER(10), libelle VARCHAR2(50)"""
-    for i in range(1, n + 1):
-        yield (i, _libelle("Dignite", i))
-
-def gen_rang(n: int):
-    """IdRa NUMBER(10), libelle VARCHAR2(50)"""
-    for i in range(1, n + 1):
-        yield (i, _libelle("rang", i))
-
 def gen_composant(n: int):
-    """IdC, type_aliment, nom, allergene"""
+    """
+    Type_aliment toujours cohérent avec le nom.
+    Ex : Chou frisé → Légume, Agneau rôti → Viande.
+    On tire un item du catalogue, puis on lui donne un numéro unique.
+    """
     for i in range(1, n + 1):
-        yield (i, _type_aliment(), _nom_composant(), _allergene())
+        nom_base, type_aliment = _RNG.choice(COMPOSANTS_CATALOGUE)
+        nom = f"{nom_base} #{_RNG.randint(1, 999)}"[:50]
+        yield (i, type_aliment, nom, _allergene(type_aliment))
 
 def gen_sauce(n: int, max_idc: int):
-    """idS NUMBER(10), #IdC — PK propre, FK vers composant"""
+    """PK propre idS, FK vers composant."""
     idc_pool = list(range(1, max_idc + 1))
     _RNG.shuffle(idc_pool)
     for i, idc in enumerate(idc_pool[:n], start=1):
         yield (i, idc)
 
 def gen_ingredient(n: int, max_idc: int):
-    """idI NUMBER(10), #IdC — PK propre, FK vers composant"""
+    """PK propre idI, FK vers composant."""
     idc_pool = list(range(1, max_idc + 1))
     _RNG.shuffle(idc_pool)
     for i, idc in enumerate(idc_pool[:n], start=1):
         yield (i, idc)
 
 def gen_legume(n: int):
-    """IdL NUMBER(10), verifie NUMBER(1), nom VARCHAR2(50)"""
+    """Noms de légumes cohérents tirés d'une liste fixe."""
     for i in range(1, n + 1):
-        yield (i, _RNG.randint(0, 1), _nom_legume()[:50])
+        yield (i, _RNG.randint(0, 1), _RNG.choice(LEGUMES))
 
 def gen_machine(n: int):
-    """IdM NUMBER(10), nom VARCHAR2(50)"""
     for i in range(1, n + 1):
         yield (i, _nom_machine())
 
 def gen_modele(n: int):
-    """IdMo NUMBER(10), nom_modele VARCHAR2(50)"""
     for i in range(1, n + 1):
         yield (i, _nom_modele())
 
-def gen_membre(n: int, max_idd: int, max_idti: int, max_idra: int, max_idgr: int):
-    """CodeMembre, nom_membre, adresse, courriel, num_tel, #IdD*, #IdTi*, #IdRa*, #IdGr"""
-    for i in range(1, n+1):
-        yield (	
-            i,
-            _nom_membre(),
-            _adresse(),
-            _courriel(),
-            _num_tel(),
-            _RNG.randint(1, max_idd)  if _RNG.random() > 0.1 else None,   # IdD optionnel
-            _RNG.randint(1, max_idti) if _RNG.random() > 0.1 else None,   # IdTi optionnel
-            _RNG.randint(1, max_idra) if _RNG.random() > 0.1 else None,   # IdRa optionnel
-            _RNG.randint(1, max_idgr),                                      # IdGr obligatoire
-        )
-        i += 1
-
 def gen_organisation(n: int, max_idt: int):
-    """IdO, nom_orga, type_orga, #IdT"""
+    """type_orga limité aux 8 types officiels dès la génération."""
     for i in range(1, n + 1):
-        yield (i, _nom_orga(), _type_orga(), _RNG.randint(1, max_idt))
+        yield (i, _nom_orga()[:50], _RNG.choice(TYPES_ORGA), _RNG.randint(1, max_idt))
 
 def gen_ordre(n: int, orga_ids: list):
-    """IdOrdre NUMBER(10), #IdO — PK propre, FK vers organisation"""
     pool = orga_ids[:]
     _RNG.shuffle(pool)
     for i, ido in enumerate(pool[:n], start=1):
         yield (i, ido)
 
-def gen_club(n: int, orga_ids: list, ordre_ids_orga: list):
-    """IdClub NUMBER(10), #IdO, #IdO_parent* — PK propre, lien vers orga parente optionnel"""
-    seen_ido = set()
+def gen_club(n: int, orga_ids: list, ordre_orga_ids: list):
+    seen = set()
     i = 0
     attempts = 0
     while i < n and attempts < n * 10:
         attempts += 1
-        ido = _RNG.choice(orga_ids)
-        if ido in seen_ido:
+        ido    = _RNG.choice(orga_ids)
+        parent = _RNG.choice(ordre_orga_ids) if _RNG.random() > 0.2 else None
+        if ido in seen or parent == ido:
             continue
-        seen_ido.add(ido)
-        parent = _RNG.choice(ordre_ids_orga) if _RNG.random() > 0.2 else None
-        if parent == ido:
-            continue
+        seen.add(ido)
         yield (i + 1, ido, parent)
         i += 1
 
+def gen_membre(n: int):
+    """
+    CodeMembre : entier auto-incrémenté (1, 2, 3...) — pas de chaîne MBR-XXXX.
+    IdGr       : tiré parmi les 10 grades nommés (1..10) obligatoirement.
+    IdD, IdTi, IdRa : tirés parmi les 10 valeurs nommées, optionnels.
+    """
+    for i in range(1, n + 1):
+        yield (
+            i,                                                          # CodeMembre entier
+            _nom_membre(),
+            _adresse(),
+            _courriel(),
+            _num_tel(),
+            _RNG.randint(1, 10) if _RNG.random() > 0.1 else None,     # IdD optionnel
+            _RNG.randint(1, 10) if _RNG.random() > 0.1 else None,     # IdTi optionnel
+            _RNG.randint(1, 10) if _RNG.random() > 0.1 else None,     # IdRa optionnel
+            _RNG.randint(1, 10),                                        # IdGr obligatoire
+        )
+
 def gen_groupe(n: int, max_idr: int):
-    """IdG NUMBER(10), #IdR"""
     for i in range(1, n + 1):
         yield (i, _RNG.randint(1, max_idr))
 
 def gen_plat(n: int, max_idl: int):
-    """IdP NUMBER(10), #IdL*"""
     for i in range(1, n + 1):
         yield (i, _RNG.randint(1, max_idl) if _RNG.random() > 0.15 else None)
 
-def gen_entretien(n: int, codes: list):
-    """IdE NUMBER(10), certificat_entretien DATE, #CodeMembre"""
+def gen_entretien(n: int, max_codemembre: int):
     for i in range(1, n + 1):
-        yield (i, _rand_date(), _RNG.choice(codes))
+        yield (i, _rand_date(), _RNG.randint(1, max_codemembre))
 
 # ---------------------------------------------------------------------------
 # Tables d'association
 # ---------------------------------------------------------------------------
 
 def _assoc(keys_a, keys_b, n: int):
-    """Génère n paires (a, b) uniques sans répétition."""
     seen = set()
     i = 0
     attempts = 0
-    limit = n * 20
-    while i < n and attempts < limit:
+    while i < n and attempts < n * 20:
         attempts += 1
         a = _RNG.choice(keys_a)
         b = _RNG.choice(keys_b)
@@ -341,34 +373,18 @@ def _assoc(keys_a, keys_b, n: int):
             yield (a, b)
             i += 1
 
-def gen_est_affilie(codes, sirets, n):
-    yield from _assoc(codes, sirets, n)
+def gen_est_affilie(codes, sirets, n):   yield from _assoc(codes, sirets, n)
+def gen_adhere(codes, orga_ids, n):      yield from _assoc(codes, orga_ids, n)
+def gen_appartient(codes, grp_ids, n):   yield from _assoc(codes, grp_ids, n)
+def gen_contient(repas_ids, plat_ids, n): yield from _assoc(repas_ids, plat_ids, n)
+def gen_est_organise(codes, repas_ids, n): yield from _assoc(codes, repas_ids, n)
+def gen_est_compose(plat_ids, comp_ids, n): yield from _assoc(plat_ids, comp_ids, n)
+def gen_comporte(sauce_ids, ingred_ids, n): yield from _assoc(sauce_ids, ingred_ids, n)
+def gen_est(machine_ids, modele_ids, n):  yield from _assoc(machine_ids, modele_ids, n)
+def gen_participe(repas_ids, mach_ids, n): yield from _assoc(repas_ids, mach_ids, n)
+def gen_effectue(mach_ids, entr_ids, n):  yield from _assoc(mach_ids, entr_ids, n)
 
-def gen_adhere(codes, orga_ids, n):
-    yield from _assoc(codes, orga_ids, n)
-
-def gen_appartient(codes, groupe_ids, n):
-    yield from _assoc(codes, groupe_ids, n)
-
-def gen_contient(repas_ids, plat_ids, n):
-    yield from _assoc(repas_ids, plat_ids, n)
-
-def gen_est_organise(codes, repas_ids, n):
-    yield from _assoc(codes, repas_ids, n)
-
-def gen_est_compose(plat_ids, comp_ids, n):
-    yield from _assoc(plat_ids, comp_ids, n)
-
-def gen_comporte(sauce_ids, ingredient_ids, n):
-    """Comporte(#idS, #idI) — Sauce ↔ Ingrédient (plus d'autoréférence)"""
-    yield from _assoc(sauce_ids, ingredient_ids, n)
-
-def gen_est(machine_ids, modele_ids, n):
-    """Est(#IdM, #IdMo)"""
-    yield from _assoc(machine_ids, modele_ids, n)
-
-def gen_historique_entretien(orga_ids, machine_ids, entretien_ids, n):
-    """Historique_entretien(#IdO, #IdM, #IdE, date_entretien DATE)"""
+def gen_historique_entretien(orga_ids, machine_ids, entret_ids, n):
     seen = set()
     i = 0
     attempts = 0
@@ -376,21 +392,15 @@ def gen_historique_entretien(orga_ids, machine_ids, entretien_ids, n):
         attempts += 1
         o = _RNG.choice(orga_ids)
         m = _RNG.choice(machine_ids)
-        e = _RNG.choice(entretien_ids)
+        e = _RNG.choice(entret_ids)
         key = (o, m, e)
         if key not in seen:
             seen.add(key)
             yield (*key, _rand_date())
             i += 1
 
-def gen_participe(repas_ids, machine_ids, n):
-    yield from _assoc(repas_ids, machine_ids, n)
-
-def gen_effectue(machine_ids, entretien_ids, n):
-    yield from _assoc(machine_ids, entretien_ids, n)
-
 # ---------------------------------------------------------------------------
-# Schéma : en-têtes CSV / JSON
+# Schéma
 # ---------------------------------------------------------------------------
 
 HEADERS = {
@@ -432,15 +442,15 @@ HEADERS = {
 # Sérialisation
 # ---------------------------------------------------------------------------
 
-def write_csv(table: str, rows, out_dir: Path):
+def write_csv(table, rows, out_dir):
     path = out_dir / f"{table}.csv"
     with path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(HEADERS[table])
-        writer.writerows(rows)
+        w = csv.writer(f)
+        w.writerow(HEADERS[table])
+        w.writerows(rows)
     return path
 
-def write_sql(table: str, rows, out_dir: Path):
+def write_sql(table, rows, out_dir):
     path = out_dir / f"{table}.sql"
     cols = ", ".join(HEADERS[table])
     with path.open("w", encoding="utf-8") as f:
@@ -454,7 +464,7 @@ def write_sql(table: str, rows, out_dir: Path):
             f.write(f"INSERT INTO {table} ({cols}) VALUES ({vals});\n")
     return path
 
-def write_json(table: str, rows, out_dir: Path):
+def write_json(table, rows, out_dir):
     path = out_dir / f"{table}.json"
     headers = HEADERS[table]
     with path.open("w", encoding="utf-8") as f:
@@ -482,10 +492,9 @@ def build_all(n: int, output: str, out_dir: Path, tables_filter=None):
     def should(name):
         return tables_filter is None or name in tables_filter
 
-    # Calibration des volumes
-    n_lu   = max(10, min(n // 100, 500))    # lookup tables (grade, titre…)
-    n_ref  = max(100, min(n // 10, 5000))   # entités de référence
-    n_main = n                               # tables principales
+    # Volumes : les lookup tables sont fixes (10), les autres s'adaptent à n
+    n_ref  = max(100, min(n // 10, 5000))
+    n_main = n
 
     stats = {}
 
@@ -496,66 +505,60 @@ def build_all(n: int, output: str, out_dir: Path, tables_filter=None):
         rows = list(gen)
         elapsed = time.time() - t0
         path = writer(name, rows, out_dir)
-        stats[name] = {"rows": len(rows), "time_s": round(elapsed, 3), "file": str(path)}
+        stats[name] = {"rows": len(rows), "time_s": round(elapsed, 3)}
         print(f"  ✓ {name:<28} {len(rows):>9,} lignes  ({elapsed:.2f}s)  → {path.name}")
         return rows
 
     print(f"\n{'='*62}")
-    print(f"  Génération MLD v2 — format={output}, n={n:,}")
+    print(f"  Génération MLD v3 — format={output}, n={n:,}")
     print(f"  Dossier : {out_dir.resolve()}")
     print(f"{'='*62}")
 
-    # ---- Tables lookup (libellés) ----
-    grades   = run("grade",   gen_grade(n_lu))
-    titres   = run("Titre",   gen_titre(n_lu))
-    dignites = run("Dignite", gen_dignite(n_lu))
-    rangs    = run("rang",    gen_rang(n_lu))
+    # ---- Tables lookup : exactement 10 valeurs nommées chacune ----
+    run("grade",   gen_grade())
+    run("Titre",   gen_titre())
+    run("Dignite", gen_dignite())
+    run("rang",    gen_rang())
 
     # ---- Entités de référence ----
-    territoires = run("territoire", gen_territoire(n_ref))
-    repas_rows  = run("Repas",      gen_repas(n_ref))
-    composants  = run("composant",  gen_composant(n_ref))
-    legumes     = run("Legume",     gen_legume(n_ref))
-    machines    = run("machine",    gen_machine(n_ref))
-    modeles     = run("modele",     gen_modele(n_ref))
+    territoires = run("territoire",   gen_territoire(n_ref))
+    repas_rows  = run("Repas",        gen_repas(n_ref))
+    composants  = run("composant",    gen_composant(n_ref))
+    legumes     = run("Legume",       gen_legume(n_ref))
+    machines    = run("machine",      gen_machine(n_ref))
+    modeles     = run("modele",       gen_modele(n_ref))
     organisatns = run("organisation", gen_organisation(n_ref, max(1, len(territoires))))
-    organismes  = run("Organisme",  gen_organisme(n_ref))
+    organismes  = run("Organisme",    gen_organisme(n_ref))
 
-    # ---- Sous-types avec PK propre ----
-    sauces      = run("Sauce",      gen_sauce(n_lu * 5, max(1, len(composants))))
-    ingredients = run("Ingredient", gen_ingredient(n_lu * 5, max(1, len(composants))))
+    # ---- Sous-types ----
+    n_sous = max(50, n_ref // 2)
+    sauces      = run("Sauce",      gen_sauce(n_sous, max(1, len(composants))))
+    ingredients = run("Ingredient", gen_ingredient(n_sous, max(1, len(composants))))
 
-    orga_ids    = [r[0] for r in organisatns] or [1]
-    ordre_rows  = run("Ordre", gen_ordre(max(5, n_lu), orga_ids))
+    orga_ids       = [r[0] for r in organisatns] or [1]
+    ordre_rows     = run("Ordre", gen_ordre(max(5, len(orga_ids) // 5), orga_ids))
     ordre_orga_ids = [r[1] for r in ordre_rows] if ordre_rows else orga_ids[:1]
-
-    club_rows   = run("Club",  gen_club(max(10, n_lu * 2), orga_ids, ordre_orga_ids))
+    run("Club", gen_club(max(10, len(orga_ids) // 3), orga_ids, ordre_orga_ids))
 
     # ---- Tables principales ----
-    membres_rows = run("Membre", gen_membre(
-        n_main,
-        max(1, len(dignites)),
-        max(1, len(titres)),
-        max(1, len(rangs)),
-        max(1, len(grades)),
-    ))
+    membres_rows = run("Membre", gen_membre(n_main))
+    codes        = list(range(1, n_main + 1))
 
-    groupes  = run("Groupe",   gen_groupe(n_ref, max(1, len(repas_rows))))
-    plats    = run("plat",     gen_plat(n_ref, max(1, len(legumes))))
-    codes    = [r[0] for r in membres_rows] or [0]
-    entrets  = run("Entretien", gen_entretien(n_ref, codes))
+    groupes = run("Groupe", gen_groupe(n_ref, max(1, len(repas_rows))))
+    plats   = run("plat",   gen_plat(n_ref, max(1, len(legumes))))
+    entrets = run("Entretien", gen_entretien(n_ref, n_main))
 
-    # ---- Clés pour les associations ----
-    sirets       = [r[0] for r in organismes] or [1234567890]
-    repas_ids    = [r[0] for r in repas_rows] or [1]
-    comp_ids     = [r[0] for r in composants] or [1]
-    plat_ids     = [r[0] for r in plats] or [1]
-    groupe_ids   = [r[0] for r in groupes] or [1]
-    machine_ids  = [r[0] for r in machines] or [1]
-    modele_ids   = [r[0] for r in modeles] or [1]
-    entret_ids   = [r[0] for r in entrets] or [1]
-    sauce_ids    = [r[0] for r in sauces] or [1]
-    ingred_ids   = [r[0] for r in ingredients] or [1]
+    # ---- Clés ----
+    sirets      = [r[0] for r in organismes] or [1234567890]
+    repas_ids   = [r[0] for r in repas_rows] or [1]
+    comp_ids    = [r[0] for r in composants] or [1]
+    plat_ids    = [r[0] for r in plats] or [1]
+    groupe_ids  = [r[0] for r in groupes] or [1]
+    machine_ids = [r[0] for r in machines] or [1]
+    modele_ids  = [r[0] for r in modeles] or [1]
+    entret_ids  = [r[0] for r in entrets] or [1]
+    sauce_ids   = [r[0] for r in sauces] or [1]
+    ingred_ids  = [r[0] for r in ingredients] or [1]
 
     # ---- Associations ----
     run("est_affilie",          gen_est_affilie(codes, sirets, n_main))
@@ -570,7 +573,6 @@ def build_all(n: int, output: str, out_dir: Path, tables_filter=None):
     run("Participe",            gen_participe(repas_ids, machine_ids, n_ref))
     run("Effectue",             gen_effectue(machine_ids, entret_ids, n_ref))
 
-    # ---- Résumé ----
     total_rows = sum(v["rows"] for v in stats.values())
     total_time = sum(v["time_s"] for v in stats.values())
     print(f"\n{'='*62}")
@@ -585,15 +587,15 @@ def build_all(n: int, output: str, out_dir: Path, tables_filter=None):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Faker MLD v2 — données de test pour le MLD chevalerie corrigé"
+        description="Faker MLD v3 — données propres sans fix nécessaire"
     )
-    parser.add_argument("--rows",    type=int,   default=1_000,
+    parser.add_argument("--rows",    type=int, default=1_000,
                         help="Tuples cibles pour les tables principales (1–1 000 000)")
     parser.add_argument("--output",  choices=["csv", "sql", "json"], default="csv")
-    parser.add_argument("--out-dir", type=str,   default="./faker_output_v2")
-    parser.add_argument("--table",   type=str,   default=None,
+    parser.add_argument("--out-dir", default="./faker_output_v3")
+    parser.add_argument("--table",   default=None,
                         help="Générer une seule table (nom exact)")
-    parser.add_argument("--seed",    type=int,   default=None,
+    parser.add_argument("--seed",    type=int, default=None,
                         help="Graine aléatoire pour reproductibilité")
     args = parser.parse_args()
 
