@@ -1,0 +1,10 @@
+INSERT INTO Titre (IdTi, libelle) VALUES (1, 'Chevalier');
+INSERT INTO Titre (IdTi, libelle) VALUES (2, 'Dame');
+INSERT INTO Titre (IdTi, libelle) VALUES (3, 'Ecuyer');
+INSERT INTO Titre (IdTi, libelle) VALUES (4, 'Damoiselle');
+INSERT INTO Titre (IdTi, libelle) VALUES (5, 'Banneret');
+INSERT INTO Titre (IdTi, libelle) VALUES (6, 'Bachelier');
+INSERT INTO Titre (IdTi, libelle) VALUES (7, 'Paladin');
+INSERT INTO Titre (IdTi, libelle) VALUES (8, 'Preux');
+INSERT INTO Titre (IdTi, libelle) VALUES (9, 'Prude Femme');
+INSERT INTO Titre (IdTi, libelle) VALUES (10, 'Vassal');

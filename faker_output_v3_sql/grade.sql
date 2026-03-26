@@ -1,0 +1,10 @@
+INSERT INTO grade (IdGr, libelle) VALUES (1, 'Apprenti');
+INSERT INTO grade (IdGr, libelle) VALUES (2, 'Compagnon');
+INSERT INTO grade (IdGr, libelle) VALUES (3, 'Maître');
+INSERT INTO grade (IdGr, libelle) VALUES (4, 'Grand Maître');
+INSERT INTO grade (IdGr, libelle) VALUES (5, 'Archonte');
+INSERT INTO grade (IdGr, libelle) VALUES (6, 'Sénéchal');
+INSERT INTO grade (IdGr, libelle) VALUES (7, 'Connétable');
+INSERT INTO grade (IdGr, libelle) VALUES (8, 'Maréchal');
+INSERT INTO grade (IdGr, libelle) VALUES (9, 'Chambellan');
+INSERT INTO grade (IdGr, libelle) VALUES (10, 'Chancelier');

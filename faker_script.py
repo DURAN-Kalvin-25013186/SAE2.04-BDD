@@ -110,14 +110,14 @@ POIDS_GRADES = [0.30, 0.20, 0.15, 0.10, 0.08, 0.06, 0.04, 0.03, 0.02, 0.01]
 POIDS_CATALOGUE = {
     "Épice":           0.20,
     "Herbe":           0.15,
-    "Légume":          0.15,
+    "Légume":          0.05,
     "Légumineuse":     0.12,
     "Viande":          0.10,
-    "Céréale":         0.10,
+    "Céréale":         0.5,
     "Fruit":           0.08,
     "Champignon":      0.05,
     "Poisson":         0.03,
-    "Produit laitier": 0.02,
+    "Produit laitier": 0.17,
 }
 
 # Mapping sémantique nom_base → type_aliment

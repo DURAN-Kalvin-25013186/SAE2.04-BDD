@@ -1,0 +1,10 @@
+INSERT INTO rang (IdRa, libelle) VALUES (1, 'Premier rang');
+INSERT INTO rang (IdRa, libelle) VALUES (2, 'Deuxième rang');
+INSERT INTO rang (IdRa, libelle) VALUES (3, 'Troisième rang');
+INSERT INTO rang (IdRa, libelle) VALUES (4, 'Rang d''honneur');
+INSERT INTO rang (IdRa, libelle) VALUES (5, 'Rang de table');
+INSERT INTO rang (IdRa, libelle) VALUES (6, 'Rang de cérémonie');
+INSERT INTO rang (IdRa, libelle) VALUES (7, 'Rang militaire');
+INSERT INTO rang (IdRa, libelle) VALUES (8, 'Rang civil');
+INSERT INTO rang (IdRa, libelle) VALUES (9, 'Rang épiscopal');
+INSERT INTO rang (IdRa, libelle) VALUES (10, 'Rang royal');
