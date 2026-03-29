@@ -1,0 +1,1 @@
+Génération de l'intention : récupéré directement depuis le logiciel looping, demande à l'ia pour rajouter les "DROP TABLE" (rajoute les drop table et fais en sorte qu'il y ait un supression des relations)
