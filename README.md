@@ -2,3 +2,5 @@ Génération de l'intention : récupéré directement depuis le logiciel looping
 
 Prompt Claude pour le Faker et suivi de l'évolution:
 https://claude.ai/share/41437ea0-3c9a-418e-80ad-a6cf4558d9ff
+
+prompt Statistique (graphiques en bande) : "J'ai trois fichiers CSV : Repas.csv , plat.csv et Legume.csv. Comment puis-je calculer le pourcentage de légumes non-vérifiés servis par chaque famille ? Explique-moi comment réaliser les jointures nécessaires pour lier l'hôte au légume, et comment afficher le résultat sur un graphique avec une 'ligne de danger' horizontale "
